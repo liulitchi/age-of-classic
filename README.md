@@ -2,7 +2,7 @@
 
 No you can upgrade to the Forth Phase -- `Phase Kingdom`, with more funny changable and playable.
 
-Many Structures are delay to `City phase`, like `Fortress` and `Defense Tower'. And you can guess, `Wonder' are forced to be built until `Kingdom Phase`.
+Many Structures are delay to `City phase`, like `Fortress` and `Defense Tower`. And you can guess, `Wonder` are forced to be built until `Kingdom Phase`.
 
 Delete the `Female Citzen`, and give all factions an old friend -- `Slave`.
 
