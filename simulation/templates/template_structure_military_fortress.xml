@@ -6,7 +6,7 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>12.0</Pierce>
+      <Pierce>16.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>72.0</MaxRange>
       <MinRange>0.0</MinRange>
@@ -69,7 +69,7 @@
     <Classes datatype="tokens">Defensive Fortress GarrisonFortress</Classes>
     <VisibleClasses datatype="tokens">City</VisibleClasses>
     <Icon>structures/fortress.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>500</xp>

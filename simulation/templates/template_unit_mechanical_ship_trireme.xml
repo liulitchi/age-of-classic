@@ -3,9 +3,9 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>35.0</Pierce>
+      <Pierce>40.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>55.0</MaxRange>
+      <MaxRange>70.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
@@ -27,7 +27,7 @@
     <BuildTime>25</BuildTime>
     <Resources>
       <wood>200</wood>
-      <metal>100</metal>
+      <metal>150</metal>
     </Resources>
   </Cost>
   <Footprint>

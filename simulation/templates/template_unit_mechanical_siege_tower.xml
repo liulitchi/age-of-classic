@@ -51,13 +51,13 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>320</Max>
+    <Max>500</Max>
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>
     <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>250</xp>

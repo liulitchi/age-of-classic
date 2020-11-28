@@ -3,7 +3,7 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>0</Pierce>
+      <Pierce>12</Pierce>
       <Crush>0</Crush>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
@@ -53,7 +53,7 @@
   
   <Identity>
     <Classes datatype="tokens">Tower -ConquestCritical</Classes>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   
   <ProductionQueue>

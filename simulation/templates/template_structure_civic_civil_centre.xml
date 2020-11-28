@@ -100,6 +100,7 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_female_citizen
+      units/{civ}_support_slave
     </Entities>
     <Technologies datatype="tokens">
       phase_town_{civ}

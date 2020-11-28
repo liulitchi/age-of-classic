@@ -2,9 +2,9 @@
 <Entity parent="template_structure_defense_tower">
   <Attack>
     <Ranged>
-      <Pierce>12</Pierce>
-      <MaxRange>72</MaxRange>
-      <MinRange>10</MinRange>
+      <Pierce>10</Pierce>
+      <MaxRange>68</MaxRange>
+      <MinRange>5</MinRange>
       <ElevationBonus>9</ElevationBonus>
     </Ranged>
   </Attack>
@@ -12,6 +12,7 @@
     <BuildTime>40</BuildTime>
     <Resources>
       <wood>100</wood>
+      <stone>50</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -22,14 +23,15 @@
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
-    <Max>400</Max>
+    <Max>700</Max>
   </Health>
   <Identity>
     <GenericName>Sentry Tower</GenericName>
     <Icon>structures/sentry_tower.png</Icon>
     <Classes datatype="tokens">GarrisonTower</Classes>
-    <VisibleClasses datatype="tokens">Village DefenseTower SentryTower</VisibleClasses>
+    <VisibleClasses datatype="tokens">DefenseTower SentryTower</VisibleClasses>
     <Tooltip>Shoots arrows. Garrison to provide extra defence. Upgradeable to stone tower.</Tooltip>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
     <wood>20</wood>
@@ -51,10 +53,10 @@
     <Tower>
       <Entity>structures/{civ}_defense_tower</Entity>
       <Tooltip>Reinforce with stone and upgrade to a defense tower.</Tooltip>
-      <RequiredTechnology>phase_town</RequiredTechnology>
+      <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
-        <wood>50</wood>
-        <stone>100</stone>
+        <wood>0</wood>
+        <stone>50</stone>
       </Cost>
       <Time>100</Time>
     </Tower>
