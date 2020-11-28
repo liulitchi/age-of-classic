@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_merchant">
+  <Cost>
+    <Resources>
+      <metal>40</metal>
+      <wood>40</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="8.0" depth="24.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>cart</Civ>
+    <SpecificName>Seḥer</SpecificName>
+    <Tooltip>Trade between docks. Garrison a Trader aboard for additional profit (+20% for each garrisoned). Gather profitable aquatic treasures.</Tooltip>
+    <Icon>units/cart_ship_merchant.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <food>0</food>
+    <wood>4</wood>
+    <stone>0</stone>
+    <metal>4</metal>
+  </Loot>
+  <VisualActor>
+    <Actor>structures/carthaginians/merchant_ship.xml</Actor>
+  </VisualActor>
+</Entity>

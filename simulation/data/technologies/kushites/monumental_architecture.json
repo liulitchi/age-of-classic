@@ -1,0 +1,14 @@
+{
+	"genericName": "Monumental Architecture",
+	"description": "The empire of the Nile valley was as great as it had been since the New Empire. New prosperity revived Egyptian culture. Religion, arts and architecture have been restored to their glorious forms of the Old, Middle, and New Empire. It was during the twenty-fifth dynasty that the Nile valley saw the first generalized construction of pyramids since the Middle Kingdom.",
+	"cost": { "food": 0, "wood": 250, "stone": 250, "metal": 0 },
+	"requirements": { "all": [{ "tech": "phase_town" }, { "civ": "kush" }] },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "monumental_architecture.png",
+	"researchTime": 20,
+	"tooltip": "+25% HP and -50% build time for civic centre, temples, pyramids and wonders.",
+	"modifications": [{ "value": "Health/Max", "multiply": 1.25 },
+				  { "value": "Cost/BuildTime", "multiply": 0.5 }],
+	"affects": ["CivilCentre", "Wonder", "Pyramid", "Temple"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

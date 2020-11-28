@@ -1,0 +1,13 @@
+{
+	"genericName": "Ballistics",
+	"description": "Ballistics is the science that studies the movement of projectiles, such as trajectory, impact, marks, explosion, etc., using their own techniques and knowledge of physics and chemistry, as well as serving other sciences.",
+	"cost": {"food": 0, "wood": 400, "stone": 400, "metal": 400},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "calipers.png",
+	"researchTime": 40,
+	"tooltip": "+50% accuracy for ranged units.",
+	"affects": ["Unit"],
+	"modifications": [{"value": "Attack/Ranged/Spread", "multiply": 0.50 }],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,13 @@
+{
+	"genericName": "Reorganization of Auxiliary Troops",
+	"description": "Augustus most important innovation was to reorganize auxiliary or auxiliary troops, which until then had been irregular forces formed by mere mercenaries recruited before a campaign, commanded by local and armed chiefs under the circumstances. With them he created a second army, whose numbers were equivalent to those of the legions, recruited among the non-citizen provincials, but who had the status of peregrini.",
+	"cost": { "food": 200, "wood": 0, "stone": 0, "metal": 300 },
+	"requirements": {"all": [{ "tech": "phase_town" },{ "any": [{ "civ": "rome" }]}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "upgrade_advanced.png",
+	"researchTime": 40,
+	"tooltip": "Mercenaries are promoted to advanced rank.",
+	"modifications": [{ "value": "Promotion/RequiredXp", "replace": 0, "affects": "Basic" }],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
+	"affects": ["Mercenary"]
+}

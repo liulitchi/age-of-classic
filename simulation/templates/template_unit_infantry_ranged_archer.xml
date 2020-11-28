@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Attack>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>4.0</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>72.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>3.0</Spread>
+      <Bonuses>
+	<Bonus>
+      	  <Classes>Melee Infantry</Classes>
+	  <Multiplier>2.0</Multiplier>
+        </Bonus>
+     </Bonuses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>70</food>
+      <wood>0</wood>
+      <metal>20</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <GenericName>Archer</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  </Entity>

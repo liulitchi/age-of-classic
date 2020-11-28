@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Warship"],
+	"modifications": [{ "value": "Attack/Ranged/Pierce", "multiply": 1.10 },
+				  { "value": "Cost/BuildTime", "multiply": 0.80 }],
+	"auraName": "Naval Commander",
+	"auraDescription": "+10% attack and -20% build time for warships.",
+"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.1},
+				  {"value": "ResourceGatherer/Capacities/food", "add": 5},
+				  {"value": "ResourceGatherer/Capacities/wood", "add": 5},
+				  {"value": "ResourceGatherer/Capacities/stone", "add": 5},
+				  {"value": "ResourceGatherer/Capacities/metal", "add": 5}],
+     "auraName": "Preparation For War",
+	"auraDescription": "+10% gather rate and +5 shuttle capacity for units."
+}

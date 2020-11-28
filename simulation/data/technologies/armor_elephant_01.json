@@ -1,0 +1,15 @@
+{
+	"genericName": "Bronze Rings",
+	"description": "Elephants also had bronze rings on their legs to prevent their tendons from being cut.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 300},
+	"requirements": { "all": [{ "tech": "phase_city" }]},
+	"requirementsTooltip": "Unlocked in city phase.",
+	"icon": "horse_collar.png",
+	"researchTime": 40,
+	"tooltip": "+2 armour for elephants.",
+	"modifications": [{"value": "Armour/Hack", "add": 2.0},
+				  {"value": "Armour/Pierce", "add": 2.0},
+				  {"value": "Armour/Crush", "add": 2.0}],
+	"affects": ["Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

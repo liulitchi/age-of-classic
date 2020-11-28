@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall_tower">
+  <Armour>
+    <Hack>20.0</Hack>
+    <Pierce>25.0</Pierce>
+    <Crush>2.0</Crush>
+  </Armour>
+  <BuildRestrictions>
+    <Territory>own neutral enemy</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime op="mul">0.75</BuildTime>
+    <Resources>
+      <wood>90</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="10.0" depth="10.0"/>
+    <Height>14.0</Height>
+  </Footprint>
+  <Health>
+    <Max op="mul">0.75</Max>
+  </Health>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Siege Wall Tower</GenericName>
+    <SpecificName>Turris Circummunitionis</SpecificName>
+    <Classes datatype="tokens">SiegeWall</Classes>
+    <Icon>structures/siege_wall.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>15</wood>
+    <stone>0</stone>
+    <xp>500</xp>
+  </Loot>
+  <Obstruction>
+    <Static width="7.0" depth="7.0"/>
+  </Obstruction>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <Actor>structures/romans/siege_wall_tower.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>6.0</Length>
+  </WallPiece>
+</Entity>

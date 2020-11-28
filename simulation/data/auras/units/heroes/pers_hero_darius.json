@@ -1,0 +1,8 @@
+{
+	"type": "global",
+	"affects": ["Soldier", "Siege", "Trader"],
+	"modifications": [{ "value": "UnitMotion/WalkSpeed", "multiply": 1.10 },
+				  { "value": "UnitMotion/Run/Speed", "multiply": 1.10 }],
+	"auraName": "Leadership",
+	"auraDescription": "+10% movement speed for soldiers, siege engines and traders."
+}

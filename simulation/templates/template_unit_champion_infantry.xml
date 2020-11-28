@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion">
+  <Health>
+    <Max>115</Max>
+  </Health>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Infantry</VisibleClasses>
+    <GenericName>Champion Infantry</GenericName>
+  </Identity>
+  <Loot>
+    <food>5</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>5</metal>
+  </Loot>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/128x128.png</MainTexture>
+        <MainTextureMask>arrow/128x128_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
+      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <walk>actor/human/movement/walk.xml</walk>
+      <run>actor/human/movement/walk.xml</run>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>actor/human/death/{gender}_death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+  <UnitMotion>
+    <WalkSpeed>10.0</WalkSpeed>
+    <Run>
+      <Speed>16.5</Speed>
+    </Run>
+  </UnitMotion>
+</Entity>

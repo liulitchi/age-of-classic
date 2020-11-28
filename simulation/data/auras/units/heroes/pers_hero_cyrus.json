@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Cavalry"],
+	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.10 },
+				  { "value": "Attack/Ranged/Pierce", "multiply": 1.10 },
+				  { "value": "Attack/Capture/Value", "add": 1 },
+           		  { "value": "Armour/Hack", "add": 1 },
+           		  { "value": "Armour/Pierce", "add": 1 },
+           		  { "value": "Armour/Crush", "add": 1 }],
+	"auraName": "Forefront Leader",
+	"auraDescription": "+10% attack and +1 armour and capture attack for nearby cavalry.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

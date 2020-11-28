@@ -1,0 +1,12 @@
+{
+	"genericName": "Wicker Baskets",
+	"description": "Baskets for foraging.",
+	"cost": {"food": 0, "wood": 80, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_village"},
+	"icon": "gather_basket.png",
+	"researchTime": 30,
+	"tooltip": "+30% fruit foraging rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.fruit", "multiply": 1.3}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

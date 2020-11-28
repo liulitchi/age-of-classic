@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee">
+  
+  <Armour>
+    <Hack>2</Hack>
+    <Pierce>1</Pierce>
+
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>3.0</Hack>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Bonuses>
+        <Bonus1>
+          <Classes>Support</Classes>
+          <Multiplier>3.0</Multiplier>
+        </Bonus1>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>80</food>
+      <wood>0</wood>
+      <metal>20</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>iber</Civ>
+    <GenericName>Scout Cavalry</GenericName>
+    <SpecificName>Próskopos</SpecificName>
+    <Icon>units/iber_cavalry_scout.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+  <ResourceGatherer>
+   
+    <Capacities>
+      
+      <food>25</food>
+    
+    </Capacities>
+  
+  </ResourceGatherer>
+
+  <Loot>
+    <food>8</food>
+    <wood>0</wood>
+    <metal>2</metal>
+    <stone>0</stone>
+  </Loot>
+  <Promotion disable=""/>
+  <UnitMotion>
+    <WalkSpeed>16.0</WalkSpeed>
+    <Run>
+      <Speed>27.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/iberians/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

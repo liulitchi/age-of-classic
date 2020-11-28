@@ -1,0 +1,14 @@
+{
+	"genericName": "Bamboo Longbows",
+	"description": "Bamboo is a ubiquitous fast growing plant in the jungles of India. It's trunk can be used as building material for goods such as furniture, housing, and weapons, such as the Indian Longbow.",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 0},
+	"requirements": { "all": [{ "tech": "phase_town" }, { "civ": "maur" }]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "bamboo.png",
+	"researchTime": 40,
+	"tooltip": "+8 range and +10 accuracy for archers.",
+	"modifications": [{"value": "Attack/Ranged/MaxRange", "add": 8.0 },
+				  {"value": "Attack/Ranged/Spread", "multiply": 0.90 }],
+	"affects": ["Archer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

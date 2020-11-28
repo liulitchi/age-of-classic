@@ -1,0 +1,219 @@
+{
+	"Code":"athen",
+	"Culture":"hele",
+	"Name":"Athenians",
+	"Emblem":"session/portraits/emblems/emblem_athenians.png",
+	"History":"As the cradle of Western civilization and the birthplace of democracy, Athens was famed as a center for the arts, learning and philosophy. The Athenians were also powerful warriors, particularly at sea. At its peak, Athens dominated a large part of the Hellenic world for several decades.",
+	"Music":[
+			{"File":"Harvest_Festival.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"Highland_Mist.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Athenians",
+			"Description":"A Hellenic people of the Ionian tribe.",
+			"Technologies":
+			[
+				{
+					"Name":"Dionysus Celebration",
+					"History":"About 550 BC arose the celebrations held above all for the God Dionysus, divinity of feasts, fertility and wine",
+					"Description":"-15% training time and -5% cost for soldiers."
+				},
+
+				{
+					"Name":"Iphicratean Reforms",
+					"History":"",
+					"Description":"Athenian triremes and Themistocles can train naval infantry."
+				},
+				{
+					"Name":"Arsenal of Philon",
+					"History":"In 347/346 BC Euboulos proposed the construction of a new arsenal that was designed by the architect Philo and was completed at the time of Lycurgus. The discovery and partial excavation of the Arsenal of Philo took place during 1988-1989. In 1888, a marble inscription was discovered with the detailed description of the construction and use of the building, written by Philo. The Arsenal was built between the Hippodameian Agora and the ship sheds, NE of the deepest recess of the gulf of Zea with its axis running from SW to NE. The building was 18m wide and 130m long with entrances on both its narrow sides and two colonnades of piers that divided its inner space into three aisles. The central aisle extended in the whole length and height of the building, while the side aisles were separated in 34 compartments each, with lofts with wooden shelves that served as storage space.",
+					"Description":"-25% cost and build time for warships."
+				},
+
+				{
+					"Name":"Long Walls",
+					"History":"The Long Walls of Athens were constructed under the auspices of the wily Themistocles and extended 6 km from the city to the port of Piraeus. This secured the city's sea supply routes and prevented an enemy from starving out the city during a siege.",
+					"Description":"Can build stone walls in neutral territory."
+				},
+				{
+					"Name":"Advanced Hoplite",
+					"History":"Hoplite was, in the Classical Era of ancient Greece, a citizen-soldier. Its name comes from the great shield taken to the battles.",
+					"Description":"Promote your citizen infantry spearman to advanced rank."
+				},
+				{
+					"Name":"Elite Hoplite",
+					"History":"Hoplite was, in the Classical Era of ancient Greece, a citizen-soldier. Its name comes from the great shield taken to the battles.",
+					"Description":"Promote your citizen infantry spearman to elite rank."
+				},
+				{
+					"Name":"Rituals to Zeus",
+					"History":"The Olympic Games of Antiquity were a religious and athletic festival of Ancient Greece. The procession stops in front of the Great Altar of Zeus, where the sacrifice of 100 oxen offered by the people of Elide takes place.",
+					"Description":"+10% health for soldiers."
+				}
+				],
+			"Heroes":
+			[
+				{
+					"Name":"Themistocles",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"The general who persuaded the Athenians to invest their income from silver mines in a war navy of 200 Triremes. A key figure during the Persian Wars, he commanded the victorious Athenian navy at the decisive battle of Salamis in 479 B.C. Later, he pursued an active policy against the Persians in the Aegean, thereby laying the foundations of future Athenian power. However, he was eventually ostracised by the Athenians and forced to flee to the protection of the Persians."
+				},
+				{
+					"Name":"Pericles",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Pericles was the foremost Athenian politician of the 5th Century B.C."
+				},
+				{
+					"Name":"Iphicrates",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Was an Athenian general, the son of a shoemaker of the deme of Rhamnous, who flourished in the earlier half of the 4th century BC. He is credited with important infantry reforms that revolutionized ancient Greek warfare by regularizing light-armed peltasts. He was married to the daughter of the Thracian King Cotys and had a son with her. His son was named Menestheus, after the legendary King of Athens during the Trojan War. Iphicrates other son, who was also called Iphicrates, was sent as the Athenian ambassador to the Persian court sometime before 335 BC. He was captured by the Macedonian army along with the Persian court in the aftermath of the Battle of Issus. When Iphicrates the younger died from an unknown disease, Alexander the Great paid for the transportation of his body to his homeland, as an homage to his father."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Hellenic Architecture",
+			"History":"The Greeks used stone construction from early Mycenaean times.",
+			"Description":"Hellenic buildings has +10% health and capture points, but also take longer to build."
+		},
+
+		{
+			"Name":"Silver Owls",
+			"History":"The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
+			"Description":"Metal mining gathering rates increased by +10% for each passing age."
+		},
+{
+			"Name":"Slavery",
+			"History":"Slavery was a common practice and integral component of life in Ancient Greece, throughout its history, in the same way as in other ancient societies. It is estimated that in Athens most citizens had at least one slave. Most writers of the early period considered slavery not only as something natural, but as something necessary, but some isolated debates took place, especially in Socratic dialogues.",
+			"Description":"Can train slaves in the civic centre and each new house built, get a free slave."
+
+		}
+
+		
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Delian League",
+			"History":"Shortly after the great naval victories at Salamis and Mykale, the Greek city-states instituted the so-called Delian League in 478 B.C., whose purpose was to push the Persians out of the Aegean region. The allied states contributed ships and money, while the Athenians offered their entire navy.",
+			"Description":"-25% build time for allied ships."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Theatron",
+			"Class":"",
+			"Emblem":"",
+			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%."
+		},
+		{
+			"Name":"Gymnasion",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Gymnasion was a vital place in Hellenic cities, where physical exercises were performed and social contacts established.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"Train champion units and research technologies pertaining to champion units."
+		},
+		{
+			"Name":"Prytaneion",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Prytaneion is the meeting place for the city elders to dine and to make swift decisions.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"Train heroes and research technology pertaining to heroes."
+		},
+		{
+			"Name":"Royal Stoa",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Royal Stoa was the headquarters of the King Archon and of the Areopagos council (in charge of religious affairs and crime). A statue of Themis (representing Justice) stood in front of the building. Copies of some of the city laws were kept in the Stoa.",
+                "Requirements":"",
+			"Phase":"",
+			"Special":""
+		}
+
+
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/athen_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/athen_civil_centre"
+		},
+		{
+			"Template": "units/athen_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/athen_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/athen_infantry_slinger_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/athen_cavalry_javelinist_b"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/phalanx"
+	],
+	"AINames":
+	[
+		"Themistocles",
+		"Pericles",
+		"Cimon",
+		"Aristides",
+		"Xenophon",
+		"Hippias",
+		"Cleisthenes",
+		"Thucydides",
+		"Alcibiades",
+		"Miltiades",
+		"Cleon",
+		"Cleophon",
+		"Thrasybulus",
+		"Iphicrates",
+		"Demosthenes"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/athen_infantry_slinger_b",
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

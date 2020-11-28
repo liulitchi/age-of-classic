@@ -1,0 +1,13 @@
+{
+	"genericName": "Breeding Strong Horses",
+	"description": "Breeding the best horse lineage.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "chamfron.png",
+	"researchTime": 40,
+	"tooltip": "+5% health for cavalry.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.05}],
+	"affects": ["Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

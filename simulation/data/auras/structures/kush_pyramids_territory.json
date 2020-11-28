@@ -1,0 +1,7 @@
+{
+	"type": "global",
+	"affects": ["CivilCentre"],
+	"modifications": [{ "value": "TerritoryInfluence/Radius", "multiply": 1.10 }],
+	"auraName": "Meroitic Pyramids",
+	"auraDescription": "+10% territory influence for civic centers as long as a Pyramid stands built."
+}

@@ -1,0 +1,13 @@
+{
+  "genericName": "Sturdy Foundations",
+  "description": "Reinforce the foundations in preparation of an attack.",
+  "cost": { "food": 0, "wood": 0, "stone": 150, "metal": 0 },
+  "requirements": { "tech": "phase_town" },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "masonry_clamps.png",
+  "researchTime": 40,
+  "tooltip": "+2 crush armour for towers.",
+  "modifications": [{ "value": "Armour/Crush", "add": 2 }],
+  "affects": ["DefenseTower"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

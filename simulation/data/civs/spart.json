@@ -1,0 +1,215 @@
+{
+	"Code":"spart",
+	"Culture":"hele",
+	"Name":"Spartans",
+	"Emblem":"session/portraits/emblems/emblem_spartans.png",
+	"History":"Sparta was a prominent city-state in ancient Greece, and its dominant military power on land from circa 650 B.C. Spartan culture was obsessed with military training and excellence, with rigorous training for boys beginning at age seven. Thanks to its military might, Sparta led a coalition of Greek forces during the Greco-Persian Wars, and won over Athens in the Peloponnesian Wars, though at great cost.",
+	"Music":[
+			{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
+			{"File":"Peaks_of_Atlas.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Spartans",
+			"Description":"",
+			"Technologies":
+			[
+			{
+					"Name":"Dionysus Celebration",
+					"History":"About 550 BC arose the celebrations held above all for the God Dionysus, divinity of feasts, fertility and wine",
+					"Description":"-20% training time and -5% cost for soldiers."
+			},
+
+			{
+					"Name":"Women Training",
+					"History":"In the Spartan world this position was quite different. Reinforcing their military character, the Spartans believed that the woman should be physically prepared so that she could give rise to individuals fit to compose the army of that city. It was therefore common for these women to engage in games and other sports.",
+					"Description":"+15% health and movement speed for women."
+			},
+{
+					"Name":"Tyrtean Paeans",
+					"History":"Paeans were battle hymns that were sung by the hoplites when they charged the enemy lines. One of the first known Paeans were composed by Tyrteus, a warrior poet of Sparta, during the First Messenian War.",
+					"Description":"+15% movement speed to melee infantry."
+			},
+			{
+					"Name":"Othismos",
+					"History":"The Spartan military force made their phalanges particularly unbreakable, with only one rape recorded at the Battle of Leuctra.",
+					"Description":"+1 armour for spearmen infantry."
+			},
+			{
+					"Name":"Greek Martial Arts",
+					"History":"The Greeks invented the martial arts for the Western world.",
+					"Description":"-50% xp needed to promote infantry spearmen."
+			},
+
+
+			{
+					"Name":"The Agoge",
+					"History":"Spartans were housed and trained from a young age to be superlative warriors and to endure any hardship a military life can give them.",
+					"Description":"+20% health for infantry spearmen."
+
+			}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Leonidas I",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"The king of Sparta, who fought and died at the battle of Thermopylae in 480 B.C. He successfully blocked the way of the huge Persian army through the narrow passage with his 7000 men, until Xerxes was made aware of a secret unobstructed path. Finding the enemy at his rear, Leonidas sent home most of his troops, choosing to stay behind with 300 hand-picked hoplites and win time for the others to withdraw."
+				},
+				{
+					"Name":"Brasidas",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Because Brasidas has sponsored their citizenship in return for service, Helot Skirmishers fight longer and harder for Sparta while within range of him."
+				},
+				{
+					"Name":"Agis III",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Agis III was the 20th Spartan king of the Eurypontid lineage. Agis cobbled together an alliance of Southern Greek states to fight off Macedonian hegemony while Alexander the Great was away in Asia on his conquest march. After securing Crete as a Spartan tributary, Agis then moved to besiege the city of Megalopolis in the Peloponnese, who was an ally of Macedon. Antipater, the Macedonian regent, lead an army to stop this new uprising. In the Battle of Megalopolis, the Macedonians prevailed in a long and bloody battle. Much like Leonidas 150 years earlier, instead of surrendering, Agis made a heroic final stand in order to buy time for his troops to retreat."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Underdogs",
+			"History":"The Spartans did not have the largest army in the world, but they did have the best army in the world for their time. What they didn't have in quantity, they made up with quality. It was said that Sparta did not need strong city walls, for its men were its walls.",
+			"Description":"-10% maximum population."
+		},
+
+		{
+			"Name":"Hellenic Architecture",
+			"History":"The Greeks used stone construction from early Mycenaean times.",
+			"Description":"Hellenic buildings has +10% health and capture points, but also take longer to build."
+		},
+
+		{
+			"Name":"Elite Command",
+                "History":"The Esquiritas lived to the north of Sparta, in the mountains between the Oenos and Eurotas rivers. They lived a mostly rural and unpretentious life, in what most would consider inhospitable conditions; however, its territory was of vital strategic value for the Spartans, since it controlled the road to Tegea, one of the most important religious centers of ancient Greece. The Esquirites possessed a wielder-or battalion-of elite light infantry whose skill fighting on the far left of the battle line was so admired that the position was reserved exclusively for them. They also acted as sentinels - riding in front of the army - and were the only units allowed to precede the king to ensure that the road was clear before his arrival.",
+			"Description":"Can train champion skiritai in the village phase."
+
+		},
+		
+		{
+			"Name":"Slave Soldiers",
+                "History":"In addition to the elite troops of King Leonidas, there were 900 hilotas, Spartan slaves, who acted as archers, javelins or slingers.",
+			"Description":"Can train slave skirmishers and slingers on barracks. Less cost but are weaker."
+
+		}
+
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Peloponnesian League",
+			"History":"Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies.'",
+			"Description":"+5% health for allied citizen-soldier infantry spearmen."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Theatron",
+			"Class":"",
+			"Emblem":"",
+			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%."
+		},
+		{
+			"Name":"Syssition",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Syssition was the Mess Hall for full-blooded Spartiates. Every Spartan peer, even kings, belonged to one.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"Train heroes and Spartiates and research technologies related to them."
+		},
+		{
+			"Name":"Royal Stoa",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Royal Stoa was the headquarters of the King Archon and of the Areopagos council (in charge of religious affairs and crime). A statue of Themis (representing Justice) stood in front of the building. Copies of some of the city laws were kept in the Stoa.",
+                "Requirements":"",
+			"Phase":"",
+			"Special":""
+		}
+
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/spart_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/spart_civil_centre"
+		},
+		{
+			"Template": "units/spart_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/spart_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/spart_infantry_slinger_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/spart_cavalry_javelinist_b"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/phalanx"
+	],
+	"AINames":
+	[
+		"Leonidas",
+		"Dienekes",
+		"Brasidas",
+		"Agis",
+		"Archidamus",
+		"Lysander",
+		"Pausanias",
+		"Agesilaus",
+		"Echestratus",
+		"Eurycrates",
+		"Eucleidas",
+		"Agesipolis"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry" : "units/spart_cavalry_javelinist_b",
+		"skirmish/units/default_infantry_ranged_b" : "units/spart_infantry_slinger_b",
+		"skirmish/structures/default_house_10" : "structures/{civ}_house",
+		"skirmish/structures/default_wall_tower": "",
+		"skirmish/structures/default_wall_gate": "",
+		"skirmish/structures/default_wall_short": "",
+		"skirmish/structures/default_wall_medium": "",
+		"skirmish/structures/default_wall_long": ""		},
+	"SelectableInGameSetup": true
+}

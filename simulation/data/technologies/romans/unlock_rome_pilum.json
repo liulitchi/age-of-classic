@@ -1,0 +1,10 @@
+{
+	"genericName": "Pilum",
+	"description": "The pilum was a javelin commonly used by the Roman army in ancient times. It was generally about 2 metres, consisting of an iron shank about 7 millimetres in diameter and 60 centimetres long with a pyramidal head.",
+	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 200},
+	"requirements": { "all": [{ "tech": "phase_city" }] }, 	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "pilum.png",
+	"researchTime": 40,
+	"tooltip": "Unlock the ability of the extraordinarius to change weapons.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

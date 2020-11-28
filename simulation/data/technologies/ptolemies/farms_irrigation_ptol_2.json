@@ -1,0 +1,14 @@
+{
+	"genericName": "Archimedes Screw",
+	"description": "A machine historically used for transferring water from a low-lying body of water into irrigation ditches, whose invention is traditionally attributed to Archimedes of Syracuse, the famous Greek mathematician and engineer.",
+	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 200 },
+	"requirements": {"all": [{"tech": "phase_city"},{"any":[{"civ": "ptol" }]}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "flood_control.png",
+	"supersedes": "farms_irrigation_ptol",
+	"researchTime": 30,
+	"tooltip": "+25% farming rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

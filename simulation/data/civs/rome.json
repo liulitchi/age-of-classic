@@ -1,0 +1,238 @@
+{
+	"Code": "rome",
+	"Culture": "rome",
+	"Name": "Romans",
+	"Emblem": "session/portraits/emblems/emblem_romans.png",
+	"History": "The Romans controlled one of the largest empires of the ancient world, stretching at its peak from southern Scotland to the Sahara Desert, and containing between 60 million and 80 million inhabitants, one quarter of the Earth's population at that time. Rome also remained one of the strongest nations on earth for almost 800 years. The Romans were the supreme builders of the ancient world, excelled at siege warfare and had an exquisite infantry and navy.",
+	"Music":[
+			{"File":"Juno_Protect_You.ogg", "Type":"peace"},
+			{"File":"Mediterranean_Waves.ogg", "Type":"peace"},
+			{"File":"Elysian_Fields.ogg", "Type":"peace"},
+			{"File":"The_Governor.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "",
+			"Description": "",
+			"Technologies":
+			[
+				{
+					"Name": "Pilum",
+					"History": "The pilum was a javelin commonly used by the Roman army in ancient times. It was generally about 2 metres, consisting of an iron shank about 7 millimetres in diameter and 60 centimetres long with a pyramidal head.",
+					"Description": "Unlock the ability of the extraordinarius to change weapons."
+				},
+
+				{
+					"Name": "Marian Reforms",
+					"History": "The Marian reforms of 107 BC were a group of military reforms initiated by Gaius Marius, a statesman and general.",
+					"Description": "Unlock the ability to train marian legionaire from fortress."
+				},
+
+				{
+					"Name": "Sibylline Books",
+					"History": "The Sibylline Books or 'Libri Sibyllini' were a collection of oracular utterances, set out in Greek hexameters, purchased from a sibyl by the last king of Rome, Tarquinius Superbus, and consulted at momentous crises through the history of the Republic and the Empire.",
+					"Description": "-5% cost for technologies."
+				},
+				{
+					"Name": "Camp Hospitals",
+					"History": "As with much of the imperial army's organization, it was Augustus who, drawing on the evolved but ad hoc practices of the Republican army, established systematic medical services for the army, with a formal medical hierarchy and the construction of large, fully staffed and well-supplied military hospitals (valetudinaria) in legionary bases.",
+					"Description": "Units slowly heal when garrisoned in the army camp."
+				},
+
+				{
+					"Name": "Reorganization of Auxiliary Troops",
+					"History": "Augustus most important innovation was to reorganize auxiliary or auxiliary troops, which until then had been irregular forces formed by mere mercenaries recruited before a campaign, commanded by local and armed chiefs under the circumstances. With them he created a second army, whose numbers were equivalent to those of the legions, recruited among the non-citizen provincials, but who had the status of peregrini.",
+					"Description": "Mercenaries are promoted to advanced rank."
+				}
+
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Quintus Fabius Maximus",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Dictator for six months during the Second Punic War. Instead of attacking the most powerful Hannibal, he started a very effective war of attrition against him."
+				},
+				{
+					"Name": "Gaius Marius",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Gaius Marius was a Roman general and statesman. Victor of the Cimbric and Jugurthine wars, he held the office of consul an unprecedented seven times during his career. He was also noted for his important reforms of Roman armies. He was at the centre of a paradigmatic shift from the militia levies of the middle Republic to the professional soldiery of the late Republic; he also developed the pilum, a javelin designed to break on impact, and large-scale changes to the logistical structure of the Roman army."
+				},
+
+				{
+					"Name": "Marcus Claudius Marcellus",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "A soldier of the first war with Carthage, a hero of the Second Punic War, and victor over the Gauls at Clastidium. Plutarch describes him as a man of war, strong in body and constitution, with an iron will to fight on. As a general he was immensely capable, standing alongside Scipio Africanus and Claudius Nero as the most effective Roman generals of the entire Second Punic War. In addition to his military achievements Marcellus was a fan of Greek culture and arts, which he enthusiastically promoted in Rome. He met his demise when his men were ambushed near Venusia. In honor of the respect the people held for him, Marcellus was granted the title of 'Sword of Rome.'"
+				},
+				{
+					"Name": "Scipio Africanus",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "He was the first really successful Roman general against the Carthaginians. His campaigns in Spain and Africa helped to bring Carthage to its knees during the Second Punic War. He defeated Hannibal at the Battle of Zama in 202 B.C."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+			
+		{
+			"Name": "Territorial Control",
+			"History": "The Romans controlled one of the largest empires of the ancient world, stretching at its peak from southern Scotland to the Sahara Desert, and containing between 60 million and 80 million inhabitants, one quarter of the Earth's population at that time.",
+			"Description": "-20% cost for civic centers. Can train four heroes."
+
+		},
+		
+		{	
+			"Name": "Auxiliary Troops",
+			"History": "The Auxilia were introduced as non-citizen troops attached to the citizen legions by Augustus after his reorganisation of the Imperial Roman army. By the 2nd century, the Auxilia contained the same number of infantry as the legions and, in addition, provided almost all of the Roman army's cavalry, especially light cavalry and archers and more specialised troops. The auxilia thus represented three-fifths of Rome's regular land forces at that time. Like their legionary counterparts, auxiliary recruits were mostly volunteers, not conscripts.",
+			"Description": "Can train archers and slingers mercenaries in the barrack."
+
+		},
+		{	
+			"Name": "Vigiles",
+			"History": "Vigiles (Vigiles Urbani or Militia Vigilum) were established in the 6 CE by Augustus. It was a paramilitary formation consisting of seven cohorts probably counting 1000 people each (I-VII). The task of the vigils was to perform the role of the police and on the other hand the fire brigade. Each cohort was assigned to two of the fourteen districts of Rome. Cohorts had a permanent base (castra) and guard points (excubitoria) in the city.",
+			"Description": "Can train vigiles in the civic centers."
+
+		},
+
+		{
+			"Name": "Gladius",
+			"History": "Gladius was the main Roman weapon. It was a short weapon and used for drilling, not so much for cutting.",
+			"Description": "Can train swordsmen in the village phase."
+
+		}
+
+
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Conscription",
+			"History": "Many Roman soldiers were conscripted into service. While volunteers were preferred, the Roman state did maintain an annual military draft. During an emergency the draft and the terms of service were enlarged. The importance of military service in Republican Rome was so great it was a prerequisite for a political career. Members of the Senate were called Conscript Fathers because of this, reflected in how the ordo equester was said to have been \"conscripted\" into the Senate.",
+			"Description": "-10% training time for allied citizen-soldier infantry."
+	}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Entrenched Camp",
+			"Class": "",
+			"Emblem": "",
+			"History": "Sometimes it was a temporary camp built facing the route by which the army is to march, other times a defensive or offensive (for sieges) structure. Within the Praetorian gate, which should either front the east or the enemy, the tents of the first centuries or cohorts are pitched, and the dracos (ensigns of cohorts) and other ensigns planted. The Decumane gate is directly opposite to the Praetorian in the rear of the camp, and through this the soldiers are conducted to the place appointed for punishment or execution. It has a turf wall, and it's surrounded by a canal filled with water whenever possible for extra defense. Many towns started up as bigger military camps to evolve to more complicated cities.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "Trains citizen-soldiers from neutral or enemy territory."
+		},
+		{
+			"Name": "Murus Latericius",
+			"Class": "",
+			"Emblem": "",
+			"History": "Turf walls built by legionaries during sieges.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "Can be built in neutral and enemy territory to strangle enemy towns."
+		},
+		{
+			"Name": "Arcus Triumphalis",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Triumphal Arch was built to commemorate a great victory or achievement by the Emperor. They were highly decorated and large enough to march under by the Emperor's legions.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		},
+		{
+			"Name": "Aedes Vestae",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Temple of Vesta is a building of ancient Rome dedicated to the worship of the goddess Vesta by the Vestais priestesses, located in the center of the Roman Forum, near the Royal and the complex of the House of Vestais, center of public power and traditional political and religious nucleus of Rome.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		},
+		{
+			"Name": "Aedes Martis",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Temple of Mars Ultor stands in the Forum of Augustus in Rome and was built to commemorate Augustus victory in 42 BCE at the Battle of Philippi over the assassins of Julius Caesar. The building became the place where important military decisions were taken and a site of several state ceremonies with a military connotation.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		}
+
+	],
+	"WallSets":
+	[
+		"structures/rome_wallset_stone",
+		"structures/rome_wallset_siege"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/rome_civil_centre"
+		},
+		{
+			"Template": "units/rome_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/rome_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/rome_infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/rome_cavalry_javelinist_b"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/testudo"
+	],
+	"AINames":
+	[
+		"Lucius Junius Brutus",
+		"Lucius Tarquinius Collatinus",
+		"Gaius Julius Caesar Octavianus",
+		"Marcus Vipsanius Agrippa",
+		"Gaius Iulius Iullus",
+		"Gaius Servilius Structus Ahala",
+		"Publius Cornelius Rufinus",
+		"Lucius Papirius Cursor",
+		"Aulus Manlius Capitolinus",
+		"Publius Cornelius Scipio Africanus",
+		"Publius Sempronius Tuditanus",
+		"Marcus Cornelius Cethegus",
+		"Quintus Caecilius Metellus Pius",
+		"Marcus Licinius Crassus"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry" : "units/rome_cavalry_javelinist_b",
+		"skirmish/units/default_infantry_ranged_b": "units/rome_infantry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/rome_infantry_spearman_b",
+		"skirmish/structures/default_house_10" : "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

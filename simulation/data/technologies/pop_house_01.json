@@ -1,0 +1,22 @@
+{
+	"genericName": "Home Garden",
+	"specificName": {
+		"mace": "Peristyle",
+		"spart": "Peristyle",
+		"athen": "Peristyle",
+		"sele": "Peristyle",
+		"ptol": "Peristyle",
+		"rome": "Peristyle",
+		"pers": "Paradise"
+	},
+	"description": "Home gardens ranged from simple fenced-in areas to large manicured and colonnaded enclosures.",
+	"cost": {"food": 0, "wood": 150, "stone": 100, "metal": 0},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "population.png",
+	"researchTime": 30,
+	"tooltip": "+20% population cap bonus for houses.",
+	"modifications": [{"value": "Cost/PopulationBonus", "multiply": 1.2}],
+	"affects": ["House"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

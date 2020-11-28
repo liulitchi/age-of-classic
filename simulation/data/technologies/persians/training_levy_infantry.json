@@ -1,0 +1,13 @@
+{
+	"genericName": "Recruiting",
+	"description": "Calling up infantry and cavalry levies in time of war helps bolster the ranks of a king's army.",
+	"cost": { "food": 400, "wood": 0, "stone": 0, "metal": 0 },
+	"requirements": { "all": [{ "tech": "phase_town" }, { "civ": "pers" }] },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "fist_spear.png",
+	"researchTime": 40,
+	"tooltip": "-10% training time for citizen soldiers.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.90}],
+"affects": ["Citizen Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

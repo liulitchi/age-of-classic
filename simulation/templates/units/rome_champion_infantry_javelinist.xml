@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_javelinist">
+  <Identity>
+    <Civ>rome</Civ>
+    <Lang>latin</Lang>
+    <GenericName>Italic Heavy Infantry</GenericName>
+    <SpecificName>Extraordinarius</SpecificName>
+    <SelectionGroupName>units/rome_champion_infantry_javelinist</SelectionGroupName>
+    <Icon>units/samnite_skirmisher.png</Icon>
+  </Identity>
+  <Loot>
+    <food>6</food>
+    <metal>6</metal>
+  </Loot>
+  <Upgrade>
+    <Extraordinarius>
+      <Entity>units/rome_champion_infantry</Entity>
+      <Tooltip>Upgrade to extraordinarius swordsman.</Tooltip>
+      <Time>8</Time>
+    </Extraordinarius>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/romans/infantry_swordsman_s.xml</Actor>
+  </VisualActor>
+</Entity>

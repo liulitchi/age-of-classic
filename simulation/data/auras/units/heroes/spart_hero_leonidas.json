@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Champion Spear"],
+	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.20 },
+				  { "value": "Armour/Hack", "add": 1 },
+ 				  { "value": "Armour/Pierce", "add": 1 },
+				  { "value": "Armour/Crush", "add": 1 }],
+	"auraName": "Last Stand",
+	"auraDescription": "+20% attack and +1 armour for nearby champion spartiates.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack>
+    <Capture>
+      <Value>3</Value>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
+    </Capture>
+  </Attack>
+  <Identity>
+    <GenericName>Champion Unit</GenericName>
+    <Classes datatype="tokens">Organic Human</Classes>
+    <VisibleClasses datatype="tokens">Champion Soldier</VisibleClasses>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <xp>120</xp>
+    <food>8</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>6</metal>
+  </Loot>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+</Entity>

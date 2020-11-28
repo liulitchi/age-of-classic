@@ -1,0 +1,8 @@
+{
+	"type": "range",
+     "radius": 40,
+     "affects": ["Javelin Infantry"],
+	"modifications": [{ "value": "Attack/Ranged/RepeatTime", "multiply": 0.80 }],
+	"auraName": "Infantry Reform",
+	"auraDescription": "+20% attack speed for nearby infantry skirmishers."
+}

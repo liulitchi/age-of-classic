@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Attack>
+    <Ranged>
+      <Pierce>8</Pierce>
+    </Ranged>
+  </Attack>
+  <Armour>
+    <Hack>2</Hack>
+  </Armour>
+  <Cost>
+    <BuildTime>10</BuildTime>
+  </Cost>
+  <Identity>
+    <Civ>maur</Civ>
+    <Gender>female</Gender>
+    <Classes datatype="tokens">MaidenArcher</Classes>
+    <GenericName>Maiden Guard Archer</GenericName>
+    <SpecificName>Visha Kanya</SpecificName>
+    <Icon>units/maur_champion_maiden_archer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryans/infantry_archer_c.xml</Actor>
+  </VisualActor>
+</Entity>

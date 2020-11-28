@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_chicken">
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>16</food>
+    </Resources>
+  </Cost>
+  <ResourceSupply>
+    <MaxAmount>52</MaxAmount>
+    <Amount>40</Amount>
+    <Type>food.meat</Type>
+    <Change>
+      <Fattening>
+        <Constraint>Alive</Constraint>
+        <Value>1</Value>
+        <Interval>4000</Interval>
+      </Fattening>
+    </Change>
+    </ResourceSupply>
+  <Visibility>
+    <RetainInFog>false</RetainInFog>
+  </Visibility>
+  </Entity>
+

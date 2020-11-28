@@ -1,0 +1,16 @@
+{
+	"genericName": "Steel Working",
+	"specificName": {
+			"iber": "Toledo Steel"
+				},
+	"description": "Secret steel working techniques give sword blades distinctive and beautiful markings. Not only that, but the steel's hardness is unparalleled.",
+	"cost": { "food": 0, "wood": 200, "stone": 0, "metal": 200 				},
+	"requirements": { "all": [{ "tech": "phase_town" }, { "any": [{ "civ": "iber" }] }] },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "sword_xiphos.png",
+	"researchTime": 40,
+	"tooltip": "+20% attack for swordsmen.",
+	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.2 }],
+	"affects": ["Sword"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

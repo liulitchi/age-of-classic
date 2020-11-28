@@ -1,0 +1,22 @@
+{
+	"genericName": "Heroism",
+	"specificName": {
+		"mace": "Andreía",
+		"spart": "Andreía",
+		"athen": "Andreía",
+		"ptol": "Andreía",
+		"sele": "Andreía",
+		"rome": "Fortitudo"
+				},
+	"description": "Guard units have uncommon bravery and valor in battle.",
+	"cost": {"food": 350, "wood": 0, "stone": 0, "metal": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 40,
+	"tooltip": "+10% attack for champions.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.1 },
+				  {"value": "Attack/Ranged/Pierce", "multiply": 1.1 }],
+				  	"affects": ["Champion"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

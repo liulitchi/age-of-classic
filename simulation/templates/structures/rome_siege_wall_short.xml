@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall_short">
+  <Armour>
+    <Hack>20.0</Hack>
+    <Pierce>25.0</Pierce>
+    <Crush>2.0</Crush>
+  </Armour>
+  <BuildRestrictions>
+    <Territory>own neutral enemy</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime op="mul">0.75</BuildTime>
+    <Resources>
+      <wood>15</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="16.0" depth="8.0"/>
+    <Height>7.0</Height>
+  </Footprint>
+  <Health>
+    <Max op="mul">0.75</Max>
+  </Health>
+  <Identity>
+    <Civ>rome</Civ>
+    <SelectionGroupName>structures/rome_wallset_siege</SelectionGroupName>
+    <GenericName>Siege Wall</GenericName>
+    <SpecificName>Murus Circummunitionis</SpecificName>
+    <Classes datatype="tokens">SiegeWall</Classes>
+    <Icon>structures/siege_wall.png</Icon>
+    <Tooltip>A wooden and turf palisade buildable in enemy and neutral territories.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>15</wood>
+    <stone>0</stone>
+    <xp>50</xp>
+  </Loot>
+  <Obstruction>
+    <Static width="13.0" depth="5.0"/>
+  </Obstruction>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <Actor>structures/romans/siege_wall_short.xml</Actor>
+    <FoundationActor>structures/fndn_1x1.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>12.0</Length>
+  </WallPiece>
+</Entity>

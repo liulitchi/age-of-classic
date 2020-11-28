@@ -1,0 +1,12 @@
+{
+	"genericName": "Elected General",
+     	"cost": {"food": 350, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": { "all": [{"tech": "phase_city"}] },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "laurel_gold.png",
+	"researchTime": 40,
+	"tooltip": "+20% health for heroes.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.20}],
+	"affects": ["Hero"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_zebu">
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <food>60</food>
+    </Resources>
+  </Cost>
+  <ResourceSupply>
+    <MaxAmount>190</MaxAmount>
+    <Change>
+      <Fattening>
+        <Constraint>Alive</Constraint>
+        <Value>1</Value>
+        <Interval>4000</Interval>
+      </Fattening>
+    </Change>
+  </ResourceSupply>
+  <Visibility>
+    <RetainInFog>false</RetainInFog>
+  </Visibility>
+</Entity>

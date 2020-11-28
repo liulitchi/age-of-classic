@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower_stone">
+  <Attack>
+    <Ranged>
+      <RepeatTime>3500</RepeatTime>
+      <PreferredClasses datatype="tokens">Mechanical</PreferredClasses>
+      <Bonuses>
+        <Bonus1>
+	  <Classes>Mechanical</Classes>
+          <Multiplier>5.0</Multiplier>
+  	</Bonus1>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <PopulationBonus>5</PopulationBonus>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="8.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>8</Max>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>iber</Civ>
+    <SpecificName>Dorre</SpecificName>
+    <Icon>structures/defense_tower_fire.png</Icon>
+    <Tooltip>Shoots flaming arrows. Garrison to provide extra defence.</Tooltip>
+  </Identity>
+  <Health>
+    <Max>1200</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/iber_defense_tower</Entity>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Time>5</Time>
+    </Tower>
+  </Upgrade>
+  <Loot>
+    <wood>24</wood>
+    <stone>24</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>17.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Radius>38</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/iberians/scout_tower_fire.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>
+
+ 

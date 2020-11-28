@@ -1,0 +1,20 @@
+{
+	"genericName": "State Religion",
+	"specificName": {
+		"mace": "Hippocratic Oath",
+		"spart": "Hippocratic Oath",
+		"athen": "Hippocratic Oath"
+	},
+	"description": "+2 armour for all healer.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 150},
+	"supersedes": "heal_rate",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "healing_rate.png",
+	"researchTime": 40,
+	"tooltip": "+2 armour for healers.",
+	"modifications": [{"value": "Armour/Hack", "add": 2},						  {"value": "Armour/Pierce", "add": 2},
+				  {"value": "Armour/Crush", "add": 2}],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

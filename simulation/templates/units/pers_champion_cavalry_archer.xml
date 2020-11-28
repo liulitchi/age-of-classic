@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Attack>
+    <Ranged>
+      <Spread>2.5</Spread>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>pers</Civ>
+    <Lang>persian</Lang>
+    <GenericName>Bactrian Heavy Cavalry Archer</GenericName>
+    <SpecificName>Bakhtrish Asabara</SpecificName>
+    <Icon>units/pers_cca2.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/cavalry_archer_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

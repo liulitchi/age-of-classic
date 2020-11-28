@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege">
+  <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>120.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>84.0</MaxRange>
+      <MinRange>8.0</MinRange>
+      <Spread>2.0</Spread>
+      <ProjectileSpeed>150.0</ProjectileSpeed>
+      <Gravity>9.81</Gravity>
+      <PrepareTime>3000</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
+      <Delay>0</Delay>
+      <Splash>
+        <Shape>Linear</Shape>
+        <Range>8.0</Range>
+        <FriendlyFire>false</FriendlyFire>
+        <Hack>0.0</Hack>
+        <Pierce>60.0</Pierce>
+        <Crush>0.0</Crush>
+      </Splash>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Capturable>
+    <RegenRate>20</RegenRate>
+  </Capturable>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <wood>250</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="5.0" depth="12.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <GenericName>Bolt Shooter</GenericName>
+    <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <xp>200</xp>
+    <food>0</food>
+    <wood>30</wood>
+    <stone>0</stone>
+    <metal>20</metal>
+  </Loot>
+  <Pack>
+    <Time>10000</Time>
+  </Pack>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+  </UnitAI>
+  <Vision>
+    <Range>120</Range>
+  </Vision>
+</Entity>

@@ -1,0 +1,14 @@
+{
+	"genericName": "Pharaonic Cult",
+     "description": "The cult of the gods was present, in a certain way, in all the other mortuaries. During all day the real involvement with the gods, but in the same way all the divine cults involved the pharaoh.",
+	"cost": {"food": 300, "wood": 0, "stone": 200, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "ptol"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "pharaoh_mask.png",
+	"researchTime": 40,
+	"tooltip": "+100% attack for heroes.",
+	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 2.0},
+				  {"value": "Attack/Melee/Hack", "multiply": 2.0}],
+	"affects": ["Hero"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

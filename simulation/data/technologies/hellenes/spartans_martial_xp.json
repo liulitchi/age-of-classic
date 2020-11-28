@@ -1,0 +1,22 @@
+{
+	"genericName": "Greek Martial Arts",
+	"specificName": {
+		"hele": "Pankrátion",
+		"mace": "Pankrátion",
+		"spart": "Pankrátion",
+		"athen": "Pankrátion",
+		"sele": "Pankrátion",
+		"ptol": "Pankrátion",
+		"theb": "Pankrátion"
+	},
+	"description": "The Greeks invented the martial arts for the Western world.",
+	"cost": {"food": 150, "wood": 150, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "armor_corinthian.png",
+	"researchTime": 40,
+	"tooltip": "-50% xp needed to promote infantry spearmen.",
+	"modifications": [{"value": "Promotion/RequiredXp", "multiply": 0.5}],
+	"affects": ["Infantry Spear"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Soldier", "Mechanical"],
+	"modifications": [{ "value": "Looter/Resource/food", "multiply": 1.30 },
+				  { "value": "Looter/Resource/wood", "multiply": 1.30 },
+				  { "value": "Looter/Resource/stone", "multiply": 1.30 },
+				  { "value": "Looter/Resource/metal", "multiply": 1.30 }],
+	"auraName": "Swag",
+	"auraDescription": "+30% loot for nearby enemy unit killed."
+}

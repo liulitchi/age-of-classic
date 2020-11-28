@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Cost>
+    <PopulationBonus>15</PopulationBonus>
+    <BuildTime>630</BuildTime>
+    <Resources>
+      <wood>300</wood>
+      <stone>700</stone>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>6300</Max>
+  </Health>
+  <Identity>
+    <Civ>iber</Civ>
+    <SpecificName>Castro</SpecificName>
+  </Identity>
+  <Loot>
+    <stone>240</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="27.0" depth="27.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_mechanical_siege_ballista_packed
+      -units/{civ}_mechanical_siege_scorpio_packed
+      -units/{civ}_mechanical_siege_oxybeles_packed
+      -units/{civ}_mechanical_siege_lithobolos_packed
+      -units/{civ}_mechanical_siege_polybolos_packed
+      -units/{civ}_mechanical_siege_ram
+      -units/{civ}_mechanical_siege_tower
+      units/{civ}_hero_indibil
+      units/{civ}_hero_caros
+      units/{civ}_hero_viriato
+      units/{civ}_champion_infantry
+      units/{civ}_champion_cavalry
+    </Entities>
+    <Technologies datatype="tokens">
+      unlock_champion_units
+      health_heroes
+      armor_hero_01
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/iberians/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>24.5</Length>
+  </WallPiece>
+</Entity>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower_stone">
+  <Attack>
+    <Ranged>
+      <RepeatTime>3500</RepeatTime>
+      <PreferredClasses datatype="tokens">Mechanical</PreferredClasses>
+      <Bonuses>
+        <Bonus1>
+	  <Classes>Mechanical</Classes>
+          <Multiplier>5.0</Multiplier>
+  	</Bonus1>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+  <Footprint>
+    <Square width="10.0" depth="10.5"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>athen</Civ>
+    <SpecificName>Pyrgíon</SpecificName>
+    <Icon>structures/defense_tower_fire.png</Icon>
+    <Tooltip>Shoots flaming arrows. Garrison to provide extra defence.</Tooltip>
+  </Identity>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/athen_defense_tower</Entity>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Time>5</Time>
+    </Tower>
+  </Upgrade>
+  <Obstruction>
+    <Static width="7.0" depth="8.0"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>22.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/hellenes/scout_tower_fire.xml</Actor>
+  </VisualActor>
+</Entity>
+
+ 

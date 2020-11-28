@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Siege"],
+	"modifications": [{ "value": "Cost/Resources/food", "multiply": 0.80 },
+				  { "value": "Cost/Resources/wood", "multiply": 0.80 },
+				  { "value": "Cost/Resources/stone", "multiply": 0.80 },
+				  { "value": "Cost/Resources/metal", "multiply": 0.80 },
+				  { "value": "Cost/Resources/BuildTime", "multiply": 0.80 }],
+	"auraName": "Besieger",
+	"auraDescription": "-20% cost and build time for siege engines."
+}

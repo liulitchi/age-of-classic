@@ -1,0 +1,16 @@
+{
+	"genericName": "Lead hull sheathing",
+	"description": "Lead sheathing protects ship hulls.",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"supersedes": "armor_ship_hypozomata",
+	"icon": "armor_ship_gold.png",
+	"researchTime": 40,
+	"tooltip": "+2 armour for ships.",
+	"modifications": [{"value": "Armour/Hack", "add": 2.0},
+				  {"value": "Armour/Pierce", "add": 2.0},
+				  {"value": "Armour/Crush", "add": 2.0}],
+	"affects": ["Ship"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

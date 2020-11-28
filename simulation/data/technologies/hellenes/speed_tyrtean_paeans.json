@@ -1,0 +1,15 @@
+{
+	"supersedes": "speed_inf_melee",
+	"genericName": "Tyrtean Paeans",
+	"description": "Paeans were battle hymns that were sung by the hoplites when they charged the enemy lines. One of the first known Paeans were composed by Tyrteus, a warrior poet of Sparta, during the First Messenian War.",
+	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 100 },
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "spart"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "pankration.png",
+	"researchTime": 40,
+	"tooltip": "+15% movement speed for melee infantry.",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.15},
+				  {"value": "UnitMotion/Run/Speed", "multiply": 1.15}],
+	"affects": ["Infantry Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

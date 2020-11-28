@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Cost>
+    <Resources>
+      <food>70</food>
+      <metal>60</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Persian Immortal</GenericName>
+    <SpecificName>Anusiya</SpecificName>
+    <Classes datatype="tokens">Immortal</Classes>
+    <SelectionGroupName>units/pers_champion_infantry</SelectionGroupName>
+    <Icon>units/pers_champion_infantry.png</Icon>
+  </Identity>
+  <Loot>
+    <food>7</food>
+    <metal>6</metal>
+  </Loot>
+  <Upgrade>
+    <Immortals>
+      <Entity>units/pers_champion_infantry_archer</Entity>
+      <Tooltip>Upgrade to immortal archer.</Tooltip>
+      <Time>8</Time>
+    </Immortals>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/persians/infantry_spearman_c2.xml</Actor>
+  </VisualActor>
+</Entity>

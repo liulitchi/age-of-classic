@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>structural/found_3x1.dae</mesh>
+      <props>
+        <prop actor="props/special/eyecandy/wood_pile.xml" attachpoint="woodPile001" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/Delimitator.xml" attachpoint="Delimitator001" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/Delimitator.xml" attachpoint="Delimitator002" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/Delimitator.xml" attachpoint="Delimitator003" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/Delimitator.xml" attachpoint="Delimitator004" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/wood_stick.xml" attachpoint="woodStick001" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/wood_stick.xml" attachpoint="woodStick002" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/wood_stick.xml" attachpoint="woodStick003" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/Box.xml" attachpoint="box001" maxheight="20" minheight="-20"/>
+      </props>
+      <textures>
+        <texture file="null_white.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="scaffold">
+      <props>
+        <prop actor="particle/construction_dust.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

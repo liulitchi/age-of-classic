@@ -1,0 +1,14 @@
+{
+	"genericName": "Elite Hoplite",
+	"description": "Hoplite was, in the Classical Era of ancient Greece, a citizen-soldier. Its name comes from the great shield taken to the battles.",
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 350 },
+	"requirements": {"all": [{"tech": "phase_city"},{"any":[{"civ": "athen" }]}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "upgrade_elite.png",
+	"researchTime": 40,
+	"supersedes": "upgrade_rank_advanced_spear_inf_athen",
+	"tooltip": "Promote your citizen infantry spearman to elite rank.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0 }],
+	"affects": ["Spear Infantry Advanced"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

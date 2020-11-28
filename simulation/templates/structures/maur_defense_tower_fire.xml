@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower_stone">
+  <Attack>
+    <Ranged>
+      <RepeatTime>3500</RepeatTime>
+      <PreferredClasses datatype="tokens">Mechanical</PreferredClasses>
+      <Bonuses>
+        <Bonus1>
+	  <Classes>Mechanical</Classes>
+          <Multiplier>5.0</Multiplier>
+  	</Bonus1>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>maur</Civ>
+    <SpecificName>Udarka</SpecificName>
+    <Icon>structures/defense_tower_fire.png</Icon>
+    <Tooltip>Shoots flaming arrows. Garrison to provide extra defence.</Tooltip>
+  </Identity>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/maur_defense_tower</Entity>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Time>5</Time>
+    </Tower>
+  </Upgrade>
+  <StatusBars>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/mauryans/scout_tower_fire.xml</Actor>
+  </VisualActor>
+</Entity>
+
+ 

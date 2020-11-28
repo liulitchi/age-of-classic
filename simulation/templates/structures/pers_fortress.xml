@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Identity>
+    <Civ>pers</Civ>
+    <SpecificName>Didā</SpecificName>
+    <Tooltip>Train champions, and research technologies. Garrison soldiers inside for stout defense.</Tooltip> 
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_mechanical_siege_ballista_packed
+      -units/{civ}_mechanical_siege_scorpio_packed
+      -units/{civ}_mechanical_siege_oxybeles_packed
+      -units/{civ}_mechanical_siege_lithobolos_packed
+      -units/{civ}_mechanical_siege_polybolos_packed
+      -units/{civ}_mechanical_siege_ram
+      -units/{civ}_mechanical_siege_tower
+      units/{civ}_champion_cavalry
+      units/{civ}_champion_cavalry_archer
+    </Entities>
+    <Technologies datatype="tokens">
+      </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/persians/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>24.5</Length>
+    <Indent>7.6</Indent>
+  </WallPiece>
+</Entity>

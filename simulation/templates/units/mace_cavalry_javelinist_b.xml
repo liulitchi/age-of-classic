@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Armour>
+    <Pierce>3</Pierce>
+  </Armour>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>60</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>110</Max>
+  </Health>
+  <Identity>
+    <Civ>mace</Civ>
+    <Lang>greek</Lang>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <SelectionGroupName>units/mace_cavalry_javelinist_b</SelectionGroupName>
+    <GenericName>Odrysian Skirmish Cavalry</GenericName>
+    <SpecificName>Hippakontistḕs Odrysós</SpecificName>
+    <Icon>units/mace_cavalry_javelinist.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <food>0</food>
+    <wood>0</wood>
+    <metal>6</metal>
+  </Loot>
+  <Promotion>
+    <Entity>units/mace_cavalry_javelinist_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/cavalry_javelinist_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

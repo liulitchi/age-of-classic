@@ -1,0 +1,8 @@
+{
+	"type": "global",
+     "affects": ["Melee Elephant"],
+	"modifications": [{ "value": "Cost/Resources/metal", "multiply": 0.75 },
+     				  { "value": "Cost/Resources/food", "multiply": 0.75 }],
+	"auraName": "Crossing The Alps",
+	"auraDescription": "-25% cost for elephants."
+}

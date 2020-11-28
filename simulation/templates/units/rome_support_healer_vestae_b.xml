@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Auras datatype="tokens">
+    units/female_vestae
+  </Auras>
+  <Identity>
+    <Civ>rome</Civ>
+    <Lang>latin</Lang>
+    <Gender>female</Gender>
+    <SelectionGroupName>units/rome_support_healer_vestae_b</SelectionGroupName>
+    <GenericName>Priestesses</GenericName>
+    <SpecificName>Vestales</SpecificName>
+    <Icon>units/rome_vestae.png</Icon>
+    <Rank>Basic</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/rome_support_healer_vestae_a</Entity>
+  </Promotion>
+  <TrainingRestrictions>
+    <Category>Vestae</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/romans/healer_v.xml</Actor>
+  </VisualActor>
+</Entity>

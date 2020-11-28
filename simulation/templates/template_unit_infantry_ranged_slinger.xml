@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Attack>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>5</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>52.0</MaxRange>
+      <MinRange>4.0</MinRange>
+      <ProjectileSpeed>62.5</ProjectileSpeed>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
+      <Spread>2.5</Spread>
+      <Bonuses>
+	<BonusInfantryRanged>
+      	<Classes>Melee Infantry</Classes>
+        <Multiplier>2.5</Multiplier>
+	</BonusInfantryRanged>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <stone>60</stone>
+      <metal>10</metal>
+      <wood>0</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Sling</VisibleClasses>
+    <GenericName>Slinger</GenericName>
+  </Identity>
+  <Loot>
+    <stone>2</stone>
+    <food>5</food>
+    <wood>3</wood>
+  </Loot>
+  </Entity>

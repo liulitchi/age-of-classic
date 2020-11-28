@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource">
+  <Auras datatype="tokens">
+    structures/corral_growth_bonus
+  </Auras>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="18.0" depth="17.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>400</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Corral</GenericName>
+    <Tooltip>Raise herd animals for food. Task domestic animals here to gain a trickle of food or other bonus (Not yet implemented).</Tooltip>
+    <VisibleClasses datatype="tokens">Village Corral</VisibleClasses>
+    <Icon>structures/corral.png</Icon>
+  </Identity>
+  <Loot>
+    <xp>200</xp>
+    <food>10</food>
+    <wood>20</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="16.0" depth="15.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      gaia/fauna_chicken_trainable
+      gaia/fauna_sheep_trainable
+      gaia/fauna_cattle_bull_trainable
+     </Entities>
+    <Technologies datatype="tokens">
+      gather_animals_stockbreeding
+      gather_animals_dogs
+      health_cavalry_01
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_corral.xml</select>
+      <constructed>interface/complete/building/complete_corral.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>20</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>20</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

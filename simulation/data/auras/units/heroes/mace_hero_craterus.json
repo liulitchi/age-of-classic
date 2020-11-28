@@ -1,0 +1,9 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Pike"],
+	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.30 }],
+	"auraName": "Taxiarchès",
+	"auraDescription": "+30% attack for nearby pikemen.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

@@ -1,0 +1,9 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Hero"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [{ "value": "Health/Max", "multiply": 0.8 }],
+	"auraName": "Ruler of Heroes",
+	"auraDescription": "-20% health for nearby enemy heroes."
+}

@@ -1,0 +1,15 @@
+{
+	"genericName": "Herbal Medicine",
+	"description": "The use of plants as a medicine is probably as old as the appearance of man himself. Concern about the cure of disease has always been present throughout human history.",
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 100},
+	"supersedes": "heal_range",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "herbal_remedies.png",
+	"researchTime": 40,
+	"tooltip": "+1 healing HP, +5 healing range and vision range for healers.",
+	"modifications": [{"value": "Heal/Range", "add": 5.0}, 					  {"value": "Vision/Range", "add": 5.0},
+				  {"value": "Heal/HP", "add": 1.0}],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

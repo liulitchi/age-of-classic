@@ -1,0 +1,20 @@
+{
+	"genericName": "Will to fight",
+	"specificName": {
+		"mace": "Dýnamis",
+		"spart": "Dýnamis",
+		"athen": "Dýnamis",
+		"ptol": "Dýnamis",
+		"sele": "Dýnamis"
+				},
+	"description": "The will to fight is crucial to victory.",
+	"cost": {"food": 800, "wood": 800, "stone": 800, "metal": 800},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "clenched_fist.png",
+	"researchTime": 40,
+	"tooltip": "+15% health for soldiers.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.15}],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

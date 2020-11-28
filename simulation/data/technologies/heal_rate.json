@@ -1,0 +1,18 @@
+{
+	"genericName": "Gods Protection",
+	"specificName": {
+		"mace": "Sphágia",
+		"spart": "Sphágia",
+		"athen": "Sphágia"
+	},
+	"description": "+30% health for all healer.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "healing_rate.png",
+	"researchTime": 40,
+	"tooltip": "+30% health for healers.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.30}],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

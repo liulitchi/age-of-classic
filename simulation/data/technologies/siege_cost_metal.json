@@ -1,0 +1,14 @@
+{
+	"genericName": "Woodworking",
+	"description": "Carpentry is the workshop where the carpenter works, a professional expert in working with wood in the raw or solid state, with the function of benefiting (plowing and trimming) the wood in pieces for use in constructions, tools, civil construction, shipbuilding, among others.",
+	"cost": { "food": 0, "wood": 200, "stone": 150, "metal": 150 },
+	"requirements": { "all": [{ "tech": "phase_city" }] },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "wood_saw_two_man.png",
+	"researchTime": 40,
+	"tooltip": "-20% cost for siege weapons.",
+	"modifications": [{ "value": "Cost/Resources/metal", "multiply": 0.8 },
+				  { "value": "Cost/Resources/stone", "multiply": 0.8 },{ "value": "Cost/Resources/wood", "multiply": 0.7 }],
+     "affects": ["Siege"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

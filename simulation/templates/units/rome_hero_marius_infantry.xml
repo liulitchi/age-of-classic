@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>rome</Civ>
+    <Lang>latin</Lang>
+    <SpecificName>Gaius Marius</SpecificName>
+    <Icon>units/rome_hero_scipio.png</Icon>
+    <Classes datatype="tokens">Legionaire</Classes>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+    </Entities>
+    <Technologies datatype="tokens">
+      romans/unlock_marian_legion
+    </Technologies>
+    <TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <time>1.0</time>
+    </TechCostMultiplier>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>units/romans/hero_infantry_swordsman_marcellus.xml</Actor>
+  </VisualActor>
+</Entity>

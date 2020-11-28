@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower_sentry">
+  <Identity>
+    <Civ>brit</Civ>
+    <SpecificName>Uxelon</SpecificName>
+  </Identity>
+  <Loot>
+    <food>0</food>
+    <wood>16</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>
+  <VisualActor>
+    <Actor>structures/britons/wooden_tower.xml</Actor>
+  </VisualActor>
+</Entity>

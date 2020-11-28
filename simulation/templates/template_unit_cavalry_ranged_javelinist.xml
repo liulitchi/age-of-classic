@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged">
+  <Armour>
+    <Hack>2</Hack>
+    <Pierce>2</Pierce>
+  </Armour>  
+  <Attack>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>4</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>40.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <ProjectileSpeed>62.5</ProjectileSpeed>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
+      <Spread>2.2</Spread>
+      <Bonuses>
+	<Bonus1>
+      	  <Classes>Archer</Classes>
+          <Multiplier>5.0</Multiplier>
+	</Bonus1>
+ 	<Bonus2>
+      	  <Classes>Sling</Classes>
+          <Multiplier>5.0</Multiplier>
+	</Bonus2>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>70</food>
+    </Resources>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
+    <GenericName>Cavalry Skirmisher</GenericName>
+  </Identity>
+  <Loot>
+    <food>7</food>
+  </Loot>
+  </Entity>

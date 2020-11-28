@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_slinger">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/spart_syssiton
+      structures/spart_theatron
+      structures/spart_royal_stoa
+      -structures/{civ}_wallset_stone
+	  -structures/{civ}_range
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>60</Max>
+  </Health>
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>30</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+   <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Rates>
+      <food.fish>0.5</food.fish>
+      <food.fruit>0.25</food.fruit>
+      <food.grain>0.35</food.grain>
+      <food.meat>1</food.meat>
+      <wood.tree>0.7</wood.tree>
+      <wood.ruins>5</wood.ruins>
+      <stone.rock>0.4</stone.rock>
+      <stone.ruins>5</stone.ruins>
+      <metal.ore>0.4</metal.ore>
+    </Rates>
+  </ResourceGatherer>
+  <Identity>
+    <Civ>spart</Civ>
+	<Lang>greek</Lang>
+    <SelectionGroupName>units/spart_infantry_slinger_b</SelectionGroupName>
+    <GenericName>Helot Slinger (Slave)</GenericName>
+    <SpecificName>Sphendonetes Heilotes</SpecificName>
+    <VisibleClasses datatype="tokens">Slave -Citizen</VisibleClasses>
+    <Icon>units/spart_infantry_slinger.png</Icon>
+  </Identity>
+  <Loot>
+    <food>5</food>
+    <wood>3</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>
+  <Promotion>
+    <Entity>units/spart_infantry_slinger_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/spartans/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

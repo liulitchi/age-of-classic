@@ -1,0 +1,10 @@
+{
+	"genericName": "Marian Reforms",
+	"description": "The Marian reforms of 107 BC were a group of military reforms initiated by Gaius Marius, a statesman and general.",
+	"cost": { "food": 300, "wood": 0, "stone": 0, "metal": 100 },
+	"requirements": { "tech": "phase_city" },
+	"icon": "shield_scutum.png",
+	"researchTime": 40,
+	"tooltip": "Unlock the ability to train marian legionaire from fortress.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

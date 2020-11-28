@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_elephant">
+  <Attack replace="">
+    <Melee>
+      <Hack>25</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>8.0</MaxRange>
+      <PrepareTime>750</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+      <PreferredClasses datatype="tokens">Human Structure</PreferredClasses>
+      <Bonuses>
+      <Bonus1>
+        <Classes>Structure</Classes>
+        <Multiplier>40</Multiplier>
+      </Bonus1>
+      <Bonus2>
+        <Classes>Siege</Classes>
+        <Multiplier>2.0</Multiplier>
+      </Bonus2>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>600</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>7.0</WalkSpeed>
+    <Run>
+      <Speed>12.0</Speed>
+    </Run>
+  </UnitMotion>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+  </Identity>
+</Entity>

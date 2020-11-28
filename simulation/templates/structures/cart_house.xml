@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Square width="15.0" depth="15.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>cart</Civ>
+    <SpecificName>Bet</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="13.0"/>
+  </Obstruction>
+  <Upgrade>
+    <House>
+      <Entity>structures/cart_apartment</Entity>
+      <Tooltip>+10 population bonus, double health and garrison capacity.</Tooltip>
+      <RequiredTechnology>phase_village</RequiredTechnology>
+      <Cost>
+        <wood>150</wood>
+      </Cost>
+      <Time>30</Time>
+    </House>
+  </Upgrade>
+  <VisualActor>
+    <FoundationActor>structures/carthaginians/fndn_house.xml</FoundationActor>
+    <Actor>structures/carthaginians/house.xml</Actor>
+  </VisualActor>
+</Entity>

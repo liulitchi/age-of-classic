@@ -1,0 +1,14 @@
+{
+	"genericName": "Ritual to Zeus",
+	"description": "The Olympic Games of Antiquity were a religious and athletic festival of Ancient Greece. The procession stops in front of the Great Altar of Zeus, where the sacrifice of 100 oxen offered by the people of Elide takes place.",
+	"cost": { "food": 800, "wood": 0, "stone": 0, "metal": 200 },
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "athen"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "bloody_hands.png",
+	"supersedes": "sacrifice_ritual",
+	"researchTime": 40,
+	"tooltip": "+10% health for soldiers.",
+	"modifications": [{ "value": "Health/Max", "multiply": 1.10 }],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

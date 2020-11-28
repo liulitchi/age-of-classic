@@ -1,0 +1,10 @@
+{
+	"genericName": ".",
+	"autoResearch": true,
+	"description": ".",
+	"requirements": {"any": [{"civ": "iber"}]},
+	"tooltip": "-20% training time for cavalry.",
+	"modifications": [{ "value": "Cost/BuildTime", "multiply": 0.80 }],
+      "affects": ["Cavalry"]
+}
+

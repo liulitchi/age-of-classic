@@ -1,0 +1,17 @@
+{
+	"type": "global",
+	"affects": ["Temple", "Healer"],
+	"modifications": [{ "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.3 },
+				  { "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.3 },
+				  { "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.3 },
+				  { "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.3 },
+				  { "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.3 },
+				  { "value": "Cost/BuildTime", "multiply": 0.3 },
+           		  { "value": "Cost/Resources/food", "multiply": 0.3 },
+           		  { "value": "Cost/Resources/metal", "multiply": 0.3 },
+				  { "value": "Cost/Resources/stone", "multiply": 0.3 },
+				  { "value": "Cost/Resources/wood", "multiply": 0.3 }],
+	"auraDescription": "-70% cost and build/training time for temples, temple technologies and priests.",
+	"auraName": "Buddhism",
+	"overlayIcon": "art/textures/ui/session/auras/build_bonus.png"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Auras datatype="tokens">
+    units/heroes/pers_hero_darius
+    units/heroes/pers_hero_darius_2
+  </Auras>
+  <Attack>
+    <Ranged>
+      <Spread>2.5</Spread>
+    </Ranged>
+  </Attack>
+  <Armour>
+    <Hack>14</Hack>
+    <Pierce>14</Pierce>
+  </Armour>
+  <Footprint replace="">
+    <Square width="6.0" depth="12.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>pers</Civ>
+    <Lang>persian</Lang>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <GenericName>Darius The Great</GenericName>
+    <SpecificName>Darayavahush I</SpecificName>
+    <Icon>units/pers_hero_darius.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>15.0</WalkSpeed>
+    <Run>
+      <Speed>25.5</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/persians/hero_chariot_archer_darius_m.xml</Actor>
+  </VisualActor>
+</Entity>

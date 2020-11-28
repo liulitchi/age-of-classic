@@ -1,0 +1,18 @@
+{
+		"genericName": "Maisu Burdina Langileak",
+	"description": "The Iberians were known to produce the finest iron and steel implements and weapons of the age.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 700},
+	"requirements": {"all": [{"tech": "phase_city"},{"any":[{"civ": "iber" }]}]},
+	"supersedes": "attack_steel_working",
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "falcata.png",
+	"researchTime": 40,
+	"tooltip": "+10% attack and +1 armour for soldiers.",
+	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.10 },
+				  { "value": "Attack/Ranged/Pierce", "multiply": 1.10 },
+				  { "value": "Armour/Hack", "add": 1 },
+				  { "value": "Armour/Crush", "add": 1 },
+				  { "value": "Armour/Pierce", "add": 1 }],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

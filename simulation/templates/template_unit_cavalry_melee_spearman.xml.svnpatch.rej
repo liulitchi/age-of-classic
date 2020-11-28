@@ -1,0 +1,10 @@
+--- binaries/data/mods/public/simulation/templates/template_unit_cavalry_melee_spearman.xml
++++ binaries/data/mods/public/simulation/templates/template_unit_cavalry_melee_spearman.xml
+@@ -22,7 +22,6 @@
+   <Identity>
+     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
+     <GenericName>Cavalry Spearman</GenericName>
+-    <Tooltip>Counters: 1.5x vs. Cavalry.</Tooltip>
+   </Identity>
+   <UnitMotion>
+     <WalkSpeed op="mul">1.1</WalkSpeed>

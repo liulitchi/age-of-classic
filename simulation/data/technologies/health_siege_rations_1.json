@@ -1,0 +1,13 @@
+{
+	"genericName": "Siege Rations",
+	"description": "A prudent citizenry would store away a portion of the year's harvest as a hedge against siege or possible famine.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "cornucopia.png",
+	"researchTime": 20,
+	"tooltip": "+5% Health for organic units.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.05}],
+	"affects": ["Organic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

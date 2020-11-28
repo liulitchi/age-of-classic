@@ -1,0 +1,18 @@
+{
+	"genericName": "Dionysus Celebration",
+	"description": "About 550 BC arose the celebrations held above all for the God Dionysus, divinity of feasts, fertility and wine.",
+	"requirements": {"all": [{"tech": "phase_city"}, {"any": [{"civ": "athen"},{"civ": "mace"},{"civ": "spart"}]}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "political_face.png",
+	"researchTime": 40,
+	"tooltip": "-15% training time and -5% cost for soldiers.",
+	"cost": {"food": 200, "wood": 200, "stone": 200, "metal": 200},
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.80},
+				  {"value": "Cost/Resources/food", "multiply": 0.95},
+				  {"value": "Cost/Resources/wood", "multiply": 0.95},
+				  {"value": "Cost/Resources/stone", "multiply": 0.95},
+				  {"value": "Cost/Resources/metal", "multiply": 0.95}],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+
+	}

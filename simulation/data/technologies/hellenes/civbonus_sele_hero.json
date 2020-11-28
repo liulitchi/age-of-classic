@@ -1,0 +1,13 @@
+{
+	"genericName": "Throne War",
+	"autoResearch": true,
+	"description": "Alexander the Great had conquered the Achaemenid Empire in a short time and died young, leaving no heir to an extensive empire of half Hellenic culture. In view of this, his generals (the Diocese) ended up fighting in the attempt to obtain supremacy over the empire left.",
+	"requirements": {"any": [{"civ": "sele"}]},
+	"tooltip": "-50% cost for heroes.",
+	"modifications": [{ "value": "Cost/Resources/food", "multiply": 0.50 },
+				  { "value": "Cost/Resources/wood", "multiply": 0.50 },
+				  { "value": "Cost/Resources/stone", "multiply": 0.50 },
+				  { "value": "Cost/Resources/metal", "multiply": 0.50 }],
+	"affects": ["Hero"]
+}
+

@@ -1,0 +1,10 @@
+{
+	"type": "global",
+      "affects": ["Blacksmith"],
+	"modifications": [{ "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.80 },
+           		  { "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.80 },
+           		  { "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.80 },
+           		  { "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.80 }],
+     "auraName": "Quick Forging",
+	"auraDescription": "-20% cost for blacksmisth technologies."
+}

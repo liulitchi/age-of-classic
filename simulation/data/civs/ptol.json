@@ -1,0 +1,206 @@
+{
+	"Code":"ptol",
+	"Culture":"ptol",
+	"Name":"Ptolemies",
+	"Emblem":"session/portraits/emblems/emblem_ptolemies.png",
+	"History":"The Ptolemaic dynasty was a Macedonian Greek royal family which ruled the Ptolemaic Empire in Egypt during the Hellenistic period. Their rule lasted for 275 years, from 305 BC to 30 BC. They were the last dynasty of ancient Egypt.",
+	"Music":[
+			{"File":"Ammon-Ra.ogg", "Type":"peace"},
+			{"File":"Sands_of_Time.ogg", "Type":"peace"},
+			{"File":"Land_between_the_two_Seas.ogg", "Type":"peace"},
+			{"File":"Valley_of_the_Nile.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Ptolemaic Egyptians",
+			"Description":"The great Greek-Macedonian dynastic rule over Ancient Egypt.",
+			"Technologies":
+			[
+				{
+					"Name":"Hellenistic Metropolis",
+					"History":"Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
+					"Description":"+100% health and capture points, double default arrows for civic centre."
+				},
+
+				{
+					"Name":"Pharaonic Cult",
+					"History":"The Macedonian-Greek rulers of the Ptolemaic dynasty observed many ancient Egyptian traditions in order to satiate the local populace and ingratiate themselves to the powerful priestly class in the country.",
+					"Description":"+100% attack for heroes."
+				},
+				{		
+					"Name":"Archimedes Screw",
+					"History":"A machine historically used for transferring water from a low-lying body of water into irrigation ditches, whose invention is traditionally attributed to Archimedes of Syracuse, the famous Greek mathematician and engineer.",
+					"Description":"+25% farming rate."
+				},
+
+				{		
+					"Name":"Nile Irrigation",
+					"History":"The nile river is one of the most fertile regions of planet Earth.",
+					"Description":"-40% cost for farm fields."
+				}
+
+							],
+			"Heroes":
+			[
+				{
+					"Name":"Ptolemaios A' Soter",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":" Was a companion and historian of Alexander the Great who succeeded to his empire. Ptolemy became ruler of Egypt and founded the Ptolemaic dynasty which ruled it for the next three centuries, turning Egypt into a Hellenistic kingdom and Alexandria into a center of Greek culture."
+				},
+				{
+					"Name":"Ptolemaios D' Philopater",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Macedonian king of Egypt, under whose feeble rule, heavily influenced by favourites, much of Ptolemaic Syria was lost and native uprisings began to disturb the internal stability of Egypt."
+				},
+				{
+					"Name":"Kleopatra H' Philopater",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Was the last active ruler of the Ptolemaic Kingdom of Egypt, nominally survived as pharaoh by her son Caesarion. She was also a diplomat, naval commander, linguist, and medical author. As a member of the Ptolemaic dynasty, she was a descendant of its founder Ptolemy I Soter, a Macedonian Greek general and companion of Alexander the Great. After the death of Cleopatra, Egypt became a province of the Roman Empire, marking the end of the Hellenistic period that had lasted since the reign of Alexander. Her native language was Koine Greek and she was the first Ptolemaic ruler to learn the Egyptian language."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Tribute To The Gods",
+			"History":"In ancient Egypt there were several temples, which were built in honor of the gods. Each city had a protector god.",
+			"Description":"Can build temples in the village phase and start with a priest."
+		},
+
+		{
+			"Name":"Buying Loyalty",
+			"History":"The Greco-Macedonian Ptolemy Dynasty relied on large numbers of Greek and foreign mercenaries for the bulk of its military force, mainly because the loyalty of native Egyptian units was often suspect. Indeed, during one native uprising, Upper Egypt was lost to the Ptolemies for decades. Mercenaries were often battle-hardened and their loyalty can be bought, sometimes cheaply, sometimes not cheaply. This was of no matter, since Egypt under the Ptolemies was so prosperous as to be the richest of Alexander's successor states.",
+			"Description":"-60% training time but +20% cost for all mercenaries."
+		},
+
+		{
+			"Name":"Mud Brick",
+			"History":"Buildings were made of clay bricks mixed with chopped straw.",
+			"Description":"Houses, corral, storehouse, and farmstead are free of cost, but are very weak and slower to build."
+		}
+
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Breadbasket of the Mediterranean",
+			"History":"Egypt was a net exporter of grain, so much so that large cities such as Athens, Antioch, and Rome came to rely upon Egyptian grain in order to feed their masses.",
+			"Description":"Allies automatically gain a slow trickle of food income."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Library",
+			"Class":"",
+			"Emblem":"",
+			"History":"Alexander the Great founded libraries all over his new empire. These became a center of learning for an entirely new synthesized culture: the Hellenistic culture.",
+			"Requirements":".",
+			"Phase":"City",
+			"Special":"Maximum of 1 built. All Special Technologies and some regular city-phase technologies are researched here. Building one reduces the cost of all other remaining technologies by 10%."
+		},
+		{
+			"Name":"Military Colony",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Greco-Macedonian Ptolemy Dynasty relied on large numbers of Greek and foreign mercenaries for the bulk of its military force, mainly because the loyalty of native Egyptian units was often suspect. Indeed, during one native uprising, Upper Egypt was lost to the Ptolemies for decades. Mercenaries were often battle-hardened and their loyalty can be bought, sometimes cheaply, sometimes not cheaply. This was of no matter, since Egypt under the Ptolemies was so prosperous as to be the richest of Alexander's successor states.",
+			"Requirements":"",
+			"Phase":"Town",
+			"Special":"Must be constructed in neutral territory. Has no territory radius effect. Trains all 'mercenary' units."
+		},
+		{
+			"Name":"Lighthouse",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Ptolemaic dynasty in Egypt built the magnificent Lighthouse of Alexandria near the harbor mouth of that Nile Delta city. This structure could be seen for many kilometers out to sea and was one of the Seven Wonders of the World.",
+			"Requirements":".",
+			"Phase":"City",
+			"Special":"When built along the shoreline, removes shroud of darkness over all the water, revealing all the coast lines on the map. Limit: 1."
+		}
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/ptol_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/ptol_civil_centre"
+		},
+		
+		{
+			"Template": "units/ptol_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/ptol_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ptol_infantry_javelinist_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ptol_support_healer_b"
+		},
+
+		{
+			"Template": "units/ptol_cavalry_archer_b"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/phalanx",
+		"special/formations/syntagma"
+	],
+	"AINames":
+	[
+		"Ptolemy Soter",
+		"Ptolemy Philadelphus",
+		"Ptolemy Epigone",
+		"Ptolemy Eurgetes",
+		"Ptolemy Philopater",
+		"Ptolemy Epiphanes",
+		"Ptolemy Philometor",
+		"Ptolemy Eupator",
+		"Ptolemy Alexander",
+		"Ptolemy Neos Dionysos",
+		"Ptolemy Neos Philopater",
+		"Berenice Philopater",
+		"Cleopatra Tryphaena",
+		"Berenice Epiphaneia",
+		"Cleopatra Philopater",
+		"Cleopatra Selene",
+		"Cleopatra II Philometora Soteira",
+		"Arsinoe IV",
+		"Arsinoe II"
+	],
+	"SkirmishReplacements":
+	{
+
+		"skirmish/units/default_infantry_melee_b": "units/ptol_infantry_spearman_b",
+		"skirmish/units/default_cavalry": "units/ptol_cavalry_archer_b",
+		"skirmish/units/special_starting_unit": "units/ptol_support_healer_b",
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

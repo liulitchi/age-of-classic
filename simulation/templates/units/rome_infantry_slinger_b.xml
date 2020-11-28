@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_slinger">
+  <Attack>
+    <Ranged>
+      <RepeatTime>1100</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      structures/rome_army_camp
+      structures/rome_wallset_siege
+      structures/rome_temple_vesta
+      structures/rome_temple_mars
+      structures/rome_arch
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Balearic Slinger (Auxiliary Troops)</GenericName>
+    <Icon>units/cart_infantry_slinger.png</Icon>
+    <SelectionGroupName>units/rome_infantry_slinger_b</SelectionGroupName>
+    <SpecificName>Qallāʿ Ibušimi</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>50</metal>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Loot>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>5</metal>
+  </Loot>
+  <Promotion>
+    <Entity>units/rome_infantry_slinger_a</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed>11.0</WalkSpeed>
+    <Run>
+      <Speed>18.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/carthaginians/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

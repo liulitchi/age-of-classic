@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Attack>
+    <Melee>
+      <Hack>12</Hack>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>gaul</Civ>
+    <GenericName>Heavy Swordsman</GenericName>
+    <SpecificName>Solduros</SpecificName>
+    <SelectionGroupName>units/gaul_champion_infantry</SelectionGroupName>
+    <Icon>units/gaul_champion_infantry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/gauls/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

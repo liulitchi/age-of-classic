@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower_sentry">
+  <Identity>
+    <Civ>iber</Civ>
+  </Identity>
+  <Upgrade>
+    <Tower>
+      <Cost>
+        <wood>60</wood>
+        <stone>120</stone>
+      </Cost>
+      <Time>150</Time>
+    </Tower>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/iberians/wooden_tower.xml</Actor>
+  </VisualActor>
+</Entity>

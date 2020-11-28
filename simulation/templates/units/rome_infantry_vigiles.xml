@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Auras datatype="tokens">
+    units/rome_vigile
+  </Auras>
+  <Armour>
+    <Hack>1</Hack>
+  </Armour>
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      structures/rome_army_camp
+      structures/rome_wallset_siege
+      structures/rome_temple_vesta
+      structures/rome_temple_mars
+      structures/rome_arch
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>3</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <food>60</food>
+      <metal>0</metal>
+    </Resources>
+  </Cost>  
+  <Identity>
+    <Civ>rome</Civ>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome_infantry_vigiles</SelectionGroupName>
+    <GenericName>Roman Policeman</GenericName>
+    <SpecificName>Vigiles</SpecificName>
+    <Icon>units/rome_infantry_spearman_militia.png</Icon>
+  </Identity>
+  <TrainingRestrictions>
+    <Category>Vigilum</Category>
+  </TrainingRestrictions>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <Loot>
+    <wood>0</wood>
+    <food>6</food>
+    <metal>0</metal>
+  </Loot>
+  <UnitMotion>
+    <WalkSpeed>11.0</WalkSpeed>
+    <Run>
+      <Speed>18.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/romans/infantry_spearman_v.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,9 @@
+{
+	"type": "global",
+     "affects": ["Fortress", "DefenseTower"],
+	"modifications": [{ "value": "Cost/Resources/wood", "multiply": 0.70 },
+				  { "value": "Cost/Resources/stone", "multiply": 0.70 },
+				  { "value": "Cost/BuildTime", "multiply": 0.70 }],
+	"auraDescription": "-30% cost and build time for towers and fortress.",
+	"auraName": "Fortifications"
+}

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_slinger">
+  <Attack>
+    <Ranged>
+      <RepeatTime>1100</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/cart_super_dock
+      structures/cart_embassy_celtic
+      structures/cart_embassy_iberian
+      structures/cart_embassy_italiote
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>cart</Civ>
+    <Classes datatype="tokens">Iberian</Classes>
+    <GenericName>Balearic Slinger</GenericName>
+    <Icon>units/cart_infantry_slinger.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/cart_infantry_slinger_iber_b</SelectionGroupName>
+    <SpecificName>Qallāʿ Ibušimi</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>50</metal>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Loot>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>5</metal>
+  </Loot>
+  <Promotion>
+    <Entity>units/cart_infantry_slinger_iber_a</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed>11.0</WalkSpeed>
+    <Run>
+      <Speed>18.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/carthaginians/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

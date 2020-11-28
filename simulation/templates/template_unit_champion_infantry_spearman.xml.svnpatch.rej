@@ -1,0 +1,10 @@
+--- binaries/data/mods/public/simulation/templates/template_unit_champion_infantry_spearman.xml
++++ binaries/data/mods/public/simulation/templates/template_unit_champion_infantry_spearman.xml
+@@ -32,7 +32,6 @@
+   <Identity>
+     <GenericName>Champion Spearman</GenericName>
+     <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
+-    <Tooltip>Counters: 3x vs. Cavalry.</Tooltip>
+     <Formations datatype="tokens">
+       special/formations/testudo
+     </Formations>

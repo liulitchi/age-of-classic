@@ -1,0 +1,10 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Mercenary"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 0.90 },
+				  { "value": "Attack/Ranged/Pierce", "multiply": 0.90 }],
+	"auraName": "Subduer of Mercenaries",
+	"auraDescription": "-10% attack for nearby enemy mercenaries."
+}

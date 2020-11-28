@@ -1,0 +1,11 @@
+{
+	"genericName": ".",
+	"autoResearch": true,
+	"description": ".",
+	"tooltip": "-10% cost for mercenaries",
+	"requirements": {"civ": "cart"},
+	"modifications": [
+ 		{"value": "Loot/metal", "multiply": 0.90},
+		{"value": "Cost/Resources/metal", "multiply": 0.90}],
+	"affects": ["Mercenary"]
+}

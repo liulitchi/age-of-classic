@@ -1,0 +1,13 @@
+{
+	"genericName": "Commercial Treaty",
+	"description": "Make trade agreements with other international peoples.",
+	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 100 },
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "handshake.png",
+	"researchTime": 30,
+	"tooltip": "+10% commercial gain for international routes.",
+	"modifications": [{ "value": "Market/InternationalBonus", "add": 0.10 }],
+	"affects": ["Market"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

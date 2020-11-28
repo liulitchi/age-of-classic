@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_archer_ready.xml">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_pers_tiara.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/pers_kidaris_tied.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+		<prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/quivers/pers_back.xml" attachpoint="back"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="5" name="Armor Bronze Scales">
+      <textures>
+        <texture file="skeletal/pers_su1_anusiya.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+	<variant file="biped/attack_ranged_archer.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

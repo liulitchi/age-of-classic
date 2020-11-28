@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/cart_civil_centre">
+  <Cost>
+    <PopulationBonus>40</PopulationBonus>
+  </Cost>
+  <Capturable>
+    <CapturePoints>3125</CapturePoints>
+  </Capturable>
+  <Footprint>
+    <Height>15</Height>
+    <Square width="30" depth="30"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>40</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>3750</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_kart_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Civic Center Fortified</GenericName>
+    <Civ>cart</Civ>
+  </Identity>
+  <Loot>
+    <stone>150</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="28" depth="28"/>
+  </Obstruction>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/carthaginians/palace.xml</Actor>
+  </VisualActor>
+</Entity>

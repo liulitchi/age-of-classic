@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower_stone">
+  <Identity>
+    <Civ>maur</Civ>
+    <SpecificName>Udarka</SpecificName>
+  </Identity>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/maur_defense_tower_fire</Entity>
+      <Tooltip>Shoots flaming arrows. Gain bonus against ships and siege engines. Slow attack.</Tooltip>
+      <RequiredTechnology>unlock_fire_arrows</RequiredTechnology>
+      <Time>5</Time>
+    </Tower>
+  </Upgrade>
+  <StatusBars>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/mauryans/scout_tower.xml</Actor>
+  </VisualActor>
+</Entity>

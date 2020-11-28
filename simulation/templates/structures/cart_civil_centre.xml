@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_kart_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cart</Civ>
+    <SpecificName>Merkāz</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      carthaginians/special_colonisation
+    </Technologies>
+  </ProductionQueue>
+  <Upgrade>
+    <Centre>
+      <Entity>structures/cart_civil_centre_fortified</Entity>
+      <Tooltip>+20 population bonus, +25% health, capture rate points, and double garrison capacity.</Tooltip>
+      <RequiredTechnology>phase_village</RequiredTechnology>
+      <Cost>
+        <stone>250</stone>
+      </Cost>
+      <Time>20</Time>
+    </Centre>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/carthaginians/civil_centre.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Attack>
+    <Ranged>
+      <Pierce>10.0</Pierce>
+      <MinRange>0.0</MinRange>
+      <MaxRange>82</MaxRange>
+      <ProjectileSpeed>100.0</ProjectileSpeed>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
+      <Spread>3.0</Spread>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <Bonuses>
+	<Bonus>
+      	  <Classes>Melee Infantry</Classes>
+	  <Multiplier>2.5</Multiplier>
+        </Bonus>
+     </Bonuses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>60</food>
+      <metal>60</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>athen</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Greek Gastraphetes</GenericName>
+    <SpecificName>Toxótēs Skythikós</SpecificName>
+    <Icon>units/athen_champion_infantry_ranged_gastraphetes.png</Icon>
+  </Identity>
+  <Loot>
+    <food>6</food>
+    <metal>6</metal>
+  </Loot>
+  <VisualActor>
+    <Actor>units/athenians/infantry_crossbowman_c.xml</Actor>
+  </VisualActor>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+</Entity>

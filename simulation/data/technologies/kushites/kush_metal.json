@@ -1,0 +1,14 @@
+{
+	"genericName": "Extraction Control",
+	"description": "The Kushites rulers exercised rigid control over the extraction and trade of minerals, thereby securing their income and power.",
+	"cost": { "food": 200, "wood": 0, "stone": 0, "metal": 0 },
+	"requirements": { "all": [{ "tech": "phase_village" }, { "civ": "kush" }] },
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "warrior_queen.png",
+	"researchTime": 30,
+	"tooltip": "+5 shuttle capacity of metal and stone.",
+	"modifications": [{"value": "ResourceGatherer/Capacities/stone", "add": 5},
+				  {"value": "ResourceGatherer/Capacities/metal", "add": 5}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

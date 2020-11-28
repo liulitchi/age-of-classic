@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry">
+  <Armour>
+    <Hack>12</Hack>
+    <Pierce>12</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>19.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>3.0</MaxRange>
+      <PrepareTime>400</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
+      <Bonuses>
+        <Bonus1>
+          <Classes>Cavalry</Classes>
+          <Multiplier>3.0</Multiplier>
+        </Bonus1>
+        <Bonus2>
+          <Classes>Elephant</Classes>
+          <Multiplier>3.0</Multiplier>
+        </Bonus2>
+      </Bonuses>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
+    <GenericName>Hero Spearman</GenericName>
+    <Formations datatype="tokens">
+      special/formations/testudo
+    </Formations>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>9.0</WalkSpeed>
+    <Run>
+      <Speed>15.0</Speed>
+    </Run>
+  </UnitMotion>
+</Entity>

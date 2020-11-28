@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_siege">
+  <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>0</Pierce>
+      <Crush>110.0</Crush>
+      <MaxRange>84.0</MaxRange>
+      <MinRange>26.0</MinRange>
+      <ProjectileSpeed>37.5</ProjectileSpeed>
+      <Gravity>9.81</Gravity>
+      <PrepareTime>4000</PrepareTime>
+      <RepeatTime>5000</RepeatTime>
+      <Spread>4.0</Spread>
+      <Delay>0</Delay>
+      <Projectile>
+        <ImpactActorName>props/units/weapons/rock_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
+      </Projectile>
+      <Splash>
+        <Shape>Circular</Shape>
+        <Range>10</Range>
+        <FriendlyFire>false</FriendlyFire>
+        <Hack>0.0</Hack>
+        <Pierce>0</Pierce>
+        <Crush>30.0</Crush>
+      </Splash>
+      <PreferredClasses datatype="tokens">Structure Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Capturable>
+    <RegenRate>20</RegenRate>
+  </Capturable>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <wood>300</wood>
+      <stone>100</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="6.0" depth="15.0"/>
+    <Height>4.5</Height>
+  </Footprint>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <GenericName>Siege Catapult</GenericName>
+    <VisibleClasses datatype="tokens">Catapult Ranged</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <xp>200</xp>
+    <food>0</food>
+    <wood>40</wood>
+    <stone>25</stone>
+    <metal>0</metal>
+  </Loot>
+  <Pack>
+    <Time>10000</Time>
+  </Pack>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>square/256x256.png</MainTexture>
+        <MainTextureMask>square/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/siegeprojectilehit.xml</attack_impact_ranged>
+      <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+  </UnitAI>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+</Entity>

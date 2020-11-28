@@ -1,0 +1,13 @@
+{
+	"genericName": "Poisoned Weapons",
+	"description": "Equip your champion maidens with poisoned weapons.",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 200},
+	"requirements": {"all": [{"tech": "phase_city"},{"any":[{"civ": "maur" }]}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "arrow_poison.png",
+	"researchTime": 40,
+	"tooltip": "+20% attack for champion maidens.",
+	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.2}],
+	"affects": ["MaidenArcher", "MaidenSwordmen"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

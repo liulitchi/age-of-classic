@@ -1,0 +1,12 @@
+{
+	"genericName": "Great Tower",
+	"autoResearch": true,
+	"description": "Great Tower'; Celtic legends abound with stories of massive tall towers built by the most powerful kings, and the remains of some very large towers have been found.",
+	"requirements": {"any": [{"civ": "brit"}]},
+		"tooltip": "+4 range and +20% health for towers and fortress, but +20% build time.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.20},
+          			  {"value": "Attack/Ranged/MaxRange", "add": 4},
+ 	     			  {"value": "Cost/BuildTime", "multiply": 1.20}],
+	"affects": ["DefenseTower", "Fortress"]
+}
+

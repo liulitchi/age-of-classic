@@ -1,0 +1,10 @@
+--- binaries/data/mods/public/simulation/templates/template_unit_champion_infantry_pikeman.xml
++++ binaries/data/mods/public/simulation/templates/template_unit_champion_infantry_pikeman.xml
+@@ -33,7 +33,6 @@
+   <Identity>
+     <VisibleClasses datatype="tokens">Melee Spear Pike</VisibleClasses>
+     <GenericName>Champion Pikeman</GenericName>
+-    <Tooltip>Counters: 3x vs. Cavalry.</Tooltip>
+     <Formations datatype="tokens">
+       special/formations/syntagma
+       special/formations/testudo

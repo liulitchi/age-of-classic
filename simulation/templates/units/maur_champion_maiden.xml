@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Attack>
+    <Melee>
+      <Hack>13</Hack>
+    </Melee>
+  </Attack>
+  <Armour>
+    <Hack>4</Hack>
+  </Armour>
+  <Cost>
+    <BuildTime>10</BuildTime>
+  </Cost>
+  <Identity>
+    <Civ>maur</Civ>
+    <Classes datatype="tokens">MaidenSwordmen</Classes>
+    <Gender>female</Gender>
+    <GenericName>Maiden Guard</GenericName>
+    <SpecificName>Visha Kanya</SpecificName>
+    <SelectionGroupName>units/maur_champion_maiden</SelectionGroupName>
+    <Icon>units/maur_champion_maiden.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryans/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

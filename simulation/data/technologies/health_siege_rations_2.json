@@ -1,0 +1,14 @@
+{
+	"genericName": "Aqueducts",
+	"description": "Aqueducts are subterranean or surface exposed galleries that serve to conduct water. The oldest known are based on a free surface with a slight slope to favor the flow of water.",
+	"cost": {"food": 0, "wood": 300, "stone": 300, "metal": 0},
+     "supersedes": "health_siege_rations_1",
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "aqueducts.png",
+	"researchTime": 20,
+	"tooltip": "+5% Health for organic units.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.05}],
+	"affects": ["Organic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

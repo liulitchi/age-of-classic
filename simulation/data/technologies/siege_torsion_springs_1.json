@@ -1,0 +1,13 @@
+{
+     "genericName": "Torsion Springs",
+	"description": "Torsion springs were a crucial development in siegecraft. They were made of sinew or leather and wound tight around a throwing arm, giving the throwing arm immense power when released. Rain and moisture adversely affected the efficiency of these springs through absorption and resulting expansion, so great care was taken to keep them dry.",
+	"cost": {"food": 0, "wood": 300, "stone": 100, "metal": 100},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "torsion_springs.png",
+	"researchTime": 40,
+	"tooltip": "+20% attack range for catapults and boltshooters.",
+	"modifications": [{"value": "Attack/Ranged/MaxRange", "multiply": 1.20}],
+	"affects": ["Catapult", "BoltShooter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

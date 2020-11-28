@@ -1,0 +1,22 @@
+{
+	"genericName": "Ranged Cavalry Advanced Techniques ",
+	"specificName": {
+		"mace": "Xyston",
+		"spart": "Xyston",
+		"athen": "Xyston",
+		"sele": "Xyston",
+		"ptol": "Xyston",
+		"rome": "Hasta"
+	},
+	"description": "Train your ranged cavalry with advanced techniques for the battlefield.",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 400},
+	"supersedes": "attack_cavalry_ranged_01",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "horse_rider.png",
+	"researchTime": 40,
+	"tooltip": "+20% attack for ranged cavalry.",
+	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.20 }],
+	"affects": ["Cavalry Ranged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

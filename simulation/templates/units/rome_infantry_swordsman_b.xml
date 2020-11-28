@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      structures/rome_army_camp
+      structures/rome_wallset_siege
+      structures/rome_temple_vesta
+      structures/rome_temple_mars
+      structures/rome_arch
+    </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>50</wood>
+      <metal>0</metal>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>rome</Civ>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome_infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Roman Swordsman</GenericName>
+    <SpecificName>Hastatus</SpecificName>
+    <Icon>units/rome_infantry_swordsman.png</Icon>
+  </Identity>
+  <Loot>
+    <food>5</food>
+    <wood>5</wood>
+    <metal>0</metal>
+  </Loot>
+  <Promotion>
+    <Entity>units/rome_infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/romans/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

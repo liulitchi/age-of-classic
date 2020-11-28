@@ -1,0 +1,14 @@
+{
+	"genericName": "Town Well",
+	"description": "Every human settlement needs ready-access to clean water. Many settlements were founded near rivers or lakes. Where fresh water could not be found openly, a well must be dug.",
+	"cost": {"food": 0, "wood": 400, "stone":400, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "town_well.png",
+	"supersedes": "health_siege_rations_2",
+	"researchTime": 20,
+	"tooltip": "+5% Health for organic units.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.05}],
+	"affects": ["Organic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

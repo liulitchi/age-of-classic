@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall">
+  <Armour>
+    <Hack>5.0</Hack>
+    <Pierce>25.0</Pierce>
+    <Crush>2.0</Crush>
+  </Armour>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+    <food>0</food>
+    <wood>15</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="3.0" depth="11.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <BuildRestrictions>
+    <Territory>neutral</Territory>
+  </BuildRestrictions>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Spikes Tall</SpecificName>
+    <GenericName>Tall Spikes</GenericName>
+    <Classes datatype="tokens">-StoneWall Palisade</Classes>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Build to protect and better position your units.</Tooltip>
+    <Icon>gaia/special_palisade.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>10</wood>
+    <stone>0</stone>
+    <xp>50</xp>
+  </Loot> 
+  <Obstruction>
+    <Static width="3.0" depth="11.0"/>
+  </Obstruction>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+   <Actor>props/special/palisade_tall_spikes_3x1.xml</Actor>
+   <FoundationActor>structures/fndn_3x1pal.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>11</Length>
+    <Orientation>0.5</Orientation>
+  </WallPiece>
+</Entity>

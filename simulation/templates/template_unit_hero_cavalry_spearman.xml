@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry">
+  <Armour>
+    <Hack>14</Hack>
+    <Pierce>12</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>19</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>3.0</MaxRange>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <Bonuses>
+        <Bonus1>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2.5</Multiplier>
+        </Bonus1>
+        <Bonus2>
+          <Classes>Elephant</Classes>
+          <Multiplier>2.5</Multiplier>
+        </Bonus2>
+      </Bonuses>
+      <PrepareTime>400</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
+      </Melee>
+  </Attack>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
+    <GenericName>Hero Cavalry Spearman</GenericName>
+  </Identity>
+  </Entity>

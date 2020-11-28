@@ -1,0 +1,9 @@
+{
+	"type": "player",
+	"affects": ["Player"],
+	"modifications": [{ "value": "Player/MaxPopulation", "add": 40 }],
+	"auraName": "Glorious Expansion",
+	"auraDescription": "+40 population limit per wonder owned (requires \"Glorious Expansion\" tech).",
+	"requiredTechnology": "pop_wonder",
+	"stackable": true
+}

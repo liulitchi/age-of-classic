@@ -1,0 +1,14 @@
+{
+	"genericName": "Elite Cavalry",
+	"description": "Cavalry was the strongest weapon of the Gauls.",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 500 },
+	"requirements": {"all": [{"tech": "phase_city"},{"any":[{"civ": "gaul" }]}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "upgrade_elite_cavalry.png",
+	"researchTime": 40,
+	"supersedes": "upgrade_rank_advanced_cav_sword_gaul",
+      "tooltip": "Promote your citizen cavalry to elite rank.",
+      "modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["Cavalry Advanced"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

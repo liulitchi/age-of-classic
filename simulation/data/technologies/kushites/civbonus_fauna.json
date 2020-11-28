@@ -1,0 +1,9 @@
+{
+	"genericName": "Commercial Wealth",
+	"autoResearch": true,
+	"description": "At the time when Napata capital was one of the main ecomic activities of the cuxists was livestock, they raised goats, goats, horses and donkeys (used to transport products). Her brotherhood was understood through the size of her flock.",
+	"requirements": { "all": [{ "civ": "kush" }] },
+	"tooltip": "-20% train time for domestic animals.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.80}],
+	"affects": ["Domestic"]
+}

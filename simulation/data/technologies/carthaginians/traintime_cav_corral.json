@@ -1,0 +1,13 @@
+{
+	"genericName": "Roundup",
+	"description": "Not unlike the Iberian Peninsula, North Africa was known as horse country, capable of producing up to 100,000 new mounts each year. It was also the home of the North African Forest Elephant.",
+	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "cart"}]},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "horse_trainer.png",
+	"researchTime": 40,
+	"tooltip": "-20% training time for cavalry and elephants.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.80}],
+	"affects": ["Cavalry", "Melee Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

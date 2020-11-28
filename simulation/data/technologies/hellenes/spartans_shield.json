@@ -1,0 +1,15 @@
+{
+	"genericName": "Othismos",
+	"description": "The Spartan military force made their phalanges particularly unbreakable, with only one rape recorded at the Battle of Leuctra.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "spart"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "emblem_poleis.png",
+     "researchTime": 40,
+	"tooltip": "+1 armour for spearmen infantry.",
+	"modifications": [{"value": "Armour/Hack", "add": 1 },
+				  {"value": "Armour/Pierce", "add": 1 },
+				  {"value": "Armour/Crush", "add": 1 }],
+	"affects": ["Spear Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Auras datatype="tokens">
+    structures/temple_mars
+  </Auras>
+  <BuildRestrictions>
+    <Category>TempleMars</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <stone>500</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="24.0" depth="44.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>30</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>3000</Max>
+  </Health>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Temple of Mars</GenericName>
+    <SpecificName>Aedes Martis</SpecificName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <History>The Temple of Mars Ultor stands in the Forum of Augustus in Rome and was built to commemorate Augustus victory in 42 BCE at the Battle of Philippi over the assassins of Julius Caesar. The building became the place where important military decisions were taken and a site of several state ceremonies with a military connotation.</History>
+    <Icon>structures/colony.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>100</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="20.0" depth="40.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      romans/vision_sibylline
+    </Technologies>
+  </ProductionQueue>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>52</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/romans/temple_mars.xml</Actor>
+  </VisualActor>
+</Entity>

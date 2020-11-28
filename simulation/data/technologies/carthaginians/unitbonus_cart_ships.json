@@ -1,0 +1,9 @@
+{
+	"genericName": ".",
+	"autoResearch": true,
+	"description": ".",
+	"tooltip": "+5% health for warships",
+	"requirements": {"civ": "cart"},
+	"modifications": [{"value": "Health/Max", "multiply": 1.05}],
+	"affects": ["Warship"]
+}

@@ -1,0 +1,17 @@
+{
+	"genericName": "Breeding Herd",
+	"description": "Ancient Indian kings certainly valued the elephant in war, some stating that an army without elephants is as despicable as a forest without a lion, a kingdom without a king, or as valor unaided by weapons. The use of elephants further increased with the rise of the Mahajanapadas. King Bimbisara, who began the expansion of the Magadha kingdom, relied heavily on his war elephants. The Mahajanapadas would be conquered by the Nanda Empire under the reign of Mahapadma Nanda. Pliny the Elder and Plutarch also estimated the Nanda Army strength in the east as 200,000 infantry, 80,000 cavalry, 8,000 chariots, and 6,000 war elephants.",
+	"cost": { "food": 300, "wood": 0, "stone": 0, "metal": 0 },
+	"requirements": { "all": [{ "tech": "phase_city" }, { "civ": "maur" }] },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "breeding_herd.png",
+	"researchTime": 40,
+	"tooltip": "-20% cost and training time for elephants.",
+	"modifications": [{ "value": "Cost/Resources/food", "multiply": 0.80 },
+				  { "value": "Cost/Resources/metal", "multiply": 0.80 },
+				  { "value": "Cost/Resources/wood", "multiply": 0.80 },
+				  { "value": "Cost/Resources/stone", "multiply": 0.80 },
+				  { "value": "Cost/BuildTime", "multiply": 0.80 }],
+	"affects": ["Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

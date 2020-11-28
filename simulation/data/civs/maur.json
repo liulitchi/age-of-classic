@@ -1,0 +1,168 @@
+{
+	"Code": "maur",
+	"Culture": "maur",
+	"Name": "Mauryans",
+	"Emblem": "session/portraits/emblems/emblem_mauryans.png",
+	"History": "Founded in 322 B.C. by Chandragupta Maurya, the Mauryan Empire was the first to rule most of the Indian subcontinent, and was one of the largest and most populous empires of antiquity. Its military featured bowmen who used the long-range bamboo longbow, fierce female warriors, chariots, and thousands of armored war elephants. Its philosophers, especially the famous Acharya Chanakya, contributed to such varied fields such as economics, religion, diplomacy, warfare, and good governance. Under the rule of Ashoka the Great, the empire saw 40 years of peace, harmony, and prosperity.",
+	"Music":[
+			{"File":"An_old_Warhorse_goes_to_Pasture.ogg", "Type":"peace"},
+			{"File":"Land_between_the_two_Seas.ogg", "Type":"peace"},
+			{"File":"Eastern_Dreams.ogg", "Type":"peace"},
+			{"File":"Karmic_Confluence.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Mauryan Indians",
+			"Description": "",
+			"Technologies":
+			[
+				{
+					"Name":"Bamboo Longbows",
+					"History":"Bamboo is a ubiquitous fast growing plant in the jungles of India. It's trunk can be used as building material for goods such as furniture, housing, and weapons, such as the Indian Longbow.",
+					"Description":"+8 range and +10% accucary for archers."
+				},
+
+				{
+					"Name":"Breeding Herd",
+					"History":"Ancient Indian kings certainly valued the elephant in war, some stating that an army without elephants is as despicable as a forest without a lion, a kingdom without a king, or as valor unaided by weapons. The use of elephants further increased with the rise of the Mahajanapadas. King Bimbisara, who began the expansion of the Magadha kingdom, relied heavily on his war elephants. The Mahajanapadas would be conquered by the Nanda Empire under the reign of Mahapadma Nanda. Pliny the Elder and Plutarch also estimated the Nanda Army strength in the east as 200,000 infantry, 80,000 cavalry, 8,000 chariots, and 6,000 war elephants.",
+					"Description":"-20% cost and training time for elephants."
+				},
+
+{
+					"Name":"Poisoned Weapons",
+					"History":"In India, the use of poisons during warfare is mentioned in both the Mahabharata and Ramayana, texts dating back more than five thousand years. Recipes for poisonous weapons can be found in the Artaxastra by Kautilya, a treatise on military strategy from the Mauria period of India.",
+					"Description":"+20% attack for champion maidens."
+				}
+
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Chandragupta Maurya",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Founder of the Mauryan Empire."
+				},
+				{
+					"Name":"Ashoka the Great",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Last great emperor of the Mauryan dynasty."
+				},
+				{
+					"Name":"Acharya Chāṇakya",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Great teacher and advisor to Chandragupta Maurya."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+				{
+			"Name": "Emperor of Emperors",
+			"History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
+			"Description": "Mauryans have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300)."
+				}
+		],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Ashoka's Religious Support",
+			"History": "Ashoka the Great sent embassies West to spread knowledge of the Buddha.",
+			"Description": "-50% cost and research time for allied temples and temple technologies."
+		}
+	],
+	"Structures":
+	[
+				{
+			"Name":"Edict Pillar of Ashoka.",
+			"Class":"SB2",
+			"Emblem":"",
+			"History":"The Major Pillar Edicts of Indian Emperor Ashoka refer to seven separate major Edicts of Ashoka inscribed on columns, the Pillars of Ashoka, which are significantly detailed and are among the earliest dated inscriptions of any Indian monarch.",
+			"Requirements":"Built by the Ashoka hero unit.",
+			"Phase":"City",
+			"Special":""
+		},
+				{
+			"Name":"Wooden Walls",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Mauryans built their city walls out of wood, an abundant natural resource in India.",
+			"Requirements":"",
+			"Phase":"",
+			"Special":""
+		}
+
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/maur_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/maur_civil_centre"
+		},
+		{
+			"Template": "units/maur_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/maur_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/maur_infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/maur_cavalry_javelinist_b",
+			"Count": 1
+		},
+		{
+			"Template": "units/maur_support_elephant",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+	],
+	"AINames":
+	[
+		"Chandragupta Maurya",
+		"Ashoka the Great",
+		"Ashokavardhan Maurya",
+		"Acharya Bhadrabahu",
+		"Bindusara Maurya",
+		"Dasaratha Maurya",
+		"Samprati Maurya",
+		"Salisuka Maurya",
+		"Devavarman Maurya",
+		"Satadhanvan Maurya",
+		"Brihadratha Maurya"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/maur_infantry_archer_b",
+		"skirmish/units/special_starting_unit": "units/maur_support_elephant",
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,10 @@
+--- binaries/data/mods/public/simulation/templates/template_unit_infantry_melee_spearman.xml
++++ binaries/data/mods/public/simulation/templates/template_unit_infantry_melee_spearman.xml
+@@ -25,7 +25,6 @@
+   <Identity>
+     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
+     <GenericName>Spearman</GenericName>
+-    <Tooltip>Counters: 3x vs. Cavalry.</Tooltip>
+   </Identity>
+   <Loot>
+     <wood>5</wood>

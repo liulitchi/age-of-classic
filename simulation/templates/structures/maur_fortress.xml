@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Identity>
+    <Civ>maur</Civ>
+    <SpecificName>Durg</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_mechanical_siege_ballista_packed
+      -units/{civ}_mechanical_siege_scorpio_packed
+      -units/{civ}_mechanical_siege_oxybeles_packed
+      -units/{civ}_mechanical_siege_lithobolos_packed
+      -units/{civ}_mechanical_siege_polybolos_packed
+      -units/{civ}_mechanical_siege_ram
+      -units/{civ}_mechanical_siege_tower
+      units/{civ}_hero_maurya
+      units/{civ}_hero_ashoka
+      units/{civ}_hero_chanakya
+      units/{civ}_champion_infantry
+      units/{civ}_champion_chariot
+    </Entities>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+      unlock_champion_units
+      health_heroes
+      armor_hero_01     
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/mauryans/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>22.0</Length>
+  </WallPiece>
+</Entity>

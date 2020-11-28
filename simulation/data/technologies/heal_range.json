@@ -1,0 +1,19 @@
+{
+	"genericName": "Divination",
+	"specificName": {
+		"mace": "Olympic Pantheon",
+		"spart": "Olympic Pantheon",
+		"athen": "Olympic Pantheon"
+	},
+	"description": "Divination is the attempt to gain insight into a question or situation by way of an occultic, standardized process or ritual. Used in various forms throughout history, diviners ascertain their interpretations of how a querent should proceed by reading signs, events, or omens.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "healing_range.png",
+	"researchTime": 40,
+	"tooltip": "+1 healing HP, +5 healing range and vision range for healers.",
+	"modifications": [{"value": "Heal/Range", "add": 5.0}, 					  {"value": "Vision/Range", "add": 5.0},
+				  {"value": "Heal/HP", "add": 1.0}],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

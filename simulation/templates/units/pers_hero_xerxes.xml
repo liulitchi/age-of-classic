@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Auras datatype="tokens">
+    units/heroes/pers_hero_xerxes
+    units/heroes/pers_hero_xerxes_2
+  </Auras>
+  <Attack>
+    <Ranged>
+      <Spread>2.5</Spread>
+    </Ranged>
+  </Attack>
+  <Armour>
+    <Hack>14</Hack>
+    <Pierce>14</Pierce>
+  </Armour>
+  <Identity>
+    <Civ>pers</Civ>
+    <Lang>persian</Lang>
+    <GenericName>Xerxes I</GenericName>
+    <SpecificName>Xsayarsa I</SpecificName>
+    <Icon>units/pers_hero_xerxes.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/hero_infantry_archer_xerxes.xml</Actor>
+  </VisualActor>
+</Entity>

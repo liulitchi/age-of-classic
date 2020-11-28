@@ -1,0 +1,7 @@
+{
+	"type": "global",
+	"affects": ["Javelin Infantry"],
+	"modifications": [{ "value": "Cost/BuildTime", "multiply": 0.70 }],
+	"auraName": "Recruitment",
+	"auraDescription": "-30% training time for infantry skirmishers."
+}

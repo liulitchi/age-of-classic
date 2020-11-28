@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Footprint>
+    <Square width="30.0" depth="32.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>cart</Civ>
+    <GenericName>Blockhouse Fort</GenericName>
+    <SpecificName>Ḥamet</SpecificName>
+    <Tooltip>Train heroes, and research special technologies. Garrison soldiers inside for stout defense.</Tooltip> 
+  </Identity>
+  <Obstruction>
+    <Static width="26.0" depth="28.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_mechanical_siege_ballista_packed
+      -units/{civ}_mechanical_siege_scorpio_packed
+      -units/{civ}_mechanical_siege_oxybeles_packed
+      -units/{civ}_mechanical_siege_lithobolos_packed
+      -units/{civ}_mechanical_siege_polybolos_packed
+      -units/{civ}_mechanical_siege_ram
+      -units/{civ}_mechanical_siege_tower
+      units/{civ}_hero_hannibal
+      units/{civ}_hero_hamilcar
+      units/{civ}_hero_maharbal
+    </Entities>
+    <Technologies datatype="tokens">
+      health_heroes
+      armor_hero_01
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <FoundationActor>structures/carthaginians/fndn_fortress.xml</FoundationActor>
+    <Actor>structures/carthaginians/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>25.0</Length>
+    <Indent>6.4</Indent>
+  </WallPiece>
+</Entity>

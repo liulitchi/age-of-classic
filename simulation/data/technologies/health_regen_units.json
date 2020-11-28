@@ -1,0 +1,14 @@
+{
+	"genericName": "Military Cult",
+	"description": "Many cultures had a martial cult which bound warriors together in a brotherhood.",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "skull_swords.png",
+	"researchTime": 40,
+	"tooltip": "+1 capture attack for soldiers.",
+	"modifications": [
+		{"value": "Attack/Capture/Value", "add": 1, "affects":"Unit"}],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
+

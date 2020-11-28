@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/celts_carnyx
+  </Auras>
+  <Armour>
+    <Hack>1</Hack>
+    <Pierce>2</Pierce>
+  </Armour>
+  <Identity>
+    <Civ>gaul</Civ>
+    <GenericName>Heavy Swordsman</GenericName>
+    <SpecificName>Carnyx Player</SpecificName>
+    <SelectionGroupName>units/gaul_champion_infantry_carnyx</SelectionGroupName>
+    <Icon>units/carnyx.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/gauls/infantry_carnyx.xml</Actor>
+  </VisualActor>
+</Entity>

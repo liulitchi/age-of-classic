@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower_stone">
+  <Footprint>
+    <Square width="10.0" depth="10.5"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>mace</Civ>
+    <SpecificName>Pyrgíon</SpecificName>
+  </Identity>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/mace_defense_tower_fire</Entity>
+      <Tooltip>Shoots flaming arrows. Gain bonus against ships and siege engines. Slow attack.</Tooltip>
+      <RequiredTechnology>unlock_fire_arrows</RequiredTechnology>
+      <Time>5</Time>
+    </Tower>
+  </Upgrade>
+  <Obstruction>
+    <Static width="7.0" depth="8.0"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>22.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/hellenes/scout_tower.xml</Actor>
+  </VisualActor>
+</Entity>

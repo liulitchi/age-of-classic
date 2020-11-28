@@ -1,0 +1,15 @@
+{
+	"genericName": "Arsenal of Philon",
+	"description": "In 347/346 BC Euboulos proposed the construction of a new arsenal that was designed by the architect Philo and was completed at the time of Lycurgus. The discovery and partial excavation of the Arsenal of Philo took place during 1988-1989. In 1888, a marble inscription was discovered with the detailed description of the construction and use of the building, written by Philo. The Arsenal was built between the Hippodameian Agora and the ship sheds, NE of the deepest recess of the gulf of Zea with its axis running from SW to NE. The building was 18m wide and 130m long with entrances on both its narrow sides and two colonnades of piers that divided its inner space into three aisles. The central aisle extended in the whole length and height of the building, while the side aisles were separated in 34 compartments each, with lofts with wooden shelves that served as storage space.",
+	"cost": {"food": 0, "wood": 250, "stone": 200, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "athen"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "shipshed.png",
+	"researchTime": 40,
+	"tooltip": "-25% cost and build time for warships.",
+	"modifications": [{"value": "Cost/Resources/wood", "multiply": 0.75},
+ 				   {"value": "Cost/Resources/metal", "multiply": 0.75},
+ 				   {"value": "Cost/BuildTime", "multiply": 0.75}],
+	"affects": ["Warship"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

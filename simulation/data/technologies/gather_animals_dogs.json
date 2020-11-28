@@ -1,0 +1,13 @@
+{
+	"genericName": "Hunting Dogs",
+	"description": "Hunting dogs help hunters trap and take down prey.",
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0},
+     "supersedes": "gather_animals_stockbreeding",
+     "requirements": {"tech": "phase_village"},
+	"icon": "hunting_dogs.png",
+	"researchTime": 30,
+	"tooltip": "+15% meat gathering rate for cavalry.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.meat", "multiply": 1.15}],
+	"affects": ["Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

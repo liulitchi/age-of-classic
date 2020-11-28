@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower_stone">
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+  </BuildingAI>
+  <Cost>
+    <PopulationBonus>5</PopulationBonus>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <wood>120</wood>
+      <stone>120</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="8.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>8</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1200</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>iber</Civ>
+    <SpecificName>Dorre</SpecificName>
+  </Identity>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/iber_defense_tower_fire</Entity>
+      <Tooltip>Shoots flaming arrows. Gain bonus against ships and siege engines. Slow attack.</Tooltip>
+      <RequiredTechnology>unlock_fire_arrows</RequiredTechnology>
+      <Time>5</Time>
+    </Tower>
+  </Upgrade>
+  <Loot>
+    <wood>24</wood>
+    <stone>24</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>17.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Radius>38</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/iberians/scout_tower.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

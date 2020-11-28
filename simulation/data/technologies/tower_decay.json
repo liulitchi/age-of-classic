@@ -1,0 +1,14 @@
+{
+  "genericName": "Stone Foundations",
+  "description": "Outposts more resistant to attacks and capture.",
+  "cost": { "food": 0, "wood": 100, "stone": 100, "metal": 0 },
+  "requirements": { "tech": "phase_village" },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "blocks_three.png",
+  "researchTime": 40,
+  "tooltip": "+2 hack armour and +20% regen capture points for outposts.",
+  "modifications": [{ "value": "Capturable/RegenRate", "multiply": 1.20 },
+			    { "value": "Armour/Hack", "add": 2 }],
+  "affects": ["Outpost"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

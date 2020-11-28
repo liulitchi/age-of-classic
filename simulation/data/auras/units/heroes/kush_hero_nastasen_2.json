@@ -1,0 +1,8 @@
+{
+	"type": "global",
+	"affects": ["KushTrireme"],
+	"modifications": [{ "value": "Cost/Resources/metal", "multiply": 0.50 }
+	],
+	"auraName": "Gift of Warships",
+	"auraDescription": "-50% cost for ptolemaic mercenary triremes."
+}

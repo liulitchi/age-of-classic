@@ -1,0 +1,9 @@
+{
+	"autoResearch": true,
+	"requirements": {"any": [{"civ": "ptol"}]},
+	"tooltip": "-60% training time but +20% cost for mercenaries.",
+	"modifications": [{"value": "Cost/Resources/metal", "multiply": 1.20},
+          			  {"value": "Cost/BuildTime", "multiply": 0.4}],
+	"affects": ["Mercenary"]
+}
+

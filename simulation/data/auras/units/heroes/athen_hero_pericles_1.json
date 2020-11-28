@@ -1,0 +1,8 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.10 }],
+	"auraName": "Economy Reform",
+	"auraDescription": "+10% gather rate for units.",
+	"overlayIcon": "art/textures/ui/session/auras/build_bonus.png"
+}

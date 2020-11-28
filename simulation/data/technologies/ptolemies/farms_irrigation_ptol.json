@@ -1,0 +1,13 @@
+{
+	"genericName": "Nile Irrigation",
+	"description": "The nile river is one of the most fertile regions of planet Earth.",
+	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 0 },
+	"requirements": {"all": [{"tech": "phase_village"},{"any":[{"civ": "ptol" }]}]},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "irrigation.png",
+	"researchTime": 30,
+	"tooltip": "-40% cost for farm fields.",
+	"modifications": [{"value": "Cost/Resources/wood", "multiply": 0.6}],
+	"affects": ["Field"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

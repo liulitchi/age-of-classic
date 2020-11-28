@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_hellenic_royal_stoa">
+  <Identity>
+    <Civ>mace</Civ>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_black_cloak
+      units/{civ}_thureophoros
+      units/{civ}_infantry_merc_archer_b
+      units/{civ}_cavalry_javelinist_b
+      units/{civ}_infantry_slinger_b
+      -units/{civ}thorakites
+    </Entities>
+  </ProductionQueue>
+</Entity>

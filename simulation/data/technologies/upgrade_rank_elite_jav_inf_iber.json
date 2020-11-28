@@ -1,0 +1,14 @@
+{
+	"genericName": "Elite Skirmisher",
+	"description": "Iberian skirmishers were known warriors with deadly accuracy.",
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 350 },
+	"requirements": {"all": [{"tech": "phase_city"},{"any":[{"civ": "iber" }]}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "upgrade_elite.png",
+	"researchTime": 40,
+	"supersedes": "upgrade_rank_advanced_jav_inf_iber",
+	"tooltip": "Promote your citizen infantry skirmishers to elite rank.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0 }],
+	"affects": ["Javelin Infantry Advanced"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

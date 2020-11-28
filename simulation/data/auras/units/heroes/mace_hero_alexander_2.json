@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Pike"],
+	"modifications": [{ "value": "Armour/Hack", "add": 1 },
+				  { "value": "Armour/Pierce", "add": 1 },
+				  { "value": "Armour/Crush", "add": 1 },
+				  { "value": "Attack/Melee/Hack", "multiply": 1.20 }],
+	"auraName": "Phalanx",
+	"auraDescription": "+20% attack and +1 armour for nearby pikemen."
+}

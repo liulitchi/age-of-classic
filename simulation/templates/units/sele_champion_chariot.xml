@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Armour>
+    <Hack>7</Hack>
+    <Pierce>7</Pierce>
+  </Armour>
+  <Health>
+    <Max>187</Max>
+  </Health>
+  <Cost>
+    <Population>2</Population>
+  </Cost>
+  <Footprint replace="">
+    <Square width="7.5" depth="15.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sele</Civ>
+    <Lang>greek</Lang>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <GenericName>Scythed Chariot</GenericName>
+    <SpecificName>Drepanèphoros</SpecificName>
+    <Icon>units/sele_champion_chariot.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>17.0</WalkSpeed>
+    <Run>
+      <Speed>29.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/seleucids/chariot_archer_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

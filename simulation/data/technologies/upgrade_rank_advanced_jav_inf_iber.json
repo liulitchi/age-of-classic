@@ -1,0 +1,13 @@
+{
+	"genericName": "Advanced Skirmisher",
+	"description": "Iberian skirmishers were known warriors with deadly accuracy.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 300 },
+	"requirements": {"all": [{"tech": "phase_town"},{"any":[{"civ": "iber" }]}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+ 	"icon": "upgrade_advanced.png",
+	"researchTime": 40,
+	"tooltip": "Promote your citizen infantry skirmishers to advanced rank. Unlocks Elite Skirmisher technology.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["Javelin Infantry Basic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,8 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Pike"],
+	"modifications": [{ "value": "Health/Max", "multiply": 1.30 }],
+	"auraName": "Raphia",
+	"auraDescription": "+30% health for nearby pikemen."
+}

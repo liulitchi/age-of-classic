@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_javelinist">
+  <Attack>
+    <Ranged>
+      <Pierce>9</Pierce>
+    </Ranged>
+  </Attack>
+  <Armour>
+    <Hack>7</Hack>
+    <Pierce>7</Pierce>
+  </Armour>
+  <Health>
+    <Max>187</Max>
+  </Health>
+  <Cost>
+    <Population>2</Population>
+  </Cost>
+  <Footprint replace="">
+    <Square width="10.0" depth="10.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>brit</Civ>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <GenericName>Celtic Chariot</GenericName>
+    <SpecificName>Carbanto</SpecificName>
+    <SelectionGroupName>units/brit_champion_chariot</SelectionGroupName>
+    <Icon>units/brit_champion_chariot.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>15.0</WalkSpeed>
+    <Run>
+      <Speed>25.5</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/britons/chariot_javelinist_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,10 @@
+--- binaries/data/mods/public/simulation/templates/template_unit_infantry_melee_pikeman.xml
++++ binaries/data/mods/public/simulation/templates/template_unit_infantry_melee_pikeman.xml
+@@ -26,7 +26,6 @@
+   <Identity>
+     <VisibleClasses datatype="tokens">Spear Pike</VisibleClasses>
+     <GenericName>Pikeman</GenericName>
+-    <Tooltip>Counters: 3x vs. Cavalry.</Tooltip>
+     <Formations datatype="tokens">
+       special/formations/syntagma
+     </Formations>

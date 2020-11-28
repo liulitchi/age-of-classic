@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_theatron">
+  <Auras disable=""/>
+  <Cost>
+    <PopulationBonus>5</PopulationBonus>
+    <Resources>
+      <stone>100</stone>
+      <wood>300</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>gaul</Civ>
+    <GenericName>Assembly of Princes</GenericName>
+    <SpecificName>Remogantion</SpecificName>
+    <Icon>structures/carnyx.png</Icon>
+    <History>When the war with the Helvetii was concluded, embassadors from almost all parts of Gaul, the chiefs of states, assembled to congratulate Caesar, saying that they were well aware, that, although he had taken vengeance on the Helvetii in war, for the old wrong done by them to the Roman people, yet that circumstance had happened no less to the benefit of the land of Gaul than of the Roman people, because the Helvetii, while their affairs were most flourishing, had quitted their country with the design of making war upon the whole of Gaul, and seizing the government of it, and selecting, out of a great abundance, that spot for an abode, which they should judge to be the most convenient and most productive of all Gaul, and hold the rest of the states as tributaries. They requested that they might be allowed to proclaim an assembly of the whole of Gaul for a particular day, and to do that with Caesar's permission, stating that they had some things which, with the general consent, they wished to ask of him. This request having been granted, they appointed a day for the assembly, and ordained by an oath with each other, that no one should disclose their deliberations except those to whom this office should be assigned by the general assembly.</History>
+  </Identity>
+  <Loot>
+    <stone>20</stone>
+    <wood>60</wood>
+    <metal>0</metal>
+  </Loot>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_infantry_carnyx
+    </Entities>
+  </ProductionQueue>
+  <Footprint replace="">
+    <Circle radius="17"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="30" depth="30"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/gauls/theatron.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

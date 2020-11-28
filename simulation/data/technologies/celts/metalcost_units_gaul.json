@@ -1,0 +1,14 @@
+{
+		"genericName": "Advanced Forging",
+	"description": "Gauls dominated the area of metallurgy. Thus, they practiced techniques of cast iron, tin and bronze, manufacturing weapons, jewelry and utensils.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"all": [{"tech": "phase_town"},{"any":[{"civ": "gaul" }]}]},
+	"supersedes": "blacksmith_cost_1_gaul",
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "forging.png",
+	"researchTime": 40,
+	"tooltip": "-20% metal cost for soldiers.",
+	"modifications": [{ "value": "Cost/Resources/metal", "multiply": 0.80 }],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

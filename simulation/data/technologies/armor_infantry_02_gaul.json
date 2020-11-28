@@ -1,0 +1,27 @@
+{
+	"genericName": "Refined Padded Armour",
+	"specificName": {
+		"generic": "Linothorakes",
+		"mace": "Linothorakes",
+		"spart": "Linothorakes",
+		"athen": "Linothorakes",
+		"ptol": "Linothorakes",
+		"sele": "Linothorakes",
+		"pers": "Linothorakes",
+		"rome": "Linothorakes",
+		"cart": "Linothorakes"
+				},
+	"description": "Laminated linen body armor for infantrymen.",
+	"cost": {"food": 0, "wood": 600, "stone": 0, "metal": 600},
+	"supersedes": "armor_infantry_01_gaul",
+	"requirements": {"tech": "phase_town"},
+ "requirements": {"all": [{"tech": "phase_town"},{"any":[{"civ": "gaul" }]}]},
+	"icon": "armor_quilted.png",
+	"researchTime": 40,
+	"tooltip": "+1 armour for infantry.",
+	"modifications": [{"value": "Armour/Hack", "add": 1},
+				  {"value": "Armour/Pierce", "add": 1},
+				  {"value": "Armour/Crush", "add": 1}],
+	"affects": ["Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

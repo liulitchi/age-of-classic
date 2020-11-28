@@ -1,0 +1,10 @@
+--- binaries/data/mods/public/simulation/templates/template_unit_hero_infantry_spearman.xml
++++ binaries/data/mods/public/simulation/templates/template_unit_hero_infantry_spearman.xml
+@@ -24,7 +24,6 @@
+   <Identity>
+     <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
+     <GenericName>Hero Spearman</GenericName>
+-    <Tooltip>Counters: 3x vs. Cavalry.</Tooltip>
+     <Formations datatype="tokens">
+       special/formations/testudo
+     </Formations>
