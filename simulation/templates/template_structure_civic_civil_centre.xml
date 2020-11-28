@@ -104,6 +104,7 @@
     <Technologies datatype="tokens">
       phase_town_{civ}
       phase_city_{civ}
+      phase_kingdom_{civ}
       cost_mercenary
       unlock_spies
       spy_counter

@@ -1,0 +1,20 @@
+{
+	"genericName": "Kingdom Phase",
+	"specificName": {
+		
+	},
+	"supersedes": "phase_city_generic",
+	"replaces": ["phase_kingdom"],
+	"icon": "phase_kingdom.png",
+	"description": "Moves your civilization from urbanism to kingdom, unlocking powerful technologies and abilities not available in earlier phases of expansion.",
+	"cost": {"food": 1000, "wood": 1000, "stone": 1000, "metal": 1000},
+	"requirements": {"entity": {"class": "City", "number": 10} },
+	"requirementsTooltip": "Requires 10 City Phase structures to be built.",
+	"researchTime": 100,
+	"tooltip": "Advance to Kingdon Phase, which unlocks powerful technologies and abilities. Territory radius for Civic Centers increased by a final +25%.",
+	"modifications": [
+		{"value": "TerritoryInfluence/Radius", "multiply": 1.25, "affects": "CivCentre"},
+		{"value": "Vision/Range", "multiply": 1.25, "affects": "CivCentre"}
+	],
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}
