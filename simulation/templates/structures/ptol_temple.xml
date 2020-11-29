@@ -9,8 +9,8 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
-    <VisibleClasses datatype="tokens">-Town Village</VisibleClasses>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Town</VisibleClasses>
+    
   </Identity>
   <Obstruction>
     <Static width="20" depth="21"/>

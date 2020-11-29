@@ -7,7 +7,7 @@
 	"replaces": ["phase_kingdom"],
 	"icon": "phase_kingdom.png",
 	"description": "Moves your civilization from urbanism to kingdom, unlocking powerful technologies and abilities not available in earlier phases of expansion.",
-	"cost": {"food": 1200, "wood": 0, "stone": 0, "metal": 1000},
+	"cost": {"food": 1200, "wood": 0, "stone": 0, "metal": 1200},
 	"requirements": {"entity": {"class": "City", "number": 6} },
 	"requirementsTooltip": "Requires 6 City Phase structures to be built.",
 	"researchTime": 100,

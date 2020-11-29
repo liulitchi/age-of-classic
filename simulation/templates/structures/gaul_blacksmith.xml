@@ -9,8 +9,8 @@
   </Cost>
   <Identity>
     <Civ>gaul</Civ>
-    <VisibleClasses datatype="tokens">-Town Village</VisibleClasses>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Town</VisibleClasses>
+    
     <SpecificName>Gobanion</SpecificName>
   </Identity>
   <ProductionQueue>

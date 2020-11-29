@@ -66,6 +66,7 @@
     <Technologies datatype="tokens">
       carthaginians/training_phoenician_naval_architects
       carthaginians/special_exploration
+      armor_ship_reinforcedhull
     </Technologies>
   </ProductionQueue>
   <RallyPointRenderer>
