@@ -1,9 +1,9 @@
 {
   "genericName": "Sturdy Foundations",
   "description": "Reinforce the foundations in preparation of an attack.",
-  "cost": { "food": 0, "wood": 0, "stone": 150, "metal": 0 },
-  "requirements": { "tech": "phase_town" },
-  "requirementsTooltip": "Unlocked in Town Phase.",
+  "cost": { "food": 0, "wood": 0, "stone": 400, "metal": 250 },
+  "requirements": { "tech": "phase_city" },
+  "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "masonry_clamps.png",
   "researchTime": 40,
   "tooltip": "+2 crush armour for towers.",
