@@ -8,7 +8,7 @@
     <Resources>
       <food>0</food>
       <wood>200</wood>
-      <stone>200</stone>
+      <stone>150</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -30,10 +30,10 @@
   </Health>
   <Identity>
     <GenericName>Elephant Stables</GenericName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/elephant_stables.png</Icon>
     <Tooltip>Train elephant units and research special technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">City ElephantStables</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town ElephantStables</VisibleClasses>
   </Identity>
   <Loot>
     <wood>40</wood>

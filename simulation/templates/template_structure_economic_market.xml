@@ -12,7 +12,8 @@
   <Cost>
     <BuildTime>200</BuildTime>
     <Resources>
-      <wood>300</wood>
+      <wood>250</wood>
+      <stone>50</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -20,7 +21,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>2000</Max>
+    <Max>1500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>

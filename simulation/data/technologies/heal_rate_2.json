@@ -13,7 +13,8 @@
 	"icon": "healing_rate.png",
 	"researchTime": 40,
 	"tooltip": "+2 armour for healers.",
-	"modifications": [{"value": "Armour/Hack", "add": 2},						  {"value": "Armour/Pierce", "add": 2},
+	"modifications": [{"value": "Armour/Hack", "add": 2},						  
+	                  {"value": "Armour/Pierce", "add": 2},
 				  {"value": "Armour/Crush", "add": 2}],
 	"affects": ["Healer"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -58,6 +58,7 @@
       speed_inf_melee
       heal_barracks
       training_conscription
+      ranged_inf_skirmishers
     </Technologies>
   </ProductionQueue>
   <Sound>

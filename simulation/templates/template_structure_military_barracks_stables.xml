@@ -18,6 +18,11 @@
     <List datatype="tokens">Cavalry -Infantry</List>
   </GarrisonHolder>
   
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  
   <Identity>
     <GenericName>Stables</GenericName>
     <Tooltip>Train soldier cavalry. Research training improvements.</Tooltip>

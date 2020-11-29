@@ -6,9 +6,9 @@
 		"athen": "Eleusian Mysteries"
 	},
 	"description": "Units garrisoned in a temple are healed faster and increase maximum of garnished units.",
-	"cost": {"food": 300, "wood": 0, "stone": 200, "metal": 0},
-	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "cauldron.png",
 	"researchTime": 40,
 	"tooltip": "+50% garrisoned healing rate and garrison increased by +10 for temples.",

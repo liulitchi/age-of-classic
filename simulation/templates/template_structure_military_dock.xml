@@ -9,7 +9,8 @@
     <PopulationBonus>5</PopulationBonus>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>150</wood>
+      <wood>200</wood>
+      <stone>100</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -17,7 +18,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>1500</Max>
+    <Max>2500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>

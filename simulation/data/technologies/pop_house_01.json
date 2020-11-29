@@ -11,6 +11,7 @@
 	},
 	"description": "Home gardens ranged from simple fenced-in areas to large manicured and colonnaded enclosures.",
 	"cost": {"food": 0, "wood": 300, "stone": 200, "metal": 0},
+	"supersedes": "pop_house_03",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "population.png",

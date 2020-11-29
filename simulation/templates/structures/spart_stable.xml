@@ -4,25 +4,33 @@
     <Square width="25.0" depth="25.0"/>
     <Height>12.0</Height>
   </Footprint>
+  
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
+  
   <Identity>
     <Civ>spart</Civ>
     <SpecificName>Stratēgeîon</SpecificName>
   </Identity>
+  
   <ProductionQueue>
     <Entities datatype="tokens">
       -units/{civ}_infantry_javelinist_b
       -units/{civ}_infantry_slinger_b
       -units/{civ}_infantry_archer_b
+  
     </Entities>
+    
   </ProductionQueue>
+  
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+  
   <VisualActor>
     <Actor>structures/spartans/stable.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
+  
 </Entity>

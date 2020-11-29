@@ -58,7 +58,7 @@
       heal_rate_2
       heal_temple
       health_regen_units
-      sacrifice_ritual
+      -sacrifice_ritual
     </Technologies>
   </ProductionQueue>
   <Sound>

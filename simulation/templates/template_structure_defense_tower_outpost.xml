@@ -46,7 +46,7 @@
     <Max>1</Max>
   </GarrisonHolder>
   <Health>
-    <Max>400</Max>
+    <Max>500</Max>
   </Health>
   <Identity>
     <GenericName>Outpost</GenericName>
