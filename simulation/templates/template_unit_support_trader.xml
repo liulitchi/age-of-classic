@@ -3,12 +3,12 @@
   <Cost>
     <BuildTime>15</BuildTime>
     <Resources>
-      <food>80</food>
-      <metal>60</metal>
+      <food>100</food>
+      <metal>80</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>80</Max>
+    <Max>100</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
@@ -16,6 +16,7 @@
     <GenericName>Trader</GenericName>
     <Tooltip>Trade resources between your own markets and those of your allies.</Tooltip>
     <Formations disable=""/>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Sound>
     <SoundGroups>

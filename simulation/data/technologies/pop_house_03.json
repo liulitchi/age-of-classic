@@ -1,0 +1,17 @@
+{
+	"genericName": "Wing Room",
+	"specificName": {
+		
+	},
+	"description": "Enlarge the population of your House.",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 0},
+	"supersedes": "pop_house_01",
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "population.png",
+	"researchTime": 40,
+	"tooltip": "+2 population cap bonus for houses.",
+	"modifications": [{"value": "Cost/PopulationBonus", "add": 2}],
+	"affects": ["House"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
