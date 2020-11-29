@@ -2,8 +2,8 @@
 <Entity parent="template_unit_mechanical_siege_onager">
   <Attack>
     <Ranged>
-      <MaxRange>76</MaxRange>
-      <MinRange>26.0</MinRange>
+      <MaxRange>98</MaxRange>
+      <MinRange>30.0</MinRange>
       <ProjectileSpeed>37.5</ProjectileSpeed>
       <Gravity>9.81</Gravity>
       <PrepareTime>3700</PrepareTime>
@@ -21,7 +21,7 @@
   <Cost>
     <Resources>
       <wood>300</wood>
-      <stone>100</stone>
+      <stone>300</stone>
     </Resources>
   </Cost>
   <Footprint replace="">

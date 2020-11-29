@@ -1,5 +1,5 @@
 {
 	"genericName": "Kingdom Phase",
-	"description": "Dummy technology for use in templates requirements.",
+	"description": "Upgrade technologies, and can build a Wonder.",
 	"icon": "phase_kingdom.png"
 }

@@ -5,14 +5,14 @@
 		"mace": "Mines of Krenides"
 	},
 	"description": "Increases metal gathering rates.",
-	"cost": {"food": 0, "wood": 350, "stone": 0, "metal": 150},
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 250},
 	"supersedes": "gather_mining_shaftmining",
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"requirements": {"tech": "phase_kingdom"},
+	"requirementsTooltip": "Unlocked in Kingdom Phase.",
 	"icon": "mining_metal.png",
 	"researchTime": 30,
-	"tooltip": "+25% metal gathering rate.",
-	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.25}],
+	"tooltip": "+35% metal gathering rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.35}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

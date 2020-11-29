@@ -11,11 +11,11 @@
 	},
 	"description": "The wonder attracts many more people to your civilization.",
 	"cost": { "food": 1000, "wood": 1000, "stone": 1000, "metal": 1000 },
-	"requirements": { "tech": "phase_city" },
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"requirements": { "tech": "phase_kingdom" },
+	"requirementsTooltip": "Unlocked in Kingdom Phase.",
 	"icon": "special_treasure.png",
 	"researchTime": 120,
-	"tooltip": "Enable Glorious Expansion. Further increase the population limit by 40 per Wonder owned.",
+	"tooltip": "Enable Glorious Expansion. Further increase the population limit by 20 per Wonder owned.",
 	"modifications": [],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

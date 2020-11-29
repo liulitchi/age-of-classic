@@ -5,8 +5,8 @@
       <Hack>0.0</Hack>
       <Pierce>0</Pierce>
       <Crush>110.0</Crush>
-      <MaxRange>84.0</MaxRange>
-      <MinRange>26.0</MinRange>
+      <MaxRange>90.0</MaxRange>
+      <MinRange>30.0</MinRange>
       <ProjectileSpeed>37.5</ProjectileSpeed>
       <Gravity>9.81</Gravity>
       <PrepareTime>4000</PrepareTime>
@@ -35,7 +35,7 @@
     <BuildTime>25</BuildTime>
     <Resources>
       <wood>300</wood>
-      <stone>100</stone>
+      <stone>300</stone>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -48,7 +48,7 @@
   <Identity>
     <GenericName>Siege Catapult</GenericName>
     <VisibleClasses datatype="tokens">Catapult Ranged</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_kingdom</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>200</xp>

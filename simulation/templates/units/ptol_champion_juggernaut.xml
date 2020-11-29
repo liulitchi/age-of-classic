@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship_quinquereme">
   <Cost>
-    <Population>5</Population>
+    <Population>7</Population>
     <BuildTime>50</BuildTime>
     <Resources>
-      <wood>400</wood>
-      <metal>300</metal>
-      <stone>200</stone>
+      <wood>500</wood>
+      <metal>0</metal>
+      <stone>300</stone>
     </Resources>
   </Cost>
   <GarrisonHolder>
     <Max>70</Max>
   </GarrisonHolder>
   <Health>
-    <Max>4000</Max>
+    <Max>3500</Max>
   </Health>
   <Identity>
     <Civ>ptol</Civ>
@@ -21,6 +21,7 @@
     <SpecificName>Tessarakonterēs</SpecificName>
     <Classes datatype="tokens">Juggernaut</Classes>
     <Icon>units/rome_ship_quinquereme.png</Icon>
+    <RequiredTechnology>phase_kingdom</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>500</xp>
