@@ -10,7 +10,7 @@
 
 - [x] Stable:         马厩 150木 50石 阶段2
 
-- [x] Workshop(borg): 攻城器械厂 250木 100石 阶段2
+- [ ] Workshop(borg): 攻城器械厂 250木 100石 阶段2
 
 - [x] Blacksmith:     兵工厂 200木 100金 阶段2
 
@@ -28,9 +28,9 @@
 
 - [ ] Siege Catapult: 投石机 300木 300石 阶段4
 
-- [x] Civic Center:   公署 500木 500石 阶段2
+- [x] Civic Center:   公署 600木 600石 阶段2
 
-- [x] Military Colony:殖民地 250木 250石 阶段2
+- [x] Military Colony:殖民地 300木 300石 阶段2
 
 - [x] Field:农田 150木 阶段1
 
