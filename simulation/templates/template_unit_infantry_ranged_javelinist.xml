@@ -3,9 +3,9 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>4</Pierce>
+      <Pierce>8</Pierce>
       <Crush>0</Crush>
-      <MaxRange>40.0</MaxRange>
+      <MaxRange>30.0</MaxRange>
       <MinRange>3.0</MinRange>
       <ProjectileSpeed>62.5</ProjectileSpeed>
       <PrepareTime>500</PrepareTime>
@@ -29,9 +29,12 @@
       <food>60</food>
     </Resources>
   </Cost>
+  <Health>
+       <Max>60</Max>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
     <GenericName>Skirmisher</GenericName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   </Entity>
