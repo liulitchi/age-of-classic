@@ -322,15 +322,15 @@
 
 - [ ] 粮仓的【柳条筐】（Wicker Baskets）科技默认
 
-- [ ] 堡垒的【镀金铠甲】（Gold Hero Armor）【提拔将领】（Elected General）科技默认，【弹道学】（Ballistics）取消
+- [x] 堡垒的【镀金铠甲】（Gold Hero Armor）【提拔将领】（Elected General）科技默认，【弹道学】（Ballistics）取消
 
-- [ ] 畜栏的【猎犬】（Hunting Dogs）科技默认，【畜牧】（Stockbreeding）【繁育良马】（Breeding Strong Horses）科技取消
+- [x] 畜栏的【猎犬】（Hunting Dogs）科技默认，【畜牧】（Stockbreeding）【繁育良马】（Breeding Strong Horses）科技取消
 
 - [ ] 望楼的【营火】（Fire Signs）【石砌台基】（Stone Foundations）【增加警卫】（Sentries）科技默认
 
 - [ ] 碉楼的【垛口】（Crenellations）默认
 
-- [ ] 神庙的【武士崇拜】（Military Cult）【牺牲仪式】（Sacrifice Ritual）科技取消
+- [x] 神庙的【武士崇拜】（Military Cult）【牺牲仪式】（Sacrifice Ritual）科技取消
 
 - [ ] 集市的【地图绘制】（Cartography）【贸易扩张】（Diaspora）【贸易协定】（Commercial Treaty）科技默认
 

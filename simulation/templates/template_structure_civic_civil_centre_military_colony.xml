@@ -24,8 +24,8 @@
   <Cost>
     <BuildTime>300</BuildTime>
     <Resources>
-      <wood>250</wood>
-      <stone>250</stone>
+      <wood>300</wood>
+      <stone>300</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
