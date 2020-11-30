@@ -29,6 +29,6 @@
   <Identity>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
     <GenericName>Archer</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   </Entity>

@@ -54,7 +54,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">DefenseTower SentryTower</VisibleClasses>
     <Classes datatype="tokens">GarrisonTower</Classes>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>to_defense_tower</RequiredTechnology>
   </Identity>
   
   <ProductionQueue>

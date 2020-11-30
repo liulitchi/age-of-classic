@@ -7,7 +7,7 @@
 	"requirementsTooltip": "Unlocked in city Phase.",
 	"icon": "wheelbarrow_empty.png",
 	"researchTime": 30,
-	"tooltip": "+5 shuttle capacity of resources.",
+	"tooltip": "+7 shuttle capacity of resources.",
 	"modifications": [{"value": "ResourceGatherer/Capacities/food", "add": 7},
 				  {"value": "ResourceGatherer/Capacities/wood", "add": 7},
 				  {"value": "ResourceGatherer/Capacities/stone", "add": 7},
