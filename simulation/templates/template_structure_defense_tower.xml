@@ -52,8 +52,9 @@
   </Health>
   
   <Identity>
-    <Classes datatype="tokens">Tower -ConquestCritical</Classes>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">DefenseTower SentryTower</VisibleClasses>
+    <Classes datatype="tokens">GarrisonTower</Classes>
+    <RequiredTechnology>to_defense_tower</RequiredTechnology>
   </Identity>
   
   <ProductionQueue>
