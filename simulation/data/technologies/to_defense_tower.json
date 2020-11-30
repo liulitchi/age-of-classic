@@ -1,12 +1,12 @@
 {
 	"genericName": "To Defense Tower",
 	"supersedes": "Sentry Tower",
-	"replaces": ["Defense Tower"],
-	"icon": "masonry_rubble.png",
+	"replaces": ["Defense Tower"],	
 	"description": "Upgrade your Sentry Tower to Defense Tower, with more range and power.",
 	"cost": {"food": 0, "wood": 250, "stone": 250, "metal": 0},
-	"requirements": {},
-    "requirementsTooltip": "",
+	"requirements": {"tech": "phase_town"},
+    "requirementsTooltip": "Unlocked in Town Phase.",
+    "icon": "masonry_rubble.png",
 	"researchTime": 100,
 	"tooltip": "Upgrade your Sentry Tower to Defense Tower, with more range and power.",
 	"modifications": [
