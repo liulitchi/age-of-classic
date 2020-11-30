@@ -10,7 +10,7 @@
       units/{civ}_hero_antiochus_great
       units/{civ}_hero_antiochus_righteous
       units/{civ}_infantry_spearman_b
-      units/{civ}_cavalry_javelinist_b
+      -units/{civ}_cavalry_javelinist_b
     </Entities>
     <Technologies datatype="tokens">
       health_heroes
