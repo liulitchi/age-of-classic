@@ -39,9 +39,9 @@
       gaia/fauna_cattle_bull_trainable
      </Entities>
     <Technologies datatype="tokens">
-      -gather_animals_stockbreeding
+      gather_animals_stockbreeding
       gather_animals_dogs
-      -health_cavalry_01
+      health_cavalry_01
     </Technologies>
   </ProductionQueue>
   <Sound>

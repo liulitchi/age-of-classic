@@ -11,6 +11,6 @@
 				  {"value": "ResourceGatherer/Capacities/wood", "add": 5},
 				  {"value": "ResourceGatherer/Capacities/stone", "add": 5},
 				  {"value": "ResourceGatherer/Capacities/metal", "add": 5}],
-	"affects": ["Worker","Slave","Infantry"],
+	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

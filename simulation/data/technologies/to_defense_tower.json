@@ -2,14 +2,17 @@
 	"genericName": "To Defense Tower",
 	"supersedes": "Sentry Tower",
 	"replaces": ["Defense Tower"],
-	"icon": "defense_tower.png",
+	"icon": "",
 	"description": "Upgrade your Sentry Tower to Defense Tower, with more range and power.",
 	"cost": {"food": 0, "wood": 250, "stone": 250, "metal": 0},
 	"requirements": { "tech": "phase_city" },
     "requirementsTooltip": "Unlocked in City Phase.",
 	"researchTime": 100,
 	"tooltip": "Upgrade your Sentry Tower to Defense Tower, with more range and power.",
-	"modifications": [],
+	"modifications": [
+	{"value": "Vision/Range", "add": 12},
+	{"value": "Health/Max", "add": 300}	
+	],
 	"affects": ["DefenseTower"],
     "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }	
