@@ -50,7 +50,7 @@
     <Radius>16</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
-  <!-------
+  <!--
   <Upgrade>
     <Tower>
       <Entity>structures/{civ}_defense_tower</Entity>
@@ -63,7 +63,7 @@
       <Time>100</Time>
     </Tower>
   </Upgrade>
-  ----->
+  -->
   <VisualActor>
     <Actor>props/special/palisade_rocks_fort.xml</Actor>
   </VisualActor>
