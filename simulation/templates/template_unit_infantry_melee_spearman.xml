@@ -22,15 +22,69 @@
         </Bonuses>
     </Melee>
   </Attack>
+  
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}_house
+      structures/{civ}_storehouse
+      structures/{civ}_farmstead
+      structures/{civ}_field
+      structures/{civ}_corral
+      structures/{civ}_outpost
+      other/wallset_palisade
+      other/palisades_tall_spikes_3x1
+      structures/{civ}_sentry_tower
+      structures/{civ}_defense_tower
+      structures/{civ}_dock
+      structures/{civ}_barracks
+      -structures/{civ}_range
+      structures/{civ}_stable
+      structures/{civ}_workshop
+      structures/{civ}_elephant_stables
+      structures/{civ}_blacksmith
+      structures/{civ}_temple
+      structures/{civ}_market
+      structures/{civ}_wallset_stone
+      structures/{civ}_civil_centre
+      structures/{civ}_fortress
+      structures/{civ}_wonder
+    </Entities>
+  </Builder>
+  
+  
   <Cost>
     <Resources>
-      <wood>50</wood>
+      <food>80</food>
+      <metal>10</metal>
+      <wood>0</wood>
     </Resources>
   </Cost>
+  
+  <Health>
+       <Max>100</Max>
+  </Health>
+  
   <Identity>
     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
     <GenericName>Spearman</GenericName>
     </Identity>
+    
+     <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Rates>
+      <food.fruit>0.3</food.fruit>
+      <food.grain>0.25</food.grain>
+      <food.meat>1</food.meat>
+      <wood.tree>0.6</wood.tree>
+      <wood.ruins>5</wood.ruins>
+      <stone.rock>0.6</stone.rock>
+      <stone.ruins>3</stone.ruins>
+      <metal.ore>0.6</metal.ore>
+    </Rates>
+  </ResourceGatherer>
+  
   <UnitMotion>
     <WalkSpeed>9.0</WalkSpeed>
     <Run>
