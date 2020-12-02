@@ -1,7 +1,7 @@
 {
 	"name": "age of classic",
 	"version": "0.1.0",
-	"label": " a 0 A.D mod based on Borg Expansion Pack",
+	"label": " An impressive  0 A.D mod, based on Borg Expansion Pack",
 	"url": "",
 	"description": "",
 	"dependencies": ["0ad>=0.0.23"]
