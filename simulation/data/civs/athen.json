@@ -163,7 +163,7 @@
 			"Template": "structures/athen_civil_centre"
 		},
 		{
-			"Template": "unit_support_slave",
+			"Template": "template_unit_support_slave",
 		    "Count": 5
 		},
 		
