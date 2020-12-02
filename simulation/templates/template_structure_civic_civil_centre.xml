@@ -84,7 +84,7 @@
     <Classes datatype="tokens">Defensive CivCentre</Classes>
     <VisibleClasses datatype="tokens">CivilCentre</VisibleClasses>
     <Icon>structures/civic_centre.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   <Loot>
     <xp>500</xp>
@@ -100,7 +100,7 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       -units/{civ}_support_female_citizen
-      units/{civ}_support_slave
+      template_unit_support_slave
       units/{civ}_infantry_melee_swordsman
       units/{civ}_infantry_pikeman
       units/{civ}_infantry_ranged_archer
