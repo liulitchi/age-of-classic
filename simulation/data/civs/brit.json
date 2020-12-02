@@ -120,7 +120,8 @@
 			"Count": 0
 		},
 		{
-		   
+		   "Template":  "template_unit_support_slave ",
+		   "Count": 3
 		},
 		{
 			"Template": "units/brit_infantry_spearman_b",
