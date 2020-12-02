@@ -12,8 +12,9 @@
   <Cost>
     <BuildTime>15</BuildTime>
     <Resources>
-      <food>100</food>
+      <food>250</food>
     </Resources>
+    <Population>4</Population>
   </Cost>
   <Footprint>
     <Circle radius="4.0"/>
@@ -29,6 +30,7 @@
     <SpecificName>Karmākara Gaja</SpecificName>
     <Icon>units/maur_support_elephant.png</Icon>
     <Tooltip>Mobile dropsite. Can also assist in constructing buildings.</Tooltip>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <Formations disable=""/>
   </Identity>
   <Loot>

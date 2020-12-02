@@ -50,6 +50,7 @@
     <VisibleClasses datatype="tokens">Slave Worker</VisibleClasses>
     <GenericName>Slave</GenericName>
     <Icon>units/global_slave.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     </Identity>
   <Loot>
     <xp>20</xp>

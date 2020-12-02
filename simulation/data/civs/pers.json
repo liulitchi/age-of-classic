@@ -141,7 +141,11 @@
 		},
 		{
 			"Template": "units/pers_support_female_citizen",
-			"Count": 4
+			"Count": 0
+		},
+		{
+		    "Template": "units/support_slave",
+		    "Count": 5
 		},
 		{
 			"Template": "units/pers_infantry_spearman_b",
