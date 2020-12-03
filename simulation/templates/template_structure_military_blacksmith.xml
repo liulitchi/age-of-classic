@@ -58,6 +58,7 @@
       armor_infantry_02
       armor_cav_01
       armor_cav_02
+      iron_tip_ram
     </Technologies>
   </ProductionQueue>
   <Sound>

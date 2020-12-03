@@ -1,0 +1,13 @@
+{
+	"genericName": "Iron Tip Ram",
+	"description": "Enlarge the power of Battery Ram",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 300},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "siege_ram.png",
+	"researchTime": 40,
+	"tooltip": "+25% attack for Battery Ram.",
+	"affects": ["Battery Ram"],
+	"modifications": [{"value": "Attack/Capture/Value", "multiply": 1.25}],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

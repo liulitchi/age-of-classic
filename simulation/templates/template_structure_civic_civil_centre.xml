@@ -100,13 +100,7 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_female_citizen
-      units/{civ}_support_slave
-      units/{civ}_infantry_melee_swordsman
-      units/{civ}_infantry_pikeman
-      units/{civ}_infantry_ranged_archer
-      units/{civ}_infantry_ranged_spearman
-      units/{civ}_infantry_ranged_javelinist
-      units/{civ}_infantry_slinger
+     
     </Entities>
     <Technologies datatype="tokens">
       phase_town_{civ}

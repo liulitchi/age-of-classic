@@ -1,0 +1,13 @@
+{
+	"genericName": "Cover Leather",
+	"description": "",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "siege_ram.png",
+	"researchTime": 40,
+	"tooltip": "",
+	"affects": [""],
+	"modifications": [{}],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
