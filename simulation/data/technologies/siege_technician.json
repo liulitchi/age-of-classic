@@ -1,0 +1,14 @@
+{
+    "genericName": "Siege Technician",
+	"description": "Skilled people for siege technologie.",
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 250},
+	"supersedes": "siege_cost_metal",
+	"requirements": {"tech": "phase_kingdom"},
+	"requirementsTooltip": "Unlocked in Kingdom Phase.",
+	"icon": "engineering.png",
+	"researchTime": 40,
+	"tooltip": "-40% build time for siege weapons.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.6}],
+	"affects": ["Siege"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

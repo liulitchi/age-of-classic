@@ -59,6 +59,9 @@
       armor_cav_01
       armor_cav_02
       iron_tip_ram
+      cover_leather
+      cover_bronze_plate
+      siege_technician
     </Technologies>
   </ProductionQueue>
   <Sound>
