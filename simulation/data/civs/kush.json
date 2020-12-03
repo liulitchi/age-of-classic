@@ -124,11 +124,7 @@
 		},
 		{
 			"Template": "units/kush_support_female_citizen",
-			"Count": 0
-		},
-		{
-		    "Template": "units/support_slave",
-		    "Count": 5
+			"Count": 4
 		},
 		{
 			"Template": "units/kush_infantry_spearman_b",

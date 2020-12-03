@@ -127,11 +127,7 @@
 		},
 		{
 			"Template": "units/iber_support_female_citizen",
-			"Count": 0
-		},
-		{
-		    "Template": "units/support_slave",
-		    "Count": 5
+			"Count": 4
 		},
 		{
 			"Template": "units/iber_infantry_spearman_b",
@@ -172,7 +168,7 @@
 	"SkirmishReplacements":
 
 	{
-        "skirmish/units/default_cavalry" : "units/iber_cavalry_scout",
+           "skirmish/units/default_cavalry" : "units/iber_cavalry_scout",
 		"skirmish/units/default_infantry_melee_b": "units/iber_infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/iber_infantry_slinger_b",
 		"skirmish/structures/default_house_5": "structures/{civ}_house",

@@ -163,10 +163,9 @@
 			"Template": "structures/athen_civil_centre"
 		},
 		{
-			"Template": "units/athen_support_slave",
-		    "Count": 3
+			"Template": "units/athen_support_female_citizen",
+			"Count": 4
 		},
-		
 		{
 			"Template": "units/athen_infantry_spearman_b",
 			"Count": 2

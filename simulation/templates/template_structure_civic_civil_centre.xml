@@ -99,8 +99,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      -units/{civ}_support_female_citizen
-      template_unit_support_slave
+      units/{civ}_support_female_citizen
+      units/{civ}_support_slave
       units/{civ}_infantry_melee_swordsman
       units/{civ}_infantry_pikeman
       units/{civ}_infantry_ranged_archer

@@ -139,11 +139,7 @@
 		},
 		{
 			"Template": "units/mace_support_female_citizen",
-			"Count": 0
-		},
-		{
-		    "Template": "units/support_slave",
-		    "Count": 5
+			"Count": 4
 		},
 		{
 			"Template": "units/mace_infantry_pikeman_b",
