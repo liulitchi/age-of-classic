@@ -1,7 +1,7 @@
 {
-	"genericName": "Plating",
+	"genericName": "Cover Leather",
 	"description": "Increased armor on siege Ram and siege Tower",
-	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 150 },
+	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 250 },
 	"requirements": { "all": [{ "tech": "phase_city" }] },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "armor_plates_iron.png",

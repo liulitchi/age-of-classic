@@ -1,14 +1,14 @@
 {
-	"genericName": "Advanced Siege",
+	"genericName": "Iron Tip Ram",
 	"description": "Advanced technologies improve siege ram efficiency",
-	"cost": { "food": 0, "wood": 300, "stone": 0, "metal": 200 },
+	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 300 },
 	"requirements": { "all": [{ "tech": "phase_city" }] },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "siege_ram.png",
 	"researchTime": 40,
-	"tooltip": "+30% Crush damage for siege ram.",
+	"tooltip": "+25% Crush damage for siege ram.",
 	"modifications": [
-		{"value": "Attack/Melee/Crush", "multiply": 1.30}],
+		{"value": "Attack/Melee/Crush", "multiply": 1.25}],
 	"affects": ["Ram"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
