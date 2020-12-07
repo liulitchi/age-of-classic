@@ -1,52 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_blacksmith">
-  <Cost>
-    <PopulationBonus>2</PopulationBonus>
-    <Resources>
-      <wood>200</wood>
-      <metal>100</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>gaul</Civ>
-    <VisibleClasses datatype="tokens">Town</VisibleClasses>
-    
-    <SpecificName>Gobanion</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      -blacksmith_cost_1
-      -attack_infantry_melee_01
-      -attack_infantry_melee_02
-      -attack_infantry_ranged_01
-      -attack_infantry_ranged_02
-      -attack_cavalry_melee_01
-      -attack_cavalry_melee_02
-      -attack_cavalry_ranged_01
-      -attack_cavalry_ranged_02
-      -armor_infantry_01
-      -armor_infantry_02
-      -armor_cav_01
-      -armor_cav_02
-      blacksmith_cost_1_gaul
-      celts/metalcost_units_gaul
-      attack_infantry_melee_01_gaul
-      attack_infantry_melee_02_gaul
-      attack_infantry_ranged_01_gaul
-      attack_infantry_ranged_02_gaul
-      attack_cavalry_melee_01_gaul
-      attack_cavalry_melee_02_gaul
-      attack_cavalry_ranged_01_gaul
-      attack_cavalry_ranged_02_gaul
-      armor_infantry_01_gaul
-      armor_infantry_02_gaul
-      armor_cav_01_gaul
-      armor_cav_02_gaul
-    </Technologies>
-  </ProductionQueue>
-  <Loot>
-    <wood>30</wood>
-  </Loot>
   <VisualActor>
     <Actor>structures/celts/blacksmith.xml</Actor>
   </VisualActor>
