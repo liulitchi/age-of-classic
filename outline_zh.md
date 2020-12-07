@@ -328,7 +328,7 @@
 
 - [ ] 粮仓的【柳条筐】（Wicker Baskets）科技取消
 
-- [ ] 堡垒的【镀金铠甲】（Gold Hero Armor）【提拔将领】（Elected General）【弹道学】（Ballistics）科技取消
+- [ ] 堡垒的【镀金铠甲】（Gold Hero Armor）【提拔将领】（Elected General）科技默认，【弹道学】（Ballistics）科技取消
 
 - [ ] 畜栏的【猎犬】（Hunting Dogs）【畜牧】（Stockbreeding）【繁育良马】（Breeding Strong Horses）科技取消
 
