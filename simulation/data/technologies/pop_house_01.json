@@ -10,14 +10,14 @@
 		"pers": "Paradise"
 	},
 	"description": "Home gardens ranged from simple fenced-in areas to large manicured and colonnaded enclosures.",
-	"cost": {"food": 0, "wood": 300, "stone": 200, "metal": 0},
+	"cost": {"food": 0, "wood": 300, "stone": 100, "metal": 0},
 	"supersedes": "pop_house_03",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "population.png",
 	"researchTime": 30,
-	"tooltip": "+3 population cap bonus for houses.",
-	"modifications": [{"value": "Cost/PopulationBonus", "add": 3}],
+	"tooltip": "+2 population cap bonus for houses.",
+	"modifications": [{"value": "Cost/PopulationBonus", "add": 2}],
 	"affects": ["House"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

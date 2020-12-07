@@ -45,19 +45,26 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-      blacksmith_cost_1
+      -blacksmith_cost_1
       attack_infantry_melee_01
       attack_infantry_melee_02
+      attack_infantry_melee_03
       attack_infantry_ranged_01
       attack_infantry_ranged_02
+      attack_infantry_ranged_03
       attack_cavalry_melee_01
       attack_cavalry_melee_02
+      attack_cavalry_melee_03
       attack_cavalry_ranged_01
       attack_cavalry_ranged_02
+      attack_cavalry_ranged_03
       armor_infantry_01
       armor_infantry_02
+      armor_infantry_03
       armor_cav_01
       armor_cav_02
+      armor_cav_03
+      steel_working
     </Technologies>
   </ProductionQueue>
   <Sound>

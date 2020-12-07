@@ -1,20 +1,15 @@
 {
-	"genericName": "Ranged Infantry Irregulars",
-	"specificName": {
-		"mace": "Átaktoi",
-		"spart": "Átaktoi",
-		"athen": "Átaktoi",
-		"sele": "Átaktoi",
-		"ptol": "Átaktoi"
-				},
-	"description": "Training increases damage of ranged infantry units.",
-	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 300},
+	"genericName": "Qualified Bow and Arrow",
+	"description": "",
+	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "arrow.png",
 	"researchTime": 40,
-	"tooltip": "+20% attack for ranged infantry.",
-	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.20 }],
+	"tooltip": "+10% attack & +2 Max Range for ranged infantry.",
+	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.10 },
+	                  {"value": "Attack/Ranged/MaxRange", "add": 2 }
+	                 ],
 	"affects": ["Infantry Ranged"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
