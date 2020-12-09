@@ -6,12 +6,7 @@
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
    
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-     
-      steel_working
-    </Technologies>
-  </ProductionQueue>
+ 
   <Loot>
     <wood>30</wood>
   </Loot>
