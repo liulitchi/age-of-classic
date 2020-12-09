@@ -60,8 +60,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-     
-      arrow_shooters
+    tower_armour
+    tower_range
     </Technologies>
   </ProductionQueue>
   <Sound>

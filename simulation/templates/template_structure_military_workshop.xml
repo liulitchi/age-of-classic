@@ -63,7 +63,7 @@
       -siege_torsion_springs_1
       -siege_flaming_munitions
       siege_buildtime
-      
+      attack_capture_siege_ladders
     </Technologies>
   </ProductionQueue>
   <Sound>

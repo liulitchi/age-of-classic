@@ -94,8 +94,8 @@
       -attack_accuracy
       -attack_soldiers_will
       -attack_capture_siege_ladders
-      -attack_champions_elite
-      arrow_shooters
+      attack_champions_elite
+      tower_range
     </Technologies>
   </ProductionQueue>
   <Sound>
