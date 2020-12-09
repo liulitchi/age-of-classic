@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_blacksmith">
+  
+  <Identity>
+    <Civ>iber</Civ>
+    <VisibleClasses datatype="tokens">Town</VisibleClasses>
+   
+  </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+     
+      steel_working
+    </Technologies>
+  </ProductionQueue>
+  <Loot>
+    <wood>30</wood>
+  </Loot>
+  <VisualActor>
+    <Actor>structures/iberians/blacksmith.xml</Actor>
+  </VisualActor>
+</Entity>
