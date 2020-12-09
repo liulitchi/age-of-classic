@@ -54,11 +54,15 @@
   <Identity>
     <VisibleClasses datatype="tokens">DefenseTower SentryTower</VisibleClasses>
     <Classes datatype="tokens">GarrisonTower</Classes>
-    <RequiredTechnology>to_defense_tower</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Technologies datatype="tokens">
+     
+      arrow_shooters
+    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

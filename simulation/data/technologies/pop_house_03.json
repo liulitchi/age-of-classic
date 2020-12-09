@@ -9,7 +9,7 @@
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "population.png",
-	"researchTime": 40,
+	"researchTime": 30,
 	"tooltip": "+2 population cap bonus for houses.",
 	"modifications": [{"value": "Cost/PopulationBonus", "add": 2}],
 	"affects": ["House"],

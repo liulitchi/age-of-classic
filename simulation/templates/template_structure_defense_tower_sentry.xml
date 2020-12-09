@@ -42,7 +42,7 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
       tower_watch
-      to_defense_tower
+      -to_defense_tower
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>
