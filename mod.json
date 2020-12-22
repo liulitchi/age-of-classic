@@ -2,7 +2,7 @@
 	"name": "age of classic",
 	"version": "0.1.0",
 	"label": " An impressive  0 A.D mod, based on Borg Expansion Pack",
-	"url": "",
+	"url": "https://github.com/liulitchi/age-of-classic",
 	"description": "",
 	"dependencies": ["0ad>=0.0.23"]
 }
