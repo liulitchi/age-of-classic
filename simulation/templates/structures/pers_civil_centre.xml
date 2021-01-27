@@ -9,9 +9,6 @@
     <SpecificName>Xšaçapāvan</SpecificName>
   </Identity>
   <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_support_slave
-    </Entities>
     <Technologies datatype="tokens">
       persians/persian_architecture
     </Technologies>

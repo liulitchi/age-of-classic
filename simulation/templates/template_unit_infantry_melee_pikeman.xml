@@ -6,7 +6,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>6</Hack>
+      <Hack>2</Hack>
       <MaxRange>5</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1250</RepeatTime>
@@ -25,8 +25,11 @@
   <Cost>
     <Resources>
       <wood>60</wood>
-      <food>60</food>
+      <metal>10</metal>
     </Resources>
+    <Health>
+       <Max>100</Max>
+    </Health>
   </Cost>
   <Identity>
     <VisibleClasses datatype="tokens">Spear Pike</VisibleClasses>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee">
   <Armour>
     <Hack>3</Hack>
-    <Pierce>3</Pierce>
+    <Pierce>4</Pierce>
   </Armour>
   <Attack>
     <Melee>
