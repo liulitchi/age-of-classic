@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <GarrisonHolder>
+    <List datatype="tokens">Infantry -Cavalry</List>
+  </GarrisonHolder>
+  
+  <Identity>
+    <Classes datatype="tokens">Archery</Classes>
+    <GenericName>Archery Range</GenericName>
+    <Icon>structures/range.png</Icon>
+    <Tooltip>Train soldier ranged infantry. Research training improvements.</Tooltip>
+  </Identity>
+  
+  <GarrisonHolder>
+    <Max>10</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Infantry Cavalry</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}_cavalry_spearman_b
+      -units/{civ}_cavalry_javelinist_b
+      -units/{civ}_cavalry_swordsman_b
+      -units/{civ}_cavalry_archer_b
+      -units/{civ}_infantry_spearman_b
+      -units/{civ}_infantry_pikeman_b
+      -units/{civ}_infantry_swordsman_b
+      -units/{civ}_infantry_slinger_b
+      -units/{civ}_infantry_archer_b
+      -units/{civ}_infantry_javelinist_b
+    </Entities>
+    <Technologies datatype="tokens">
+      -attack_spear_pike
+      speed_inf_melee
+      ranged_inf_skirmishers
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/complete/building/complete_range.xml</select>
+      <constructed>interface/complete/building/complete_range.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+</Entity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>4</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>4</Hack>
+      <MaxRange>0</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
+      <Bonuses>
+          <Bonus1>
+            <Classes>Cavalry</Classes>
+            <Multiplier>2.0</Multiplier>
+          </Bonus1>
+          <Bonus2>
+            <Classes>Elephant</Classes>
+            <Multiplier>2.0</Multiplier>
+          </Bonus2>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>70</food>
+      <metal>10</metal>
+    </Resources>
+    <Health>
+       <Max>100</Max>
+    </Health>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Spear Pike</VisibleClasses>
+    <GenericName>Pikeman</GenericName>
+    <Formations datatype="tokens">
+      special/formations/syntagma
+    </Formations>
+  </Identity>
+  <Loot>
+    <wood>6</wood>
+    <food>6</food>
+  </Loot>
+  <UnitMotion>
+    <WalkSpeed>8.0</WalkSpeed>
+    <Run>
+      <Speed>13.5</Speed>
+    </Run>
+  </UnitMotion>
+</Entity>
