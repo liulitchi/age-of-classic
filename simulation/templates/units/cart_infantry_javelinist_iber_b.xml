@@ -13,7 +13,7 @@
     <Classes datatype="tokens">Iberian</Classes>
     <GenericName>Iberian Mercenary Skirmisher</GenericName>
     <Icon>units/cart_infantry_javelinist.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
     <SelectionGroupName>units/cart_infantry_javelinist_iber_b</SelectionGroupName>
     <SpecificName>Sǝḫīr Kidōn</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>

@@ -11,7 +11,7 @@
     <SelectionGroupName>units/iber_infantry_javelinist_b</SelectionGroupName>
     <SpecificName>Lusitano Ezpatari</SpecificName>
     <Icon>units/iber_infantry_javelinist.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/iber_infantry_javelinist_a</Entity>

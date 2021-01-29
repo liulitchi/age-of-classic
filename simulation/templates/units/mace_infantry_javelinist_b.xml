@@ -15,7 +15,7 @@
     <GenericName>Agrianian Peltast</GenericName>
     <SpecificName>Peltastḗs Agrías</SpecificName>
     <Icon>units/mace_infantry_javelinist.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/mace_infantry_javelinist_a</Entity>

@@ -13,7 +13,7 @@
     <GenericName>Thureos Skirmisher</GenericName>
     <SpecificName>Thureophóros Akrobolistḗs</SpecificName>
     <Icon>units/ptol_infantry_javelinist_merc.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/ptol_infantry_javelinist_a</Entity>

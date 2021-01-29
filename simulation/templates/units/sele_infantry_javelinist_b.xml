@@ -13,7 +13,7 @@
     <GenericName>Arab Javelineee</GenericName>
     <SpecificName>Pezakontistès Aravikós</SpecificName>
     <Icon>units/pers_infantry_javelinist.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/sele_infantry_javelinist_a</Entity>

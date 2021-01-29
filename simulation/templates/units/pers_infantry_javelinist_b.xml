@@ -14,7 +14,7 @@
     <GenericName>Anatolian Auxiliary</GenericName>
     <SpecificName>Spardiya Takabara</SpecificName>
     <Icon>units/pers_infantry_javelinist.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/pers_infantry_javelinist_a</Entity>

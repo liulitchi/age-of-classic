@@ -9,9 +9,6 @@
       siege_attack
       siege_armor_1
       siege_armor_2
-      -siege_packing
-      -siege_torsion_springs_1
-      -siege_flaming_munitions
     </Technologies>
   </ProductionQueue>
   <VisualActor>

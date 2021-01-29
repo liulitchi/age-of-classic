@@ -44,7 +44,7 @@
     <Icon>units/spart_infantry_javelinist.png</Icon>
     <VisibleClasses datatype="tokens">Slave -Citizen</VisibleClasses>
 
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   <Loot>
     <food>5</food>
