@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_javelinist">
   <Attack>
     <Ranged>
-      <Pierce>9</Pierce>
+      <Pierce>10</Pierce>
     </Ranged>
   </Attack>
   <Armour>
@@ -10,7 +10,7 @@
     <Pierce>7</Pierce>
   </Armour>
   <Health>
-    <Max>187</Max>
+    <Max>180</Max>
   </Health>
   <Cost>
     <Population>2</Population>

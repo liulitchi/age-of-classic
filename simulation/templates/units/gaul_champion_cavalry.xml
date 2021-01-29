@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Attack>
     <Melee>
-      <Hack>10.50</Hack>
+      <Hack>13</Hack>
     </Melee>
   </Attack>
   <Armour>

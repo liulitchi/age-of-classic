@@ -2,14 +2,14 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Attack>
     <Melee>
-      <Hack>4.5</Hack>
+      <Hack>7</Hack>
     </Melee>
   </Attack>
   <Cost>
     <BuildTime>8</BuildTime>
     <Resources>
-      <wood>40</wood>
-      <food>50</food>
+      <food>80</food>
+      <metal>10</metal>
     </Resources>
   </Cost>
   <Builder>

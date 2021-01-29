@@ -6,7 +6,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>9.5</Hack>
+      <Hack>9.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>3.0</MaxRange>
@@ -15,11 +15,11 @@
       <Bonuses>
         <Bonus1>
           <Classes>Cavalry</Classes>
-          <Multiplier>3.0</Multiplier>
+          <Multiplier>2.0</Multiplier>
         </Bonus1>
         <Bonus2>
           <Classes>Elephant</Classes>
-          <Multiplier>3.0</Multiplier>
+          <Multiplier>2.0</Multiplier>
         </Bonus2>
       </Bonuses>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>

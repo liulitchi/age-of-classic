@@ -14,8 +14,8 @@
   </Health>
   <Cost>
     <Resources>
-      <food>50</food>
-      <wood>30</wood>
+      <food>60</food>
+      <wood>20</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>

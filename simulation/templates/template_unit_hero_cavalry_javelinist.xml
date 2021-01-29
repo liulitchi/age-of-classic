@@ -7,9 +7,9 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>17.0</Pierce>
+      <Pierce>11.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>40.0</MaxRange>
+      <MaxRange>33.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>62.5</ProjectileSpeed>
       <Gravity>9.81</Gravity>
@@ -20,13 +20,9 @@
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <Bonuses>
 	<Bonus1>
-      	  <Classes>Archer</Classes>
-          <Multiplier>5.0</Multiplier>
+      	  <Classes>Elephant</Classes>
+          <Multiplier>2.5</Multiplier>
 	</Bonus1>
- 	<Bonus2>
-      	  <Classes>Sling</Classes>
-          <Multiplier>5.0</Multiplier>
-	</Bonus2>
       </Bonuses>
     </Ranged>
   </Attack>

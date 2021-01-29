@@ -4,8 +4,8 @@
     <Ranged>
       <Hack>0</Hack>
       <Pierce>5</Pierce>
-      <Crush>0</Crush>
-      <MaxRange>52.0</MaxRange>
+      <Crush>1</Crush>
+      <MaxRange>50</MaxRange>
       <MinRange>4.0</MinRange>
       <ProjectileSpeed>62.5</ProjectileSpeed>
       <PrepareTime>500</PrepareTime>
@@ -13,16 +13,16 @@
       <Spread>2.5</Spread>
       <Bonuses>
 	<BonusInfantryRanged>
-      	<Classes>Melee Infantry</Classes>
-        <Multiplier>2.5</Multiplier>
+      	<Classes>Archer</Classes>
+        <Multiplier>1.5</Multiplier>
 	</BonusInfantryRanged>
       </Bonuses>
     </Ranged>
   </Attack>
   <Cost>
     <Resources>
-      <stone>60</stone>
-      <metal>10</metal>
+      <food>60</food>
+      <stone>10</stone>
       <wood>0</wood>
     </Resources>
   </Cost>

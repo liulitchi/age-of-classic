@@ -6,7 +6,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>7</Hack>
+      <Hack>12</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>2.0</MaxRange>
@@ -16,8 +16,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <wood>30</wood>
-      <metal>20</metal>
+      <food>150</food>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <Identity>

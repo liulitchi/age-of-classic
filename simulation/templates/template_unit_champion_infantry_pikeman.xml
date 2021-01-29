@@ -6,7 +6,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>9.5</Hack>
+      <Hack>6</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>5</MaxRange>
@@ -16,19 +16,19 @@
       <Bonuses>
           <Bonus1>
             <Classes>Cavalry</Classes>
-            <Multiplier>3.0</Multiplier>
+            <Multiplier>2.0</Multiplier>
           </Bonus1>
           <Bonus2>
           <Classes>Elephant</Classes>
-          <Multiplier>3.0</Multiplier>
+          <Multiplier>2.0</Multiplier>
         </Bonus2>
       </Bonuses>
       </Melee>
   </Attack>
   <Cost>
     <Resources>
-      <food>60</food>
-      <metal>60</metal>
+      <food>90</food>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <Identity>

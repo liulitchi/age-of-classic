@@ -7,9 +7,9 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>6.4</Pierce>
+      <Pierce>9</Pierce>
       <Crush>0</Crush>
-      <MaxRange>72.0</MaxRange>
+      <MaxRange>66.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
@@ -19,10 +19,6 @@
       <Delay>0</Delay>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <Bonuses>
-	<Bonus>
-      	  <Classes>Melee Infantry</Classes>
-	  <Multiplier>2.0</Multiplier>
-        </Bonus>
      </Bonuses>
     </Ranged>
   </Attack>

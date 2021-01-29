@@ -4,8 +4,8 @@
     <Ranged>
       <Bonuses>
       	<Bonus1>
-	  <Classes>Archer</Classes>
-	  <Multiplier>3.5</Multiplier>
+	  <Classes>Elephant</Classes>
+	  <Multiplier>2.5</Multiplier>
         </Bonus1>
         <Bonus2>
 	  <Classes>Structure</Classes>

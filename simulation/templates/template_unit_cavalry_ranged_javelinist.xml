@@ -7,29 +7,26 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>4</Pierce>
+      <Pierce>8</Pierce>
       <Crush>0</Crush>
-      <MaxRange>40.0</MaxRange>
-      <MinRange>0.0</MinRange>
+      <MaxRange>28.0</MaxRange>
+      <MinRange>2.0</MinRange>
       <ProjectileSpeed>62.5</ProjectileSpeed>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1250</RepeatTime>
       <Spread>2.2</Spread>
       <Bonuses>
 	<Bonus1>
-      	  <Classes>Archer</Classes>
-          <Multiplier>5.0</Multiplier>
+      	  <Classes>Elephant</Classes>
+          <Multiplier>2.5</Multiplier>
 	</Bonus1>
- 	<Bonus2>
-      	  <Classes>Sling</Classes>
-          <Multiplier>5.0</Multiplier>
-	</Bonus2>
       </Bonuses>
     </Ranged>
   </Attack>
   <Cost>
     <Resources>
-      <food>70</food>
+      <food>130</food>
+      <metal>20</metal>
     </Resources>
   </Cost>
   <Identity>

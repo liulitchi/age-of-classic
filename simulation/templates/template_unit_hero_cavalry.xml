@@ -5,12 +5,12 @@
     <Height>5.0</Height>
   </Footprint>
   <Health>
-    <Max>1050</Max>
+    <Max>800</Max>
   </Health>
   <Cost>
     <Resources>
       <food>300</food>
-      <wood>300</wood>
+      <wood>0</wood>
       <metal>300</metal>
     </Resources>
   </Cost>

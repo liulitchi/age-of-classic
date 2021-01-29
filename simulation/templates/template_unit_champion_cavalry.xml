@@ -5,16 +5,16 @@
     <Height>5.0</Height>
   </Footprint>
   <Health>
-    <Max>170</Max>
+    <Max>200</Max>
   </Health>
   <Cost>
     <Population>1</Population>
     <BuildTime>18</BuildTime>
     <Resources>
-      <food>80</food>
+      <food>180</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>50</metal>
+      <metal>80</metal>
     </Resources>
   </Cost>
   <Identity>

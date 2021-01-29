@@ -8,7 +8,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>3.0</Hack>
+      <Hack>7.0</Hack>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <Bonuses>
@@ -21,9 +21,9 @@
   </Attack>
   <Cost>
     <Resources>
-      <food>80</food>
+      <food>140</food>
       <wood>0</wood>
-      <metal>20</metal>
+      <metal>30</metal>
     </Resources>
   </Cost>
   <Identity>

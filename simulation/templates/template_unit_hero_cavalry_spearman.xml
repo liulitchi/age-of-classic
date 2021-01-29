@@ -6,7 +6,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>19</Hack>
+      <Hack>14</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>3.0</MaxRange>
@@ -14,11 +14,11 @@
       <Bonuses>
         <Bonus1>
           <Classes>Cavalry</Classes>
-          <Multiplier>2.5</Multiplier>
+          <Multiplier>1.5</Multiplier>
         </Bonus1>
         <Bonus2>
           <Classes>Elephant</Classes>
-          <Multiplier>2.5</Multiplier>
+          <Multiplier>1.5</Multiplier>
         </Bonus2>
       </Bonuses>
       <PrepareTime>400</PrepareTime>
