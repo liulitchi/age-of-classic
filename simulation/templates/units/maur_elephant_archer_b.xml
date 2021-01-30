@@ -3,7 +3,7 @@
   <Attack>
     <Capture disable=""/>
     <Ranged>
-      <Pierce>4</Pierce>
+      <Pierce>8</Pierce>
       <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
@@ -15,8 +15,8 @@
   <Cost>
     <BuildTime>15</BuildTime>
     <Resources>
-      <food>120</food>
-      <wood>100</wood>
+      <food>400</food>
+      <wood>150</wood>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -25,7 +25,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>300</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <Civ>maur</Civ>

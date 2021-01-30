@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship_trireme">
   <Armour>
-    <Pierce>9</Pierce>
+    <Pierce>10</Pierce>
   </Armour>
   <Footprint>
     <Square width="9.0" depth="42.0"/>

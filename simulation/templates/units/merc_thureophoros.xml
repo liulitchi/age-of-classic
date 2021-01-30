@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_javelinist">
+ <Health>
+    <Max>90</Max>
+  </Health>
+  <Armour>
+    <Hack>2</Hack>
+    <Pierce>3</Pierce>
+  </Armour>
   <Cost>
     <Resources>
       <food>0</food>

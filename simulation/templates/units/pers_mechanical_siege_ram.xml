@@ -5,7 +5,7 @@
     <Height>3.0</Height>
   </Footprint>
   <Health>
-    <Max>400</Max>
+    <Max>350</Max>
   </Health>
   <Identity>
     <Civ>pers</Civ>

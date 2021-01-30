@@ -31,7 +31,7 @@
   </Builder>
   <Cost>
     <Resources>
-      <food>60</food>
+      <food>100</food>
       <metal>50</metal>
     </Resources>
     <BuildTime>15</BuildTime>
@@ -42,7 +42,7 @@
     <GenericName>Skiritai Commando</GenericName>
     <SpecificName>Ékdromos Skirítēs</SpecificName>
     <Icon>units/spart_champion_infantry_sword.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <food>6</food>

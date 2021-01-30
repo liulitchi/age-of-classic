@@ -7,6 +7,13 @@
     <SpecificName>Bakhtrish Asabara</SpecificName>
     <Icon>units/pers_champion_cavalry.png</Icon>
   </Identity>
+  <Upgrade>
+    <Immortals>
+      <Entity>units/pers_champion_cavalry_archer</Entity>
+      <Tooltip>Upgrade to Heavy Cavalry Archer.</Tooltip>
+      <Time>8</Time>
+    </Immortals>
+  </Upgrade>
   <VisualActor>
     <Actor>units/persians/cavalry_spearman_c_m.xml</Actor>
   </VisualActor>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_mechanical_ship_trireme">
    <Attack>
     <Ranged>
-      <MaxRange>48.0</MaxRange>
+      <MaxRange>68.0</MaxRange>
     </Ranged>
   </Attack>
   <Footprint>

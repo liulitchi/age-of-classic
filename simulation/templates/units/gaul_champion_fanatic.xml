@@ -6,11 +6,11 @@
     </Melee>
   </Attack>
   <Armour>
-    <Hack>1</Hack>
+    <Hack>2</Hack>
   </Armour>
   <Cost>
       <Resources>
-      <food>50</food>
+      <food>80</food>
       <wood>0</wood>
       <metal>30</metal>
     </Resources>

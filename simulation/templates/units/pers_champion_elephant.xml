@@ -6,6 +6,7 @@
     <GenericName>Indian War Elephant</GenericName>
     <SpecificName>Hinduya Pila</SpecificName>
     <Icon>units/pers_champion_elephant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>units/persians/elephantry_c_m.xml</Actor>

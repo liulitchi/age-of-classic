@@ -5,7 +5,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>15.5</Hack>
+      <Hack>16</Hack>
       <MaxRange>3.0</MaxRange>
     </Melee>
   </Attack>

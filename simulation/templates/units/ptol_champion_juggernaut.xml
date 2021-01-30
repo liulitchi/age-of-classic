@@ -5,8 +5,8 @@
     <BuildTime>50</BuildTime>
     <Resources>
       <wood>500</wood>
-      <metal>0</metal>
-      <stone>300</stone>
+      <metal>350</metal>
+      <stone>0</stone>
     </Resources>
   </Cost>
   <GarrisonHolder>

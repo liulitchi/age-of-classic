@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
+  <Health>
+    <Max>120</Max>
+  </Health>
   <Armour>
-    <Hack>8</Hack>
-    <Pierce>7</Pierce>
+    <Hack>4</Hack>
+    <Pierce>4</Pierce>
   </Armour>
   <Cost>
     <Resources>
       <food>0</food>
-      <metal>80</metal>
+      <metal>90</metal>
     </Resources>
   </Cost>
   <Identity>
@@ -16,7 +19,7 @@
     <GenericName>Armored Swordsman</GenericName>
     <SpecificName>Thōrakitēs</SpecificName>
     <Icon>units/mace_thorakites.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Loot>

@@ -10,13 +10,13 @@
     </Entities>
   </Builder>
   <Health>
-    <Max>60</Max>
+    <Max>70</Max>
   </Health>
   <Cost>
     <Resources>
-      <food>50</food>
-      <wood>30</wood>
-      <stone>0</stone>
+      <food>60</food>
+      <wood>0</wood>
+      <stone>10</stone>
       <metal>0</metal>
     </Resources>
   </Cost>

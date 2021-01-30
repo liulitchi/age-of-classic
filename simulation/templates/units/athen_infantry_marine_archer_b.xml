@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Attack>
     <Ranged>
-      <MaxRange>76</MaxRange>
+      <MaxRange>66</MaxRange>
     </Ranged>
   </Attack>
   <Builder>
@@ -17,7 +17,7 @@
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <metal>50</metal>
+      <metal>60</metal>
     </Resources>
   </Cost>
   <Identity>

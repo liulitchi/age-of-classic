@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_elephant_melee">
+  <Armour>
+    <Hack>10</Hack>
+    <Pierce>10</Pierce>
+  </Armour>
   <Cost>
+    <Resources>
+      <metal>300</metal>
+    </Resources>
   <BuildTime>25</BuildTime>
  </Cost>
   <Identity>
@@ -8,6 +15,7 @@
     <GenericName>Indian War Elephant</GenericName>
     <SpecificName>Gajendra</SpecificName>
     <Icon>units/maur_champion_elephant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/elephantry_c_m.xml</Actor>

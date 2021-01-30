@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Attack>
     <Melee>
-      <Hack>8</Hack>
+      <Hack>11</Hack>
       <Bonuses>
         <Bonus1>
           <Classes>Champion</Classes>

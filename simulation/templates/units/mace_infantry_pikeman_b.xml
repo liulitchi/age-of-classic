@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_melee_pikeman">
   <Cost>
     <Resources>
-      <food>50</food>
-      <wood>50</wood>
+      <food>60</food>
+      <metal>10</metal>
     </Resources>
   </Cost>
   <Builder>

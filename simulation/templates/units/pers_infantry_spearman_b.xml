@@ -8,8 +8,16 @@
       <Hack>7</Hack>
     </Melee>
   </Attack>
+ <Cost>
+    <Resources>
+      <food>80</food>
+      <metal>20</metal>
+      <wood>0</wood>
+    </Resources>
+  </Cost>
   <Armour>
     <Pierce>5</Pierce>
+    <Hack>3</Hack>
   </Armour>
   <Builder>
     <Entities datatype="tokens">
@@ -26,6 +34,13 @@
     <SpecificName>Sparabara</SpecificName>
     <Icon>units/pers_infantry_spearman.png</Icon>
   </Identity>
+  <Upgrade>
+    <Immortals>
+      <Entity>units/pers_infantry_archer_b</Entity>
+      <Tooltip>Upgrade to archer.</Tooltip>
+      <Time>8</Time>
+    </Immortals>
+  </Upgrade>
   <Promotion>
     <Entity>units/pers_infantry_spearman_a</Entity>
   </Promotion>

@@ -12,6 +12,13 @@
     <SpecificName>Bakhtrish Asabara</SpecificName>
     <Icon>units/pers_cca2.png</Icon>
   </Identity>
+  <Upgrade>
+    <Immortals>
+      <Entity>units/pers_champion_cavalry</Entity>
+      <Tooltip>Upgrade to Heavy Lancer.</Tooltip>
+      <Time>8</Time>
+    </Immortals>
+  </Upgrade>
   <VisualActor>
     <Actor>units/persians/cavalry_archer_c_m.xml</Actor>
   </VisualActor>
