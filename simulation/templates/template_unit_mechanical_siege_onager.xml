@@ -4,7 +4,7 @@
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>0</Pierce>
-      <Crush>110.0</Crush>
+      <Crush>100.0</Crush>
       <MaxRange>90.0</MaxRange>
       <MinRange>30.0</MinRange>
       <ProjectileSpeed>37.5</ProjectileSpeed>
@@ -35,7 +35,7 @@
     <BuildTime>25</BuildTime>
     <Resources>
       <wood>300</wood>
-      <stone>300</stone>
+      <metal>300</metal>
     </Resources>
   </Cost>
   <Footprint replace="">

@@ -10,7 +10,7 @@
     <BuildTime>20</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>50</wood>
+      <wood>100</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>

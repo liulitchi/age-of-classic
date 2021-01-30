@@ -2,11 +2,11 @@
 <Entity parent="template_unit_hero_infantry">
   <Armour>
     <Hack>12</Hack>
-    <Pierce>10</Pierce>
+    <Pierce>12</Pierce>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>22.2</Hack>
+      <Hack>13</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>2.0</MaxRange>

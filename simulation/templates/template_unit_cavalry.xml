@@ -22,8 +22,8 @@
     <Population>1</Population>
     <BuildTime>12</BuildTime>
     <Resources>
-      <food>80</food>
-      <wood>50</wood>
+      <food>150</food>
+      <metal>30</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -31,7 +31,7 @@
     <Height>7.5</Height>
   </Footprint>
   <Health>
-    <Max>105</Max>
+    <Max>160</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CitizenSoldier Human Organic</Classes>

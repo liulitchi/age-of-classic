@@ -35,8 +35,8 @@
     </Entities>
     <Technologies datatype="tokens">
       -attack_spear_pike
-      speed_inf_melee
-      ranged_inf_skirmishers
+      -speed_inf_melee
+      -ranged_inf_skirmishers
     </Technologies>
   </ProductionQueue>
   <Sound>

@@ -13,6 +13,7 @@
     <Civ>gaia</Civ>
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
     <Icon>gaia/fauna_elephant_african_infant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>

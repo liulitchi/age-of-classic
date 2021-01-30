@@ -34,9 +34,9 @@
     <Population>3</Population>
     <BuildTime>30</BuildTime>
     <Resources>
-      <wood>300</wood>
-      <metal>200</metal>
-      <stone>100</stone>
+      <wood>400</wood>
+      <metal>300</metal>
+      <stone>0</stone>
     </Resources>
   </Cost>
   <Footprint>

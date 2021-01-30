@@ -36,7 +36,7 @@
     <Population>4</Population>
     <Resources>
       <wood>400</wood>
-      <metal>150</metal>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -52,7 +52,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>500</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>

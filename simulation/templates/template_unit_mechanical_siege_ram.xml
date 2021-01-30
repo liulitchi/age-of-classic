@@ -7,7 +7,7 @@
     <Melee>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>150.0</Crush>
+      <Crush>100</Crush>
       <MaxRange>6.5</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1500</RepeatTime>
@@ -19,7 +19,7 @@
   <Cost>
     <BuildTime>30</BuildTime>
     <Resources>
-      <wood>350</wood>
+      <wood>250</wood>
       <metal>100</metal>
     </Resources>
   </Cost>
@@ -32,7 +32,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>350</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <GenericName>Battering Ram</GenericName>

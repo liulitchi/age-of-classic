@@ -7,9 +7,9 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>6.4</Pierce>
+      <Pierce>9</Pierce>
       <Crush>0</Crush>
-      <MaxRange>72</MaxRange>
+      <MaxRange>66</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
@@ -27,7 +27,7 @@
     </Ranged>
   </Attack>
   <Health>
-    <Max>105</Max>
+    <Max>120</Max>
   </Health>
   <Identity>
   <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>

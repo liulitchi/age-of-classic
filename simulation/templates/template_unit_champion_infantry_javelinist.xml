@@ -27,7 +27,7 @@
     </Ranged>
   </Attack>
   <Health>
-    <Max>105</Max>
+    <Max>110</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>

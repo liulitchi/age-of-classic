@@ -56,7 +56,7 @@
     </Resources>
   </Cost>
   <Health>
-       <Max>60</Max>
+       <Max>70</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>

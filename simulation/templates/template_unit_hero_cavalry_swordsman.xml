@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_cavalry">
   <Armour>
     <Hack>14</Hack>
-    <Pierce>10</Pierce>
+    <Pierce>12</Pierce>
   </Armour>
   <Attack>
     <Melee>
