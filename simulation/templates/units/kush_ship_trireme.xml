@@ -2,8 +2,8 @@
 <Entity parent="template_unit_mechanical_ship_trireme">
   <Cost>
     <Resources>
-      <wood>0</wood>
-      <metal>120</metal>
+      <wood>200</wood>
+      <metal>150</metal>
     </Resources>
   </Cost>
   <Identity>
