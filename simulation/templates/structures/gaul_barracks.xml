@@ -25,6 +25,9 @@
       -units/{civ}_cavalry_archer_b
       units/{civ}_champion_infantry_barracks
     </Entities>
+    <Technologies datatype="tokens">
+      slingers_claybullets
+    </Technologies>
   </ProductionQueue>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>

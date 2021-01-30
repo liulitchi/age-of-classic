@@ -9,7 +9,7 @@
       units/{civ}_black_cloak
       units/{civ}_thureophoros
       units/{civ}_infantry_champion_merc_archer
-      units/{civ}_infantry_javelinist_b
+      -units/{civ}_infantry_javelinist_b
       -units/{civ}thorakites
      </Entities>
   </ProductionQueue>

@@ -10,6 +10,10 @@
       units/{civ}_infantry_slinger_b
       units/{civ}_champion_infantry_barracks
      </Entities>
+    <Technologies datatype="tokens">
+      upgrade_rank_advanced_jav_inf_iber
+      slingers_claybullets
+    </Technologies>
    </ProductionQueue>
   <VisualActor>
     <Actor>structures/iberians/barracks.xml</Actor>

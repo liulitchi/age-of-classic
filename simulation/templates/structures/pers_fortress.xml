@@ -15,7 +15,7 @@
       -units/{civ}_mechanical_siege_ram
       -units/{civ}_mechanical_siege_tower
       units/{civ}_champion_cavalry
-      units/{civ}_champion_cavalry_archer
+      -units/{civ}_champion_cavalry_archer
     </Entities>
     <Technologies datatype="tokens">
       </Technologies>

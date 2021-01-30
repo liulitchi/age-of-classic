@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_barracks">
   <Cost>
     <Resources>
-      <wood>200</wood>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -32,6 +32,7 @@
     <Technologies datatype="tokens">
       hellenes/spartans_martial_xp
       hellenes/speed_tyrtean_paeans
+      slingers_claybullets
     </Technologies>
   </ProductionQueue>
   <Obstruction>
@@ -39,7 +40,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_infantry_sword
+      -units/{civ}_champion_infantry_sword
     </Entities>
   </ProductionQueue>
   <VisualActor>

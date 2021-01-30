@@ -29,6 +29,7 @@
       units/{civ}_champion_infantry_barracks
     </Entities>
     <Technologies datatype="tokens">
+      slingers_claybullets
       celts/attack_brit
     </Technologies>
   </ProductionQueue>

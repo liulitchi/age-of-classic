@@ -17,8 +17,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_infantry_marine_archer_b
-      units/{civ}_champion_marine
+      -units/{civ}_infantry_marine_archer_b
+      -units/{civ}_champion_marine
     </Entities>
     <Technologies datatype="tokens">
       hellenes/arsenal_philon

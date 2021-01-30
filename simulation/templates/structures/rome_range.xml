@@ -10,11 +10,6 @@
   <Identity>
     <Civ>rome</Civ>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      romans/upgrade_rank_advanced_mercenary_rome
-    </Technologies>
-  </ProductionQueue>
   <Obstruction>
     <Static width="26.0" depth="24.0"/>
   </Obstruction>
