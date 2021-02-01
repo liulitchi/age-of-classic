@@ -1,7 +1,7 @@
 {
   "genericName": "Sturdy Foundations",
   "description": "Reinforce the foundations in preparation of an attack.",
-  "cost": { "food": 0, "wood": 0, "stone": 400, "metal": 250 },
+  "cost": { "food": 0, "wood": 0, "stone": 250, "metal": 250 },
   "requirements": { "tech": "phase_city" },
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "masonry_clamps.png",

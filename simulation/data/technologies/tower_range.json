@@ -1,14 +1,14 @@
 {
   "genericName": "Arrow Shooters",
   "description": "Arrow shooters increase the maximum range of the fire arrows.",
-  "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 250 },
-  "requirements": { "tech": "phase_kingdom" },
-  "requirementsTooltip": "Unlocked in Kingdom Phase.",
+  "cost": { "food": 350, "wood": 0, "stone": 0, "metal": 250 },
+  "requirements": { "tech": "phase_city" },
+  "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "arrow.png",
   "researchTime": 40,
   "tooltip": "+6 range for defensive tower.",
-  "modifications": [{ "value": "Attack/Ranged/MaxRange", "add": 4 },
-    			    { "value": "Vision/Range","add": 4 }],
+  "modifications": [{ "value": "Attack/Ranged/MaxRange", "add": 6 },
+    			    { "value": "Vision/Range","add": 6 }],
   "affects": ["DefenseTower","Fortress"],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

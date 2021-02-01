@@ -1,15 +1,14 @@
 {
 	"genericName": "Superfine Forage",
 	"description": "Decrease your livestock & Cavarly/Chariot training time.",
-	"cost": { "food": 250, "wood": 0, "stone": 0, "metal": 150 },
+	"cost": { "food": 200, "wood": 0, "stone": 0, "metal": 200 },
+                "supersedes": "gather_animals_stockbreeding",
 	"requirements": { "all": [{ "tech": "phase_town" }] },
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "herbal_remedies.png",
 	"researchTime": 40,
-	"tooltip": "Livestock's training tome -40%, Cavarly/Chariot's training time -25%.",
-	"modifications": [
-		{"value": "Cost/BuildTime", "multiply": 0.6,  "affects": "Domestic" },
-		{"value": "Cost/BuildTime", "multiply": 0.75, "affects": "Stable" }
-		],
+	"tooltip": "Livestock's training tome -25%, Cavarly/Chariot's training time -25%.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.75,  "affects": "Domestic" },
+		            {"value": "Cost/BuildTime", "multiply": 0.75, "affects": "Stable" }],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
