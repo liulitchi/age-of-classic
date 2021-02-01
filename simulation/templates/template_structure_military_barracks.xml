@@ -54,7 +54,7 @@
       -units/{civ}_cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-      attack_spear_pike
+      -attack_spear_pike
       speed_inf_melee
       heal_barracks
       training_conscription

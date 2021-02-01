@@ -18,12 +18,6 @@
       <Spread>3.0</Spread>
       <Delay>0</Delay>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <Bonuses>
-	<Bonus>
-      	  <Classes>Melee Infantry</Classes>
-	  <Multiplier>2.0</Multiplier>
-        </Bonus>
-     </Bonuses>
     </Ranged>
   </Attack>
   <Health>

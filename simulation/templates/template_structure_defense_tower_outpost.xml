@@ -63,7 +63,7 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      tower_night
+      -tower_night
       tower_vision
       tower_decay
     </Technologies>

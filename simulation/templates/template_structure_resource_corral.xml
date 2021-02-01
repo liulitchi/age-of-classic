@@ -40,7 +40,7 @@
      </Entities>
     <Technologies datatype="tokens">
       gather_animals_stockbreeding
-      gather_animals_dogs
+      -gather_animals_dogs
       health_cavalry_01
       superfine_forage
     </Technologies>
