@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_slave">
   <Identity>
-    <Civ>athen</Civ>
-    <SpecificName>Doûlos</SpecificName>
+    <Civ>rome</Civ>
+    <SpecificName></SpecificName>
   </Identity>
   <Builder>
     <Entities datatype="tokens">
-      structures/athen_gymnasion
-      structures/athen_theatron
-      structures/athen_prytaneion
-      structures/athen_royal_stoa
+      -other/wallset_palisade
+      structures/rome_army_camp
+      structures/rome_wallset_siege
+      structures/rome_temple_vesta
+      structures/rome_temple_mars
+      structures/rome_arch
     </Entities>
   </Builder>
   <VisualActor>

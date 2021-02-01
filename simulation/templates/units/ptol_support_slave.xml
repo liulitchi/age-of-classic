@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_slave">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/pers_apadana
-      structures/pers_ishtar_gate
-      structures/pers_hall
-      -structures/{civ}_elephant_stables
-    </Entities>
-  </Builder>
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>ptol</Civ>
     <SpecificName></SpecificName>
   </Identity>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/ptol_military_colony
+      structures/ptol_lighthouse
+      structures/ptol_library
+    </Entities>
+  </Builder>
   <VisualActor>
     <Actor>units/global/slave.xml</Actor>
   </VisualActor>
