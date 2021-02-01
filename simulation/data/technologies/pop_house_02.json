@@ -1,17 +1,23 @@
 {
-	"genericName": "Manors",
+	"genericName": "Home Garden",
 	"specificName": {
-		"rome": "Insulae"
+		"mace": "Peristyle",
+		"spart": "Peristyle",
+		"athen": "Peristyle",
+		"sele": "Peristyle",
+		"ptol": "Peristyle",
+		"rome": "Peristyle",
+		"pers": "Paradise"
 	},
-	"description": "Homes tended to expand as the wealth and population of a settlement grew.",
-	"cost": {"food": 0, "wood": 400, "stone": 300, "metal": 0},
+	"description": "Home gardens ranged from simple fenced-in areas to large manicured and colonnaded enclosures.",
+	"cost": {"food": 0, "wood": 300, "stone": 100, "metal": 0},
 	"supersedes": "pop_house_01",
-	"requirements": {"tech": "phase_kingdom"},
-	"requirementsTooltip": "Unlocked in Kingdom Phase.",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "population.png",
-	"researchTime": 40,
-	"tooltip": "+4 population cap bonus for houses.",
-	"modifications": [{"value": "Cost/PopulationBonus", "add": 4}],
+	"researchTime": 30,
+	"tooltip": "+2 population cap bonus for houses.",
+	"modifications": [{"value": "Cost/PopulationBonus", "add": 2}],
 	"affects": ["House"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

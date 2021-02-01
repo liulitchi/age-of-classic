@@ -9,7 +9,7 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "sword_xiphos.png",
 	"researchTime": 40,
-	"tooltip": "+10% attack for swordsmen.",
+	"tooltip": "+25% attack for swordsmen.",
 	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.2 }],
 	"affects": ["Sword"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
