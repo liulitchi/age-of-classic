@@ -7,6 +7,7 @@
       <MinRange>0</MinRange>
       <ElevationBonus>15</ElevationBonus>
     </Ranged>
+   </Attcak>
   <Cost>
     <BuildTime>80</BuildTime>
     <Resources>
