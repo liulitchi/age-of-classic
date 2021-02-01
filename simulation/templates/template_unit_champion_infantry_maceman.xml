@@ -2,17 +2,21 @@
 <Entity parent="template_unit_champion_infantry">
   <Attack>
     <Melee>
-      <Hack>7</Hack>
+      <Hack>14</Hack>
       <Pierce>0</Pierce>
       <Crush>0</Crush>
       <MaxRange>2.0</MaxRange>
       <PrepareTime>500</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
+      <RepeatTime>1400</RepeatTime>
       <Bonuses>
-        <BonusStructure>
-          <Classes>Structure</Classes>
-          <Multiplier>10.0</Multiplier>
-        </BonusStructure>
+        <Bonus1>
+          <Classes>Champion</Classes>
+          <Multiplier>2.0</Multiplier>
+        </Bonus1>
+        <Bonus2>
+          <Classes>Hero</Classes>
+          <Multiplier>2.0</Multiplier>
+        </Bonus2>
       </Bonuses>
       </Melee>
   </Attack>

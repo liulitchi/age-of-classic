@@ -4,7 +4,7 @@
     <PopulationBonus>10</PopulationBonus>
     <BuildTime>50</BuildTime>
     <Resources>
-      <wood>150</wood>
+      <wood>100</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -23,6 +23,11 @@
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      pop_house_03
+    </Technologies>
+  </ProductionQueue>
   <TerritoryInfluence>
     <Radius>20</Radius>
     <Weight>40000</Weight>

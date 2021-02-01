@@ -28,12 +28,12 @@
       structures/{civ}_corral
       structures/{civ}_outpost
       other/wallset_palisade
-      other/palisades_tall_spikes_3x1
-      structures/{civ}_sentry_tower
+      -other/palisades_tall_spikes_3x1
+      -structures/{civ}_sentry_tower
       structures/{civ}_defense_tower
       structures/{civ}_dock
       structures/{civ}_barracks
-      structures/{civ}_range
+      -structures/{civ}_range
       structures/{civ}_stable
       structures/{civ}_workshop
       structures/{civ}_elephant_stables
@@ -82,8 +82,8 @@
     <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
     <Rates>
-      <food.fruit>0.3</food.fruit>
-      <food.grain>0.25</food.grain>
+      <food.fruit>1</food.fruit>
+      <food.grain>0.6</food.grain>
       <food.meat>1</food.meat>
       <wood.tree>0.6</wood.tree>
       <wood.ruins>5</wood.ruins>
