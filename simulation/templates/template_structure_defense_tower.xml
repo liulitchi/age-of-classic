@@ -23,7 +23,7 @@
    <Cost>
     <Resources>
       <wood>100</wood>
-      <stone>100</stone>
+      <stone>0</stone>
     </Resources>
   </Cost>
   
@@ -60,8 +60,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-    tower_armour
-    tower_range
+    -tower_armour
+    -tower_range
     </Technologies>
   </ProductionQueue>
   <Sound>

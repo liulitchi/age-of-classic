@@ -4,15 +4,15 @@
     <Ranged>
       <Pierce>10</Pierce>
       <MaxRange>68</MaxRange>
-      <MinRange>5</MinRange>
+      <MinRange>0</MinRange>
       <ElevationBonus>9</ElevationBonus>
     </Ranged>
   </Attack>
   <Cost>
     <BuildTime>40</BuildTime>
     <Resources>
-      <wood>100</wood>
-      <stone>50</stone>
+      <wood>150</wood>
+      <stone>0</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -20,7 +20,7 @@
     <Height>9.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>3</Max>
+    <Max>4</Max>
   </GarrisonHolder>
   <Health>
     <Max>700</Max>
@@ -41,8 +41,7 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      tower_watch
-      
+      -tower_watch    
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>
@@ -50,20 +49,6 @@
     <Radius>16</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
-  <!--
-  <Upgrade>
-    <Tower>
-      <Entity>structures/{civ}_defense_tower</Entity>
-      <Tooltip>Reinforce with stone and upgrade to a defense tower.</Tooltip>
-      <RequiredTechnology>phase_city</RequiredTechnology>
-      <Cost>
-        <wood>0</wood>
-        <stone>50</stone>
-      </Cost>
-      <Time>100</Time>
-    </Tower>
-  </Upgrade>
-  -->
   <VisualActor>
     <Actor>props/special/palisade_rocks_fort.xml</Actor>
   </VisualActor>
