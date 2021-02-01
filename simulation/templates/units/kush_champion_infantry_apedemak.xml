@@ -2,7 +2,10 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Attack>
     <Melee>
-      <Hack>11</Hack>
+      <Hack>12</Hack>
+      <MaxRange>2.0</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
       <Bonuses>
         <Bonus1>
           <Classes>Champion</Classes>
@@ -15,6 +18,10 @@
       </Bonuses>
     </Melee>
   </Attack>
+  <Armour>
+    <Hack>5</Hack>
+    <Pierce>5</Pierce>
+  </Armour>
   <Identity>
     <Civ>kush</Civ>
     <GenericName>Meroitic Temple Guard</GenericName>
