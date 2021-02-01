@@ -55,7 +55,7 @@
       -health_females_01
       pop_house_01
       pop_house_02
-      -pop_house_03
+      pop_house_03
       -unlock_females_house
     </Technologies>
   </ProductionQueue>
