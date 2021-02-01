@@ -10,12 +10,6 @@
       <RepeatTime>1250</RepeatTime>
       <Spread>3.0</Spread>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <Bonuses>
-	<Bonus>
-      	  <Classes>Melee Infantry</Classes>
-	  <Multiplier>2.5</Multiplier>
-        </Bonus>
-     </Bonuses>
     </Ranged>
   </Attack>
   <Cost>

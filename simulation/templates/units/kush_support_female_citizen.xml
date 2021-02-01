@@ -13,7 +13,7 @@
       structures/kush_pyramid_large
       structures/kush_temple_amun
       structures/kush_blemmye_camp
-      structures/kush_nuba_village
+      -structures/kush_nuba_village
     </Entities>
   </Builder>
   <VisualActor>
