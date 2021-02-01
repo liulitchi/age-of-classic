@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_slave">
   <Identity>
-    <Civ>athen</Civ>
+    <Civ>spart</Civ>
     <SpecificName>Doûlos</SpecificName>
   </Identity>
   <Builder>
     <Entities datatype="tokens">
-      structures/athen_gymnasion
-      structures/athen_theatron
-      structures/athen_prytaneion
-      structures/athen_royal_stoa
+      structures/spart_syssiton
+      structures/spart_theatron
+      structures/spart_royal_stoa
+      -structures/{civ}_wallset_stone
+      -structures/{civ}_range
     </Entities>
   </Builder>
   <VisualActor>

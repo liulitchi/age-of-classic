@@ -2,7 +2,10 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Attack>
     <Melee>
-      <Hack>10</Hack>
+      <Hack>12</Hack>
+      <MaxRange>2.0</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
       <Bonuses>
         <Bonus1>
           <Classes>Champion</Classes>
@@ -17,7 +20,7 @@
   </Attack>
   <Cost>
     <Resources>
-      <food>160</food>
+      <food>150</food>
       <metal>50</metal>
       <wood>0</wood>
     </Resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman_hoplite">
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <Armour>
+    <Hack>5</Hack>
+    <Pierce>4</Pierce>
+  </Armour>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>90</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>pers</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Greek Hoplite</GenericName>
+    <SpecificName>Hoplites Mercenary</SpecificName>
+    <Icon>units/athen_champion_infantry.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>120</xp>
+    <food>0</food>
+    <wood>0</wood>
+    <metal>7</metal>
+  </Loot>
+  <VisualActor>
+    <Actor>units/athenians/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

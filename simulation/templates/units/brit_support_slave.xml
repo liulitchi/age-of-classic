@@ -2,14 +2,13 @@
 <Entity parent="template_unit_support_slave">
   <Builder>
     <Entities datatype="tokens">
-      structures/pers_apadana
-      structures/pers_ishtar_gate
-      structures/pers_hall
-      -structures/{civ}_elephant_stables
+      structures/brit_crannog
+      structures/brit_kennel
+      structures/brit_rotarymill
     </Entities>
   </Builder>
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>brit</Civ>
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>

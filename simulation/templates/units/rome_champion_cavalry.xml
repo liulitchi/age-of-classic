@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_swordsman">
+ <Attack>
+    <Melee>
+      <Hack>10</Hack>
+    </Slaughter>
+  </Attack>
   <Identity>
     <Civ>rome</Civ>
     <Lang>latin</Lang>

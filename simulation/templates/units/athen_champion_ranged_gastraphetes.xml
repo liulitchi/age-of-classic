@@ -4,7 +4,7 @@
     <Ranged>
       <Pierce>10.0</Pierce>
       <MinRange>0.0</MinRange>
-      <MaxRange>82</MaxRange>
+      <MaxRange>66</MaxRange>
       <ProjectileSpeed>100.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1250</RepeatTime>
@@ -20,15 +20,15 @@
   </Attack>
   <Cost>
     <Resources>
-      <food>60</food>
-      <metal>60</metal>
+      <food>100</food>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <Identity>
     <Civ>athen</Civ>
     <Lang>greek</Lang>
     <GenericName>Greek Gastraphetes</GenericName>
-    <SpecificName>Toxótēs Skythikós</SpecificName>
+    <SpecificName>Gastraphétēs</SpecificName>
     <Icon>units/athen_champion_infantry_ranged_gastraphetes.png</Icon>
   </Identity>
   <Loot>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_slave">
   <Identity>
-    <Civ>athen</Civ>
+    <Civ>kush</Civ>
     <SpecificName>Doûlos</SpecificName>
   </Identity>
   <Builder>
     <Entities datatype="tokens">
-      structures/athen_gymnasion
-      structures/athen_theatron
-      structures/athen_prytaneion
-      structures/athen_royal_stoa
+      structures/kush_pyramid_small
+      structures/kush_pyramid_large
+      structures/kush_temple_amun
+      structures/kush_blemmye_camp
+      -structures/kush_nuba_village
     </Entities>
   </Builder>
   <VisualActor>
