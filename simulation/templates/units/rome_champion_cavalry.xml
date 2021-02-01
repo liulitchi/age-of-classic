@@ -3,7 +3,7 @@
  <Attack>
     <Melee>
       <Hack>10</Hack>
-    </Slaughter>
+    </melee>
   </Attack>
   <Identity>
     <Civ>rome</Civ>
