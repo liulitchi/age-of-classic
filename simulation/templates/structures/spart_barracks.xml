@@ -29,7 +29,7 @@
     <Technologies datatype="tokens">
       hellenes/spartans_martial_xp
       hellenes/speed_tyrtean_paeans
-      slingers_claybullets
+      -slingers_claybullets
     </Technologies>
   </ProductionQueue>
   <Obstruction>

@@ -5,7 +5,7 @@
     <PopulationBonus>5</PopulationBonus>
     <Resources>
       <stone>100</stone>
-      <wood>300</wood>
+      <wood>200</wood>
       <metal>0</metal>
     </Resources>
   </Cost>

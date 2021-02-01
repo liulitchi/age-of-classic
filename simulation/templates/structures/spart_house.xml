@@ -6,7 +6,7 @@
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      hellenes/spartans_women
+      -hellenes/spartans_women
     </Technologies>
   </ProductionQueue>
   <VisualActor>

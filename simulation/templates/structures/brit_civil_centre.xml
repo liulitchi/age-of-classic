@@ -7,6 +7,13 @@
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_brit_cc</SpawnEntityOnDeath>
   </Health>
+  <Cost>
+    <Resources>
+      <wood>500</wood>
+      <stone>500</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>brit</Civ>
     <SpecificName>Tigernotreba</SpecificName>

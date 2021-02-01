@@ -8,9 +8,9 @@
     <PopulationBonus>10</PopulationBonus>
     <Resources>
       <food>0</food>
-      <wood>0</wood>
+      <wood>400</wood>
       <stone>400</stone>
-      <metal>400</metal>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Footprint>

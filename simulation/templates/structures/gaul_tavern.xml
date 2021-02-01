@@ -2,11 +2,11 @@
 <Entity parent="template_structure_civic_house">
   <Cost>
     <PopulationBonus>5</PopulationBonus>
-    <BuildTime>150</BuildTime>
+    <BuildTime>100</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>200</wood>
-      <stone>200</stone>
+      <wood>100</wood>
+      <stone>0</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -15,7 +15,7 @@
     <Height>5.0</Height>
   </Footprint>
   <Health>
-    <Max>1500</Max>
+    <Max>1200</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -40,12 +40,13 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       -units/{civ}_support_female_citizen_house
-      units/{civ}_support_female_citizen
+      -units/{civ}_support_female_citizen
       units/{civ}_champion_fanatic
     </Entities>
     <Technologies datatype="tokens">
       -health_females_01
-      -pop_house_01
+      pop_house_01
+      pop_house_02
       -unlock_females_house
     </Technologies>
   </ProductionQueue>

@@ -5,7 +5,7 @@
   </BuildRestrictions>
   <Cost>
     <Resources>
-      <stone>400</stone>
+      <stone>300</stone>
     </Resources>
   </Cost>
   <Auras datatype="tokens">
@@ -23,7 +23,7 @@
     <GenericName>Temple of Vesta</GenericName>
     <Icon>structures/temple_vesta.png</Icon>
     <SpecificName>Aedes Vestae</SpecificName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <History>The Temple of Vesta is a building of ancient Rome dedicated to the worship of the goddess Vesta by the Vestais priestesses, located in the center of the Roman Forum, near the Royal and the complex of the House of Vestais, center of public power and traditional political and religious nucleus of Rome.</History>
   </Identity>
   <Loot>

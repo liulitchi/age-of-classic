@@ -37,6 +37,9 @@
       units/{civ}_infantry_clubman_b
       units/{civ}_infantry_javelinist_merc_b
     </Entities>
+    <Technologies datatype="tokens">
+      ranged_inf_skirmishers
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/mercenaries/camp_blemmye.xml</Actor>

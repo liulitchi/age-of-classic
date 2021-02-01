@@ -3,7 +3,7 @@
   <Cost>
     <BuildTime>200</BuildTime>
     <Resources>
-      <wood>300</wood>
+      <wood>0</wood>
       <stone>300</stone>
       <metal>0</metal>
     </Resources>

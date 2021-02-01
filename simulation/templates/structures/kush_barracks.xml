@@ -16,6 +16,7 @@
       
     </Entities>
     <Technologies datatype="tokens">
+      -ranged_inf_skirmishers
       kushites/attack_axe
     </Technologies>
   </ProductionQueue>
