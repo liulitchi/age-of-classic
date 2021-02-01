@@ -3,11 +3,10 @@
   <Attack>
     <Ranged>
       <Pierce>12</Pierce>
-      <MaxRange>72</MaxRange>
-      <MinRange>10</MinRange>
+      <MaxRange>74</MaxRange>
+      <MinRange>0</MinRange>
       <ElevationBonus>15</ElevationBonus>
     </Ranged>
-  </Attack>
   <Cost>
     <BuildTime>80</BuildTime>
     <Resources>
@@ -20,10 +19,10 @@
     <Height>15.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>5</Max>
+    <Max>6</Max>
   </GarrisonHolder>
   <Health>
-    <Max>800</Max>
+    <Max>1000</Max>
   </Health>
   <Identity>
     <GenericName>Defense Tower</GenericName>
@@ -42,9 +41,9 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      tower_watch
+      -tower_watch
       tower_range
-      tower_murderholes
+      -tower_murderholes
       tower_armour
       unlock_fire_arrows
     </Technologies>

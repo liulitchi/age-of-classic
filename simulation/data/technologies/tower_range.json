@@ -6,7 +6,7 @@
   "requirementsTooltip": "Unlocked in Kingdom Phase.",
   "icon": "arrow.png",
   "researchTime": 40,
-  "tooltip": "+4 range for defensive tower.",
+  "tooltip": "+6 range for defensive tower.",
   "modifications": [{ "value": "Attack/Ranged/MaxRange", "add": 4 },
     			    { "value": "Vision/Range","add": 4 }],
   "affects": ["DefenseTower","Fortress"],
