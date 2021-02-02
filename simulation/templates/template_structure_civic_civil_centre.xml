@@ -100,6 +100,8 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_female_citizen
+      units/{civ}_infantry_pikeman_b
+      units/{civ}_infantry_spearman_b
      
     </Entities>
     <Technologies datatype="tokens">
