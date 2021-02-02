@@ -1,10 +1,10 @@
 {
 	"genericName": "Fertilizer",
 	"description": "Extra nutrients for farms.",
-	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 250},
+	"cost": {"food": 700, "wood": 0, "stone": 0, "metal": 300},
 	"supersedes": "gather_farming_training",
-	"requirements": {"tech": "phase_kingdom"},
-	"requirementsTooltip": "Unlocked in Kingdom Phase.",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "olives.png",
 	"researchTime": 30,
 	"tooltip": "+25% farming rate.",

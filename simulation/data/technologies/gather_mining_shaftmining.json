@@ -1,10 +1,10 @@
 {
 	"genericName": "Shaft Mining",
 	"description": "Increases metal gathering rates.",
-	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 150},
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 200},
 	"supersedes": "gather_mining_wedgemallet",
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "mining_metal.png",
 	"researchTime": 30,
 	"tooltip": "+25% metal gathering rate.",
