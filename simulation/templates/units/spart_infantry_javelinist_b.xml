@@ -15,9 +15,8 @@
   <Cost>
     <Resources>
       <food>60</food>
-      <wood>20</wood>
       <stone>0</stone>
-      <metal>0</metal>
+      <metal>10</metal>
     </Resources>
   </Cost>
   <ResourceGatherer>
