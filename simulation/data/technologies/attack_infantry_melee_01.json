@@ -4,7 +4,7 @@
 	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 350},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "sword.png",
+	"icon": "falcata.png",
 	"researchTime": 40,
 	"tooltip": "+10% attack for melee infantry.",
 	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.10 }],

@@ -5,7 +5,7 @@
                 "supersedes": "gather_animals_stockbreeding",
 	"requirements": { "all": [{ "tech": "phase_town" }] },
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "herbal_remedies.png",
+	"icon": "grain_harvesting.png",
 	"researchTime": 40,
 	"tooltip": "Livestock's training tome -25%, Cavarly/Chariot's training time -25%.",
 	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.75,  "affects": "Domestic" },

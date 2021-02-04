@@ -5,7 +5,7 @@
 	"supersedes": "armor_cav_02",
 	"requirements": {"tech": "phase_kingdom"},
 	"requirementsTooltip": "Unlocked in Kingdom Phase.",
-	"icon": "armor_plates_cavalry.png",
+	"icon": "horseshoe_silver.png",
 	"researchTime": 40,
 	"tooltip": "+1 armour for cavalry.",
 	"modifications": [{"value": "Armour/Hack", "add": 1},

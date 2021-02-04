@@ -5,7 +5,7 @@
 	"supersedes": "armor_infantry_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "armor_quilted.png",
+	"icon": "armor_plates_iron.png",
 	"researchTime": 40,
 	"tooltip": "+1 armour for infantry.",
 	"modifications": [{"value": "Armour/Hack", "add": 1},

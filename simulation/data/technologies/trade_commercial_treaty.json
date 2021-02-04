@@ -1,7 +1,7 @@
 {
 	"genericName": "Commercial Treaty",
 	"description": "Make trade agreements with other international peoples.",
-	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 100 },
+	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 200 },
 	"requirements": { "tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "handshake.png",

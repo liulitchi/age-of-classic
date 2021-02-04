@@ -5,7 +5,7 @@
 	"supersedes": "armor_cav_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "armor_plates_cavalry.png",
+	"icon": "horseshoe_metal.png",
 	"researchTime": 40,
 	"tooltip": "+1 armour for cavalry.",
 	"modifications": [{"value": "Armour/Hack", "add": 1},

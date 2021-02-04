@@ -5,7 +5,7 @@
 	"supersedes": "attack_infantry_melee_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "sword_cross.png",
+	"icon": "sword.png",
 	"researchTime": 40,
 	"tooltip": "+15% attack for melee infantry.",
 	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15 }],

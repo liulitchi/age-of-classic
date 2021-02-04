@@ -1,7 +1,7 @@
 {
 	"genericName": "Handicraft",
 	"description": "The progress in handicraft improves the trading profit.",
-	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 200},
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 250},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "metal_pot.png",

@@ -4,7 +4,7 @@
 	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 250 },
 	"requirements": { "all": [{ "tech": "phase_city" }] },
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "armor_plates_iron.png",
+	"icon": "shields_generic_wood.png",
 	"researchTime": 40,
 	"tooltip": "+2 hack armour for siege ram and siege tower.",
 	"modifications": [{ "value": "Armour/Hack", "add": 2 }],

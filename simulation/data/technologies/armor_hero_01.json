@@ -13,7 +13,7 @@
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 250},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "armor_cuirass_bronze_2.png",
+	"icon": "Gilt armor.png",
 	"researchTime": 40,
 	"tooltip": "+2 armour for heroes.",
 	"modifications": [{"value": "Armour/Hack", "add": 2.0},

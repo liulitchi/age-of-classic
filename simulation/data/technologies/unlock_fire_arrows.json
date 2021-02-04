@@ -3,7 +3,7 @@
 	"description": "Equip your towers with flaming arrows.",
 	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 50},
 	"requirements": { "all": [{ "tech": "phase_town" }] }, 	"requirementsTooltip": "Unlocked in town Phase.",
-	"icon": "fire_arrows.png",
+	"icon": "flaming_pitch.png",
 	"researchTime": 40,
 	"tooltip": "Unlock flaming arrows for towers.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -1,7 +1,7 @@
 {
 	"genericName": "Gather Training",
 	"description": "Training for workers to increase farm gathering speed.",
-	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 250},
 	"supersedes": "gather_farming_plows",
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",

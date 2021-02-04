@@ -5,7 +5,7 @@
 	"supersedes": "attack_infantry_ranged_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "arrow_accuracy.png",
+	"icon": "arrow.png",
 	"researchTime": 40,
 	"tooltip": "+15% attack & +2 Max Range for ranged infantry.",
 	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.15 },

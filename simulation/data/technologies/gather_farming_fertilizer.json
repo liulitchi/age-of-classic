@@ -1,11 +1,11 @@
 {
 	"genericName": "Fertilizer",
 	"description": "Extra nutrients for farms.",
-	"cost": {"food": 700, "wood": 0, "stone": 0, "metal": 300},
+	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 500},
 	"supersedes": "gather_farming_training",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "olives.png",
+	"icon": "crop_rotation.png",
 	"researchTime": 30,
 	"tooltip": "+25% farming rate.",
 	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25}],

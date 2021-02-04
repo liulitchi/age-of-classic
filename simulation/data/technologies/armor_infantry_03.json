@@ -5,7 +5,7 @@
 	"supersedes": "armor_infantry_02",
 	"requirements": {"tech": "phase_kingdom"},
 	"requirementsTooltip": "Unlocked in Kingdom Phase.",
-	"icon": "armor_quilted.png",
+	"icon": "armor_plates_silver.png",
 	"researchTime": 40,
 	"tooltip": "+1 armour for infantry.",
 	"modifications": [{"value": "Armour/Hack", "add": 1},

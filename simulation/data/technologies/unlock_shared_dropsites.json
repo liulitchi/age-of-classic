@@ -1,7 +1,7 @@
 {
 	"genericName": "Diaspora",
 	"description": "The extension of trade leads to the permanent establishment of storekeepers and their families in foreign countries, allowing them to exploit the wealth of these countries.",
-	"cost": { "food": 100, "wood": 100, "stone": 100, "metal": 100 },
+	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 300 },
 	"requirements": { "entity": { "class": "Trader", "number": 3 } },
 	"requirementsTooltip": "Requires 3 Traders",
 	"supersedes": "unlock_shared_los",
