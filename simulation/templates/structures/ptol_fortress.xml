@@ -23,6 +23,7 @@
       -units/{civ}_mechanical_siege_tower
       units/{civ}_champion_infantry_pikeman
       units/{civ}_champion_cavalry
+      -units/{civ}_infantry_archer_b
     </Entities>
     <Technologies datatype="tokens">
       unlock_champion_units

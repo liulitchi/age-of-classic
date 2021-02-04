@@ -20,14 +20,6 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_infantry_javelinist_b
-      units/{civ}_infantry_slinger_b
-      -units/{civ}_infantry_archer_b
-     
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/athenians/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

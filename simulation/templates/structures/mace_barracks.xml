@@ -16,13 +16,6 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_infantry_javelinist_b
-      units/{civ}_infantry_slinger_b
-      -units/{civ}_infantry_archer_b
-      units/{civ}_infantry_merc_archer_b
-      
-    </Entities>
     <Technologies datatype="tokens">
     </Technologies>
   </ProductionQueue>

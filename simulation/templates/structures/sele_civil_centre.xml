@@ -9,7 +9,6 @@
       units/{civ}_hero_seleucus_victor
       units/{civ}_hero_antiochus_great
       units/{civ}_hero_antiochus_righteous
-      units/{civ}_infantry_spearman_b
       
     </Entities>
     <Technologies datatype="tokens">

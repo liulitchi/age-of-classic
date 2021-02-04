@@ -20,6 +20,8 @@
       units/{civ}_champion_infantry
       units/{civ}_legionnaire_marian
       units/{civ}_champion_cavalry
+      -units/{civ}_infantry_slinger_b
+      -units/{civ}_infantry_archer_b
     </Entities>
     <Technologies datatype="tokens">
       unlock_champion_units
