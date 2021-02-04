@@ -13,9 +13,10 @@
      <Crush>10</Crush>
   </Armour>
   <Cost>
-    <BuildTime>15</BuildTime>
+    <Population>5</Population>
+    <BuildTime>20</BuildTime>
     <Resources>
-      <food>400</food>
+      <food>500</food>
       <wood>0</wood>
       <metal>150</metal>
     </Resources>

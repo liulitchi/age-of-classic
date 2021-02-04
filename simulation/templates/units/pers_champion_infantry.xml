@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Cost>
     <Resources>
-      <food>100</food>
+      <food>150</food>
       <metal>50</metal>
     </Resources>
   </Cost>
