@@ -17,7 +17,7 @@
     </Melee>
   </Attack>
   <Cost>
-    <Population>1</Population>
+    <Population>2</Population>
     <BuildTime>15</BuildTime>
   </Cost>
   <Footprint>

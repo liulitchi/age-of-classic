@@ -6,11 +6,11 @@
     <Crush>2</Crush>
   </Armour>
   <Cost>
-    <Population>1</Population>
+    <Population>3</Population>
     <BuildTime>15</BuildTime>
     <Resources>
-      <wood>100</wood>
-      <metal>100</metal>
+      <wood>150</wood>
+      <metal>120</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>

@@ -6,9 +6,9 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>16.0</Pierce>
+      <Pierce>20.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>72.0</MaxRange>
+      <MaxRange>80.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
@@ -43,8 +43,8 @@
     <PopulationBonus>10</PopulationBonus>
     <BuildTime>420</BuildTime>
     <Resources>
-      <wood>300</wood>
-      <stone>700</stone>
+      <wood>0</wood>
+      <stone>1000</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -89,11 +89,19 @@
       units/{civ}_mechanical_siege_polybolos_packed
       units/{civ}_mechanical_siege_ram
       units/{civ}_mechanical_siege_tower
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_pikeman_b
+      units/{civ}_infantry_swordsman_b
+      units/{civ}_infantry_javelinist_b
+      units/{civ}_infantry_slinger_b
+      units/{civ}_infantry_archer_b
+      units/{civ}_cavalry_javelinist_b
+      units/{civ}_cavalry_swordsman_b
+      units/{civ}_cavalry_spearman_b
+      units/{civ}_cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-      
       attack_champions_elite
-      tower_range
     </Technologies>
   </ProductionQueue>
   <Sound>
@@ -104,7 +112,7 @@
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
-    <Root>false</Root>
+    <Root>true</Root>
     <Radius>100</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>

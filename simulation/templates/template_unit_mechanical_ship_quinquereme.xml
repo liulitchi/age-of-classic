@@ -31,7 +31,7 @@
     <GarrisonArrowClasses>Catapult</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>3</Population>
+    <Population>7</Population>
     <BuildTime>30</BuildTime>
     <Resources>
       <wood>400</wood>

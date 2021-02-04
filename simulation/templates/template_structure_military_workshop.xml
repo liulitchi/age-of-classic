@@ -9,7 +9,7 @@
   <Cost>
     <BuildTime>200</BuildTime>
     <Resources>
-      <wood>250</wood>
+      <wood>200</wood>
       <stone>100</stone>
     </Resources>
   </Cost>
@@ -55,11 +55,9 @@
       units/{civ}_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
-      
       siege_attack
       siege_armor_1
       siege_armor_2
-      
       siege_buildtime
       attack_capture_siege_ladders
     </Technologies>

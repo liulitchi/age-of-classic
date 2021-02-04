@@ -16,15 +16,15 @@
     units/heroes/hero_garrison
   </Auras>
   <Health>
-    <Max>800</Max>
+    <Max>400</Max>
   </Health>
   <Cost>
     <BuildTime>60</BuildTime>
     <Population>2</Population>
     <Resources>
-      <food>200</food>
-      <wood>200</wood>
-      <metal>200</metal>
+      <food>300</food>
+      <wood>0</wood>
+      <metal>300</metal>
     </Resources>
   </Cost>
   <Identity>

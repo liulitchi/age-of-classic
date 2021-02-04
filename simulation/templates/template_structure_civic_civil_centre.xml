@@ -99,21 +99,17 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_female_citizen
-     
+      units/{civ}_support_female_citizen   
     </Entities>
     <Technologies datatype="tokens">
       phase_town_{civ}
       phase_city_{civ}
       phase_kingdom_{civ}
-      -cost_mercenary
       unlock_spies
       spy_counter
       health_siege_rations_1
       health_siege_rations_2
       health_siege_rations_3
-      -buildtime_structures_peasants
-      -cost_structures_rubble
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>

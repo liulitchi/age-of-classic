@@ -8,9 +8,9 @@
   <Cost>
     <BuildTime>60</BuildTime>
     <Resources>
-      <food>200</food>
-      <wood>200</wood>
-      <metal>200</metal>
+      <food>300</food>
+      <wood>0</wood>
+      <metal>300</metal>
     </Resources>
   </Cost>
   <Heal>
@@ -26,7 +26,7 @@
     </RangeOverlay>
   </Heal>
   <Health>
-    <Max>800</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">-Soldier Healer Support</VisibleClasses>

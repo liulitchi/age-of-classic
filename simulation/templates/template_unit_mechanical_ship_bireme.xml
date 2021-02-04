@@ -23,7 +23,7 @@
     <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>2</Population>
+    <Population>4</Population>
     <BuildTime>20</BuildTime>
     <Resources>
       <wood>150</wood>

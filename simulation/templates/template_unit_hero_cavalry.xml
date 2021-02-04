@@ -9,9 +9,9 @@
   </Health>
   <Cost>
     <Resources>
-      <food>300</food>
+      <food>400</food>
       <wood>0</wood>
-      <metal>300</metal>
+      <metal>400</metal>
     </Resources>
   </Cost>
   <Identity>

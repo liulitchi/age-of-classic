@@ -61,8 +61,6 @@
       -phase_kingdom_{civ}
       health_siege_rations_1
       health_siege_rations_2
-      -buildtime_structures_peasants
-      -cost_structures_rubble
    </Technologies>
   </ProductionQueue>
   <Sound>
