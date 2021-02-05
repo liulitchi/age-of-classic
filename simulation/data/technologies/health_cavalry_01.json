@@ -2,7 +2,7 @@
 	"genericName": "Breeding Strong Horses",
 	"description": "Breeding the best horse lineage.",
 	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
-                "supersedes": "superfine_forage",
+    "supersedes": "superfine_forage",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "horse.png",
