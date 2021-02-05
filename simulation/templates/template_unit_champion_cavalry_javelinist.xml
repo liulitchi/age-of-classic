@@ -27,8 +27,13 @@
     </Ranged>
   </Attack>
   <Health>
-    <Max>160</Max>
+    <Max>300</Max>
   </Health>
+  <Cost>
+    <Resources>
+      <metal>80</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
     <GenericName>Champion Cavalry Skirmisher</GenericName>

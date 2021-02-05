@@ -19,6 +19,11 @@
      </Bonuses>
     </Ranged>
     </Attack>
+  <Cost>
+    <Resources>
+      <metal>40</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
     <GenericName>Cavalry Archer</GenericName>

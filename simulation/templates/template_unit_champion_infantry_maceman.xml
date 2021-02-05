@@ -2,16 +2,16 @@
 <Entity parent="template_unit_champion_infantry">
   <Attack>
     <Melee>
-      <Hack>14</Hack>
+      <Hack>12</Hack>
       <Pierce>0</Pierce>
       <Crush>0</Crush>
       <MaxRange>2.0</MaxRange>
       <PrepareTime>500</PrepareTime>
-      <RepeatTime>1400</RepeatTime>
+      <RepeatTime>1250</RepeatTime>
       <Bonuses>
         <Bonus1>
           <Classes>Champion</Classes>
-          <Multiplier>2.0</Multiplier>
+          <Multiplier>1.5</Multiplier>
         </Bonus1>
         <Bonus2>
           <Classes>Hero</Classes>
@@ -20,6 +20,14 @@
       </Bonuses>
       </Melee>
   </Attack>
+  <Cost>
+    <Resources>
+      <food>150</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>70</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <VisibleClasses datatype="tokens">Melee Maceman</VisibleClasses>
     <GenericName>Champion Maceman</GenericName>

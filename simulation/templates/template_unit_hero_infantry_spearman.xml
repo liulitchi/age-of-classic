@@ -17,10 +17,6 @@
           <Classes>Cavalry</Classes>
           <Multiplier>2.0</Multiplier>
         </Bonus1>
-        <Bonus2>
-          <Classes>Elephant</Classes>
-          <Multiplier>2.0</Multiplier>
-        </Bonus2>
       </Bonuses>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>

@@ -7,7 +7,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>35.0</Hack>
+      <Hack>55.0</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
@@ -17,12 +17,8 @@
       <Bonuses>
       <Bonus1>
         <Classes>Structure</Classes>
-        <Multiplier>30</Multiplier>
+        <Multiplier>10</Multiplier>
       </Bonus1>
-      <Bonus2>
-        <Classes>Siege</Classes>
-        <Multiplier>2.0</Multiplier>
-      </Bonus2>
       </Bonuses>
     </Melee>
   </Attack>
@@ -30,9 +26,9 @@
     <Population>5</Population>
     <BuildTime>60</BuildTime>
     <Resources>
-      <food>500</food>
+      <food>1400</food>
       <wood>0</wood>
-      <metal>500</metal>
+      <metal>600</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -40,7 +36,7 @@
     <Height>9.0</Height>
   </Footprint>
   <Health>
-    <Max>1000</Max>
+    <Max>1200</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Melee Elephant</VisibleClasses>

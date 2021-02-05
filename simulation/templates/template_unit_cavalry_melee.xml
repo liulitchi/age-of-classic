@@ -6,7 +6,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>13</Hack>
+      <Hack>9</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>3.5</MaxRange>
@@ -15,6 +15,15 @@
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>
   </Attack>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Cost>
+    <Resources>
+      <food>200</food>
+      <metal>30</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <GenericName>Melee Cavalry</GenericName>

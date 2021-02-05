@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_elephant">
   <Attack replace="">
     <Melee>
-      <Hack>30</Hack>
+      <Hack>50</Hack>
       <Pierce>0</Pierce>
       <Crush>0</Crush>
       <MaxRange>8.0</MaxRange>
@@ -12,12 +12,8 @@
       <Bonuses>
       <Bonus1>
         <Classes>Structure</Classes>
-        <Multiplier>30</Multiplier>
+        <Multiplier>10</Multiplier>
       </Bonus1>
-      <Bonus2>
-        <Classes>Siege</Classes>
-        <Multiplier>2.0</Multiplier>
-      </Bonus2>
       </Bonuses>
     </Melee>
   </Attack>

@@ -6,7 +6,7 @@
       <Pierce>5</Pierce>
       <Crush>1</Crush>
       <MaxRange>50</MaxRange>
-      <MinRange>4.0</MinRange>
+      <MinRange>6.0</MinRange>
       <ProjectileSpeed>62.5</ProjectileSpeed>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1250</RepeatTime>
@@ -21,8 +21,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <food>60</food>
-      <stone>10</stone>
+      <food>70</food>
+      <stone>20</stone>
       <wood>0</wood>
     </Resources>
   </Cost>

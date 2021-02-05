@@ -6,7 +6,7 @@
       <Pierce>8</Pierce>
       <Crush>0</Crush>
       <MaxRange>30.0</MaxRange>
-      <MinRange>3.0</MinRange>
+      <MinRange>5.0</MinRange>
       <ProjectileSpeed>62.5</ProjectileSpeed>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1250</RepeatTime>
@@ -52,11 +52,11 @@
   <Cost>
     <Resources>
       <metal>10</metal>
-      <food>60</food>
+      <food>70</food>
     </Resources>
   </Cost>
   <Health>
-       <Max>70</Max>
+       <Max>60</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>

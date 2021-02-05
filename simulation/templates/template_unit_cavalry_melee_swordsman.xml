@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee">
   <Armour>
     <Hack>4</Hack>
-    <Pierce>2</Pierce>
+    <Pierce>3</Pierce>
   </Armour>
   <Attack>
     <Melee>
@@ -16,8 +16,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <food>150</food>
-      <metal>30</metal>
+      <food>200</food>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Identity>

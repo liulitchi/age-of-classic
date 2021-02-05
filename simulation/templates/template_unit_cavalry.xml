@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>1</Pierce>
+    <Hack>2</Hack>
+    <Pierce>2</Pierce>
   </Armour>
   <Attack>
     <Capture>
@@ -22,7 +22,7 @@
     <Population>2</Population>
     <BuildTime>12</BuildTime>
     <Resources>
-      <food>150</food>
+      <food>170</food>
       <metal>30</metal>
     </Resources>
   </Cost>

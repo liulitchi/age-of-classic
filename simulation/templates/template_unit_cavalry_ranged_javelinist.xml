@@ -10,7 +10,7 @@
       <Pierce>8</Pierce>
       <Crush>0</Crush>
       <MaxRange>28.0</MaxRange>
-      <MinRange>2.0</MinRange>
+      <MinRange>3.0</MinRange>
       <ProjectileSpeed>62.5</ProjectileSpeed>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1250</RepeatTime>
@@ -25,8 +25,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <food>130</food>
-      <metal>20</metal>
+      <food>170</food>
+      <metal>30</metal>
     </Resources>
   </Cost>
   <Identity>

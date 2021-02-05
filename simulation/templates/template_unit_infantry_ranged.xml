@@ -21,7 +21,7 @@
     </Ranged>
   </Attack>
  <Health>
-    <Max>70</Max>
+    <Max>60</Max>
   </Health>
   <Identity>
     <GenericName>Ranged</GenericName>

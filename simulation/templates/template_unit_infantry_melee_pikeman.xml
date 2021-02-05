@@ -6,7 +6,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>4</Hack>
+      <Hack>5</Hack>
       <MaxRange>0</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1250</RepeatTime>
@@ -22,9 +22,13 @@
       </Bonuses>
     </Melee>
   </Attack>
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>4</Pierce>
+  </Armour>
   <Cost>
     <Resources>
-      <food>60</food>
+      <food>70</food>
       <metal>10</metal>
     </Resources>
     <Health>

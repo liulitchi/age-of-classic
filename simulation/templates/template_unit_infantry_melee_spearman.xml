@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee">
   <Armour>
     <Hack>4</Hack>
-    <Pierce>4</Pierce>
+    <Pierce>5</Pierce>
   </Armour>
   <Attack>
     <Melee>
@@ -15,10 +15,6 @@
           <Classes>Cavalry</Classes>
           <Multiplier>2.0</Multiplier>
         </Bonus1>
-        <Bonus2>
-          <Classes>Elephant</Classes>
-          <Multiplier>2.0</Multiplier>
-        </Bonus2>
         </Bonuses>
     </Melee>
   </Attack>
@@ -62,7 +58,7 @@
   </Cost>
   
   <Health>
-       <Max>100</Max>
+       <Max>110</Max>
   </Health>
   
   <Identity>
