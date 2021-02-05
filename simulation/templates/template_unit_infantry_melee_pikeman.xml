@@ -6,8 +6,8 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>5</Hack>
-      <MaxRange>0</MaxRange>
+      <Hack>5.0</Hack>
+      <MaxRange>4.0</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1250</RepeatTime>
       <Bonuses>
@@ -22,19 +22,16 @@
       </Bonuses>
     </Melee>
   </Attack>
-  <Armour>
-    <Hack>4</Hack>
-    <Pierce>4</Pierce>
-  </Armour>
   <Cost>
+    <BuildTime>8</BuildTime>
     <Resources>
       <food>70</food>
       <metal>10</metal>
     </Resources>
-    <Health>
-       <Max>100</Max>
-    </Health>
   </Cost>
+  <Health>
+       <Max>100</Max>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Spear Pike</VisibleClasses>
     <GenericName>Pikeman</GenericName>

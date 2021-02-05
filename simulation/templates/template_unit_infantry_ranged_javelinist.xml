@@ -50,6 +50,7 @@
   </Builder>
   
   <Cost>
+    <BuildTime>8</BuildTime>
     <Resources>
       <metal>10</metal>
       <food>70</food>

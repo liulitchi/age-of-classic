@@ -18,7 +18,6 @@
         </Bonuses>
     </Melee>
   </Attack>
-  
   <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
@@ -47,20 +46,15 @@
       structures/{civ}_wonder
     </Entities>
   </Builder>
-  
-  
   <Cost>
     <Resources>
       <food>80</food>
       <metal>10</metal>
-      <wood>0</wood>
     </Resources>
-  </Cost>
-  
+  </Cost> 
   <Health>
        <Max>110</Max>
   </Health>
-  
   <Identity>
     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
     <GenericName>Spearman</GenericName>

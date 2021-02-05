@@ -19,12 +19,12 @@
   <Cost>
     <BuildTime>30</BuildTime>
     <Resources>
-      <wood>250</wood>
-      <metal>100</metal>
+      <wood>300</wood>
+      <metal>150</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>10</Max>
+    <Max>6</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry</List>

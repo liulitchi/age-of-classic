@@ -20,6 +20,7 @@
     </Ranged>
   </Attack>
   <Cost>
+    <BuildTime>8</BuildTime>
     <Resources>
       <food>70</food>
       <stone>20</stone>

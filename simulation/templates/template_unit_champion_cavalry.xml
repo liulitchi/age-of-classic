@@ -9,7 +9,7 @@
   </Health>
   <Cost>
     <Population>3</Population>
-    <BuildTime>18</BuildTime>
+    <BuildTime>25</BuildTime>
     <Resources>
       <food>300</food>
       <wood>0</wood>
