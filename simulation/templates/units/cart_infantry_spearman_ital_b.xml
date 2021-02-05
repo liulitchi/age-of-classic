@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
+  <Attack>
+    <Melee>
+      <Hack>8</Hack>
+    </Melee>
+  </Attack>
   <Builder>
     <Entities datatype="tokens">
       structures/cart_super_dock
@@ -23,7 +28,7 @@
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <metal>60</metal>
+      <metal>70</metal>
       <stone>0</stone>
     </Resources>
   </Cost>

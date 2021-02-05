@@ -3,6 +3,7 @@
   <Attack>
     <Ranged>
       <Pierce>10</Pierce>
+      <MaxRange>30.0</MaxRange>
     </Ranged>
   </Attack>
   <Armour>
@@ -10,10 +11,16 @@
     <Pierce>7</Pierce>
   </Armour>
   <Health>
-    <Max>180</Max>
+    <Max>350</Max>
   </Health>
   <Cost>
-    <Population>2</Population>
+    <Population>4</Population>
+    <Resources>
+      <food>400</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
   </Cost>
   <Footprint replace="">
     <Square width="10.0" depth="10.0"/>

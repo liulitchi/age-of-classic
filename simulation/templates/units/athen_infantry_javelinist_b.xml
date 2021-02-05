@@ -12,7 +12,7 @@
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <metal>50</metal>
+      <metal>60</metal>
     </Resources>
   </Cost>
   <Identity>

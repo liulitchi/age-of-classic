@@ -10,11 +10,16 @@
     <SpecificName>Ḥayyāl Romaḥ Raḫūv</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
+  <Attack>
+    <Melee>
+      <Hack>10</Hack>
+    </Melee>
+  </Attack>
   <Cost>
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <metal>130</metal>
+      <metal>170</metal>
       <stone>0</stone>
     </Resources>
   </Cost>

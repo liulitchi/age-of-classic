@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_swordsman">
+ <Attack>
+    <Melee>
+      <Hack>8</Hack>
+    </Melee>
+  </Attack>
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>4</Pierce>
+  </Armour>
+  <Health>
+    <Max>110</Max>
+  </Health>
   <Builder>
     <Entities datatype="tokens">
       structures/kush_pyramid_small
@@ -14,7 +26,7 @@
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>90</metal>
+      <metal>70</metal>
     </Resources>
   </Cost>
   <Identity>

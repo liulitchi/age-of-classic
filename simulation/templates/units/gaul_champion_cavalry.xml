@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Attack>
     <Melee>
-      <Hack>13</Hack>
+      <Hack>11</Hack>
     </Melee>
   </Attack>
   <Armour>
@@ -10,11 +10,6 @@
     <Hack>8</Hack>
     <Crush>6</Crush>
   </Armour>
-  <Cost>
-    <Resources>
-      <food>240</food>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>gaul</Civ>
     <GenericName>Gallic Noble Cavalry</GenericName>

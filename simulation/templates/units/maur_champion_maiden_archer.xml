@@ -6,7 +6,8 @@
     </Ranged>
   </Attack>
   <Armour>
-    <Hack>2</Hack>
+    <Hack>3</Hack>
+    <Pierce>4</Pierce>
   </Armour>
   <Cost>
     <BuildTime>10</BuildTime>

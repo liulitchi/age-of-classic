@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman_hoplite">
   <Health>
-    <Max>120</Max>
+    <Max>130</Max>
   </Health>
   <Armour>
     <Hack>5</Hack>
-    <Pierce>4</Pierce>
+    <Pierce>5</Pierce>
   </Armour>
   <Cost>
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <metal>90</metal>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Identity>

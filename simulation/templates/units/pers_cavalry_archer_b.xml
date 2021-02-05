@@ -2,11 +2,14 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Cost>
     <Resources>
-      <food>150</food>
-      <metal>50</metal>
+      <food>200</food>
+      <metal>40</metal>
       <wood>0</wood>
     </Resources>
   </Cost>
+  <Health>
+    <Max>200</Max>
+  </Health>
   <Armour>
     <Pierce>2</Pierce>
     <Hack>3</Hack>

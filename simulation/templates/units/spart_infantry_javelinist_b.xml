@@ -9,16 +9,6 @@
       -structures/{civ}_range
     </Entities>
   </Builder>
-  <Health>
-    <Max>70</Max>
-  </Health>
-  <Cost>
-    <Resources>
-      <food>60</food>
-      <stone>0</stone>
-      <metal>10</metal>
-    </Resources>
-  </Cost>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>

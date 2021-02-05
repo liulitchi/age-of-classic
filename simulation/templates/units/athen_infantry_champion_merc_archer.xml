@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_archer">
-<Health>
+ <Health>
     <Max>90</Max>
   </Health>
   <Armour>
     <Hack>2</Hack>
-    <Pierce>3</Pierce>
+    <Pierce>2</Pierce>
   </Armour>
   <Cost>
     <Resources>
       <food>0</food>
-      <metal>80</metal>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Identity>

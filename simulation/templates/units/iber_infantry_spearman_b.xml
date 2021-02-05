@@ -18,4 +18,10 @@
   <VisualActor>
     <Actor>units/iberians/infantry_spearman_b.xml</Actor>
   </VisualActor>
+  <UnitMotion>
+    <WalkSpeed>10.0</WalkSpeed>
+    <Run>
+      <Speed>16.5</Speed>
+    </Run>
+  </UnitMotion>
 </Entity>

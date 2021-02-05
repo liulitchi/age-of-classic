@@ -5,6 +5,9 @@
       <Spread>2.5</Spread>
     </Ranged>
   </Attack>
+  <Health>
+       <Max>200</Max>
+  </Health>
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Persian Immortal</GenericName>

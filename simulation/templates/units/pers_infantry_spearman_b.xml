@@ -10,14 +10,14 @@
   </Attack>
  <Cost>
     <Resources>
-      <food>80</food>
+      <food>100</food>
       <metal>20</metal>
       <wood>0</wood>
     </Resources>
   </Cost>
   <Armour>
-    <Pierce>5</Pierce>
-    <Hack>3</Hack>
+    <Pierce>6</Pierce>
+    <Hack>4</Hack>
   </Armour>
   <Builder>
     <Entities datatype="tokens">

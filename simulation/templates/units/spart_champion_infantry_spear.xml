@@ -2,6 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman_hoplite">
   <Attack>
     <Melee>
+      <Hack>10</Hack>
       <Bonuses>
         <Bonus3>
           <Classes>Infantry</Classes>
