@@ -3,28 +3,17 @@
   <Cost>
     <PopulationBonus>5</PopulationBonus>
     <Resources>
-      <wood>300</wood>
-      <stone>50</stone>
+      <wood>100</wood>
+      <stone>100</stone>
     </Resources>
   </Cost>
   <Footprint>
     <Square width="32.0" depth="32.0"/>
   </Footprint>
-   <Identity>
+  <Identity>
     <Civ>brit</Civ>
     <SpecificName>Miletucerdon</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      siege_cost_metal
-      siege_attack
-      siege_armor_1
-      siege_armor_2
-      -siege_packing
-      -siege_torsion_springs_1
-      -siege_flaming_munitions
-    </Technologies>
-  </ProductionQueue>
   <Loot>
     <wood>80</wood>
     <stone>0</stone>

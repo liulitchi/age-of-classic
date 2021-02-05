@@ -17,6 +17,7 @@
       -units/{civ}_infantry_archer_b
       units/{civ}_cavalry_scout
       units/{civ}_champion_cavalry_barracks
+      -units/{civ}_cavalry_scout
     </Entities>
   </ProductionQueue>
   <Obstruction>
