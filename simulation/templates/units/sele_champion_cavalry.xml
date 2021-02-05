@@ -4,11 +4,6 @@
     <Hack>7</Hack>
     <Pierce>6</Pierce>
   </Armour>
-  <Cost>
-    <Resources>
-      <metal>80</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>sele</Civ>
     <Lang>greek</Lang>

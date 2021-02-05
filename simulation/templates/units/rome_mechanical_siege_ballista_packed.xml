@@ -4,6 +4,11 @@
     <Square width="10.0" depth="10.0"/>
     <Height>5.0</Height>
   </Footprint>
+  <Attack>
+    <Ranged>
+      <MaxRange op="add">10</MaxRange>
+    </Ranged>
+  </Attack>
   <Identity>
     <Civ>rome</Civ>
     <SpecificName>Ballista</SpecificName>

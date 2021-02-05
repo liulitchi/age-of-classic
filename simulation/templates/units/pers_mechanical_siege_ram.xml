@@ -4,8 +4,18 @@
     <Square width="7.0" depth="15.0"/>
     <Height>3.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <wood>400</wood>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
   <Health>
-    <Max>350</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <Civ>pers</Civ>

@@ -9,7 +9,7 @@
     </Entities>
   </Builder>
   <Identity>
-    <Civ>mace</Civ>
+    <Civ>athen</Civ>
 	<Lang>greek</Lang>
 	<SelectionGroupName>units/athen_infantry_archer_b</SelectionGroupName>
     <GenericName>Greek Archer</GenericName>

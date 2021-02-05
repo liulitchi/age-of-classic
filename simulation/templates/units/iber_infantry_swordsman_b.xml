@@ -23,6 +23,7 @@
        <Max>110</Max>
   </Health>
   <Cost>
+    <BuildTime>20</BuildTime>
     <Resources>
       <food>70</food>
       <wood>0</wood>
@@ -35,7 +36,7 @@
     <SelectionGroupName>units/iber_infantry_swordsman_b</SelectionGroupName>
     <SpecificName>Ezpatari</SpecificName>
     <Icon>units/iber_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/iber_infantry_swordsman_a</Entity>
