@@ -2,10 +2,6 @@
 <Entity parent="template_unit_mechanical_siege_onager">
   <Attack>
     <Ranged>
-      <MaxRange>90</MaxRange>
-      <MinRange>30.0</MinRange>
-      <ProjectileSpeed>37.5</ProjectileSpeed>
-      <Gravity>9.81</Gravity>
       <PrepareTime>3700</PrepareTime>
       <RepeatTime>5000</RepeatTime>
       <Splash>
