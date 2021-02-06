@@ -56,9 +56,7 @@
       heal_range_2
       heal_rate
       heal_rate_2
-      heal_temple
-      
-      
+      heal_temple    
     </Technologies>
   </ProductionQueue>
   <Sound>
