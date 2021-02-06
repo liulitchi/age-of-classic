@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Cost>
     <Resources>
+      <food>0</food>
       <metal>70</metal>
     </Resources>
   </Cost>
