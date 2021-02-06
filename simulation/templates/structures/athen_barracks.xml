@@ -11,12 +11,6 @@
     <Civ>athen</Civ>
     <SpecificName>Stratēgeîon</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      upgrade_rank_elite_spear_inf_athen
-      upgrade_rank_advanced_spear_inf_athen
-    </Technologies>
-  </ProductionQueue>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
