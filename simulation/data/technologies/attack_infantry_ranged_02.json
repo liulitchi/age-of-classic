@@ -8,8 +8,9 @@
 	"icon": "arrow.png",
 	"researchTime": 40,
 	"tooltip": "+15% attack & +2 Max Range for ranged infantry.",
-	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.15 },
-	                  {"value": "Attack/Ranged/MaxRange", "add": 2 }],
-	"affects": ["Infantry Ranged"],
+	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.15,"affects":"Infantry Ranged" },
+	                  {"value": "Attack/Ranged/Pierce", "multiply": 1.15,"affects":"Ranged Cavalry" },
+	                  {"value": "Attack/Ranged/Pierce", "multiply": 1.15,"affects":"Ranged Elephant" },
+	                  {"value": "Attack/Ranged/MaxRange", "add": 2,"affects":"Archer" } ],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

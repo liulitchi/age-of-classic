@@ -7,8 +7,8 @@
 	"requirementsTooltip": "Unlocked in Kingdom Phase.",
 	"icon": "sword_cross.png",
 	"researchTime": 40,
-	"tooltip": "+15% attack for melee infantry.",
-	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15 }],
-	"affects": ["Infantry Melee"],
+	"tooltip": "+15% attack for melee infantry and Cavalry.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15,"affects": "Melee Infantry"},
+	                  {"value": "Attack/Melee/Hack", "multiply": 1.15,"affects": "Melee Cavalry"}],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
