@@ -25,9 +25,9 @@
       <Tooltip>Can train infantry champion spearmen.</Tooltip>
       <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
-        <metal>40</metal>
+        <stone>100</stone>
       </Cost>
-      <Time>5</Time>
+      <Time>15</Time>
     </Barrack>
   </Upgrade>
   <VisualActor>

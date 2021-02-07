@@ -17,6 +17,9 @@
     <Entities datatype="tokens">
       units/{civ}_champion_infantry_apedemak
     </Entities>
+    <Technologies datatype="tokens">
+      kushites/attack_axe
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/kushites/temple.xml</Actor>
