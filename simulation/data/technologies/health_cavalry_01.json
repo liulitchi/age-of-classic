@@ -1,14 +1,14 @@
 {
 	"genericName": "Breeding Strong Horses",
 	"description": "Breeding the best horse lineage.",
-	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
-    "supersedes": "superfine_forage",
+	"cost": {"food": 750, "wood": 0, "stone": 0, "metal": 250},
+                "supersedes": "superfine_forage",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "horse.png",
 	"researchTime": 40,
-	"tooltip": "+20% health for cavalry.",
-	"modifications": [{"value": "Health/Max", "multiply": 1.2}],
+	"tooltip": "+15% health for cavalry.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.15}],
 	"affects": ["Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -9,14 +9,14 @@
 		"rome": "Amentum"
 				},
 	"description": "The javelin thong (the Greeks also called them loops, or bronkhos) increased the fulcrum action of the throwing arm mid-throw, increasing speed and range of the javelin.",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "javelin_thong.png",
 	"researchTime": 40,
-	"tooltip": "+5 range and +10% accuracy for skirmishers.",
+	"tooltip": "+5 range and +15% accuracy for skirmishers.",
 	"modifications": [{"value": "Attack/Ranged/MaxRange", "add": 5.0},
-				  {"value": "Attack/Ranged/Spread", "multiply": 0.90 }],
+				  {"value": "Attack/Ranged/Spread", "multiply": 0.85 }],
 	"affects": ["Javelin"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

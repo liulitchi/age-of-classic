@@ -1,14 +1,11 @@
 {
 
 	"genericName": "Siege Technician",
-	"specificName": {
-				},
 	"description": "Skilled people handle the Siege Engineer, decrease your Siege Wepons building time.",
-	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 250},
-	"supersedes": "siege_cost_metal",
-	"requirements": {"tech": "phase_kingdom"},
-	"requirementsTooltip": "Unlocked in Kingdom Phase.",
-	"icon": "engineering.png",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "work.png",
 	"researchTime": 40,
 	"tooltip": "-40% build time for siege weapons.",
 	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.6}],

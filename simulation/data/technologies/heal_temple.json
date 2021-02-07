@@ -11,8 +11,8 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "cauldron.png",
 	"researchTime": 40,
-	"tooltip": "+75% garrisoned healing rate and garrison increased by +10 for temples.",
-	"modifications": [{"value": "GarrisonHolder/BuffHeal", "multiply": 1.75},
+	"tooltip": "+50% garrisoned healing rate and garrison increased by +10 for temples.",
+	"modifications": [{"value": "GarrisonHolder/BuffHeal", "multiply": 1.50},
 				  { "value": "GarrisonHolder/Max", "add": 10 }],
      "affects": ["Temple"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

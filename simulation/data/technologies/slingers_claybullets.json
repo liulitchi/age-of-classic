@@ -1,13 +1,13 @@
 {
 	"genericName": "Clay Sling Bullets",
 	"description": "Large numbers of sling stones have been found in Celtic settlements. They were covered in hardened clay for better aerodynamics.",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 500, "wood": 0, "stone": 250, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "sling_bullets.png",
 	"researchTime": 40,
-	"tooltip": "+5 range and +10% accuracy for slingers.",
-	"modifications": [{"value": "Attack/Ranged/MaxRange", "add": 5.0},
+	"tooltip": "+9 range and +10% accuracy for slingers.",
+	"modifications": [{"value": "Attack/Ranged/MaxRange", "add": 9.0},
 				  {"value": "Attack/Ranged/Spread", "multiply": 0.90}],
 	"affects": ["Sling"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -1,14 +1,14 @@
 {
 	"genericName": "Tracking",
 	"description": "As the Dark Ages passed and barbarian clans became trained armies, military techniques improved. The new armies were better prepared for campaigning and maneuver. One result of these improvements was being less susceptible to surprise and ambush.",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
 	"requirements": {"tech": "phase_village"},
 	"requirementsTooltip": "Unlocked in Village Phase.",
 	"icon": "walk.png",
 	"researchTime": 40,
-	"tooltip": "+15% movement speed for infantry.",
-	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.15},
-				  {"value": "UnitMotion/Run/Speed", "multiply": 1.15}],
+	"tooltip": "+10% movement speed for infantry.",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.10},
+				  {"value": "UnitMotion/Run/Speed", "multiply": 1.10}],
 	"affects": ["Infantry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

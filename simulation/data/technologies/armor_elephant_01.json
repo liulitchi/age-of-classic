@@ -1,7 +1,7 @@
 {
 	"genericName": "Bronze Rings",
 	"description": "Elephants also had bronze rings on their legs to prevent their tendons from being cut.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 300},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 500},
 	"requirements": { "all": [{ "tech": "phase_city" }]},
 	"requirementsTooltip": "Unlocked in city phase.",
 	"icon": "horse_collar.png",
