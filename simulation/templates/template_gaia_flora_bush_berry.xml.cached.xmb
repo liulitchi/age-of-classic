@@ -1,0 +1,5 @@
+XMB0         Amount    BlockMovement    BlockPathfinding    Color    Entity    Minimap    Obstruction    ResourceSupply    Sound    SoundGroups    Static    Type    select       b    depth    g    parent    r    width            %             template_gaia_flora_bush u                    !                 	      food <             (             155       204        102 ?                    0   
+                       4.0       4.0 "                 
+   	   false "                 
+   
+   false _                                             300 '                       food.fruit t                    \   	                 D              0   ,      interface/select/resource/sel_fruit.xml 

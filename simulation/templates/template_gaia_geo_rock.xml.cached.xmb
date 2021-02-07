@@ -1,0 +1,5 @@
+XMB0         Amount    Color    Entity    GenericName    Icon 	   Identity    KillBeforeGather    MaxGatherers    Minimap    ResourceSupply    Sound    SoundGroups    SpecificName    Tooltip    Type    select       b    g    parent    r ?                        template_gaia_geo ?                    !                 	      Rock '                       Stone Mine K              7   3      Mine these to provide Stone building material. 5              !         gaia/geology_stone_1.png v                    "                 
+   
+   stone <             (             170       170        170 ?   	                 "                 
+      false !                  	      1000 '                       stone.rock                        5 t   
+                 \                    D              0   ,      interface/select/resource/sel_stone.xml 

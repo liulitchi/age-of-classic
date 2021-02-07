@@ -18,17 +18,6 @@
     <Type>food</Type>
     <Color r="227" g="130" b="141"/>
   </Minimap>
-  <ResourceGatherer disable=""/>
-  <ResourceSupply>
-    <Change>
-      <Rot>
-        <Constraint>Dead</Constraint>
-        <Delay>4000</Delay>
-        <Value>-1</Value>
-        <Interval>4000</Interval>
-      </Rot>
-    </Change>
-  </ResourceSupply>
   <UnitAI>
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>

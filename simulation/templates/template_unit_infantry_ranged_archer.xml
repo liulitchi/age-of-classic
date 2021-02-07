@@ -6,7 +6,7 @@
       <Pierce>7</Pierce>
       <Crush>0</Crush>
       <MaxRange>66.0</MaxRange>
-      <MinRange>0.0</MinRange>
+      <MinRange>3</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
@@ -24,6 +24,20 @@
       <metal>20</metal>
     </Resources>
   </Cost>
+ <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Rates>
+      <food.fruit>0.8</food.fruit>
+      <food.grain>0.8</food.grain>
+      <food.meat>1</food.meat>
+      <wood.tree>0.7</wood.tree>
+      <wood.ruins>5</wood.ruins>
+      <stone.rock>0.6</stone.rock>
+      <stone.ruins>3</stone.ruins>
+      <metal.ore>0.6</metal.ore>
+    </Rates>
+  </ResourceGatherer>
   <Identity>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
     <GenericName>Archer</GenericName>

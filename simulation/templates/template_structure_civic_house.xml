@@ -49,7 +49,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      -units/{civ}_support_female_citizen_house
+      units/{civ}_support_female_citizen
     </Entities>
     <Technologies datatype="tokens">
       pop_house_01

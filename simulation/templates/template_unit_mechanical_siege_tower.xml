@@ -58,7 +58,7 @@
     <GenericName>Siege Tower</GenericName>
     <VisibleClasses datatype="tokens">SiegeTower Ranged</VisibleClasses>
     <Tooltip>Garrison units for transport and to increase firepower.</Tooltip>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>250</xp>

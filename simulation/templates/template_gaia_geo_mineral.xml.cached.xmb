@@ -1,0 +1,5 @@
+XMB0         Amount    Color    Entity    GenericName    Icon 	   Identity    KillBeforeGather    MaxGatherers    Minimap    ResourceSupply    Sound    SoundGroups    SpecificName    Tooltip    Type    select       b    g    parent    r ?                        template_gaia_geo ?                    $                       Mineral '                       Metal Mine a              M   I      A mineral deposit, providing access to rare forms of precious Metal. 3                       gaia/geology_metal.png u                    "                 
+   
+   metal ;             '             227       159        12 ?   	                 "                 
+      false !                  	      1000 &                       metal.ore                        5 t   
+                 \                    D              0   ,      interface/select/resource/sel_metal.xml 

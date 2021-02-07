@@ -44,7 +44,7 @@
   <Identity>
     <GenericName>Bolt Shooter</GenericName>
     <VisibleClasses datatype="tokens">BoltShooter Ranged</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>200</xp>

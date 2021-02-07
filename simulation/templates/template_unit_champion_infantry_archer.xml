@@ -10,7 +10,7 @@
       <Pierce>9</Pierce>
       <Crush>0</Crush>
       <MaxRange>66</MaxRange>
-      <MinRange>0.0</MinRange>
+      <MinRange>3</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
       <PrepareTime>500</PrepareTime>
