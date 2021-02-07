@@ -23,7 +23,7 @@
        <Max>110</Max>
   </Health>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>10</BuildTime>
     <Resources>
       <food>70</food>
       <wood>0</wood>

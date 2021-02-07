@@ -5,7 +5,7 @@
   </Health>
   <Cost>
     <Resources>
-      <food>100</food>
+      <food>90</food>
       <metal>20</metal>
       <wood>0</wood>
     </Resources>
