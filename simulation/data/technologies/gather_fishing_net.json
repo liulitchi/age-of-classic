@@ -1,7 +1,7 @@
 {
 	"genericName": "Fishing Net",
 	"description": "Nets improve the fishing productivity.",
-	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 0},
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_village"},
 	"requirementsTooltip": "Unlocked in Village Phase.",
 	"icon": "fishing_net.png",

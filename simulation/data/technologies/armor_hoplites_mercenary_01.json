@@ -1,0 +1,15 @@
+{
+	"genericName": "Hiring veterans",
+	"description": "Hire experienced veterans from Greece.",
+	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "armor_plates_iron_spear.png",
+	"researchTime": 40,
+	"tooltip": "+1 armour and +70 health for Hoplites Mercenary.",
+	"modifications": [{"value": "Armour/Hack", "add": 1,"affects": "Mercenary"},
+				      {"value": "Armour/Pierce", "add": 1,"affects": "Mercenary"},
+				      {"value": "Health/Max", "add": 70.0,"affects": "Mercenary"}],
+				      
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

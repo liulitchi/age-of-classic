@@ -1,7 +1,7 @@
 {
 	"genericName": "Lead hull sheathing",
 	"description": "Lead sheathing protects ship hulls.",
-	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 250},
+	"cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 700},
 	"requirements": {"tech": "phase_kingdom"},
 	"requirementsTooltip": "Unlocked in Kingdom Phase.",
 	"supersedes": "armor_ship_hypozomata",

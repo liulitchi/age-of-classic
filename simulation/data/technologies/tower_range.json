@@ -7,8 +7,10 @@
   "icon": "bow_recurved.png",
   "researchTime": 40,
   "tooltip": "+6 range for defensive tower.",
-  "modifications": [{ "value": "Attack/Ranged/MaxRange", "add": 6 },
-    			    { "value": "Vision/Range","add": 6 }],
+  "modifications": [
+    { "value": "Attack/Ranged/MaxRange", "add": 6 },
+    { "value": "Vision/Range","add": 6 }
+  ],
   "affects": ["DefenseTower","Fortress"],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

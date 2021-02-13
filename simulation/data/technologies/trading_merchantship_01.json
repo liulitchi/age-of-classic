@@ -1,7 +1,7 @@
 {
      "genericName": "Amphorae",
 	"description": "Amphorae were fired clay jars in which perishable goods can be stored for long journeys.",
-	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 250},
+	"cost": {"food": 0, "wood": 600, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "amphore.png",

@@ -1,7 +1,7 @@
 {
 	"genericName": "Reinforced hull",
 	"description": "Wooden reinforcement beams for ship hulls.",
-	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 150},
+	"cost": {"food": 0, "wood": 600, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "armor_ship_bronze.png",

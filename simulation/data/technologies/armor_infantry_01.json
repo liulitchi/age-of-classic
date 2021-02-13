@@ -9,7 +9,7 @@
 	"tooltip": "+1 armour for infantry.",
 	"modifications": [{"value": "Armour/Hack", "add": 1},
 				  {"value": "Armour/Pierce", "add": 1},
-           		  {"value": "Armour/Crush", "add": 1}],
+				  {"value": "Armour/Crush", "add": 1}],
 	"affects": ["Infantry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
