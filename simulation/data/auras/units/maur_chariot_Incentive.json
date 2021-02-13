@@ -1,0 +1,10 @@
+{
+	"type": "range",
+     "radius": 30,
+	"affects": ["Archer"],
+	"modifications": [{ "value": "Armour/Pierce", "add": 1 },
+	                  { "value": "Armour/Hack", "add": 1 },
+	                  { "value": "Attack/Melee/Pierce", "add": 1 }],
+	"auraName": "Incentive ",
+	"auraDescription": "+1 armour and attack for nearby Archer."
+}
