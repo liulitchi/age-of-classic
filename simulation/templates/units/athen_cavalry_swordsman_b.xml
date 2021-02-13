@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_swordsman">
+   
+  <Armour>
+    <Hack>2</Hack>
+    <Pierce>1</Pierce>
+  </Armour>
+  <Health>
+    <Max>160</Max>
+  </Health>
+  <Attack>
+    <Melee>
+      <Hack>7.0</Hack>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Bonuses>
+        <Bonus1>
+          <Classes>Support</Classes>
+          <Multiplier>3.0</Multiplier>
+        </Bonus1>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>170</food>
+      <wood>0</wood>
+      <metal>20</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>athen</Civ>
     <Lang>greek</Lang>

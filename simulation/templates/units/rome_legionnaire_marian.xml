@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
+  <Auras datatype="tokens">
+   units/rome_centurio
+  </Auras>
+    <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>300</food>
+      <wood>0</wood>
+      <metal>150</metal>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>rome</Civ>
     <Lang>latin</Lang>
-    <GenericName>Marian Legionaire</GenericName>
-    <SpecificName>Marian Legionarius</SpecificName>
+    <GenericName>Centurion</GenericName>
+    <SpecificName>Centurio</SpecificName>
     <Icon>units/rome_champion_legion_centurio.png</Icon>
     <SelectionGroupName>units/rome_legionnaire_marian</SelectionGroupName>
     <RequiredTechnology>romans/unlock_marian_legion</RequiredTechnology>

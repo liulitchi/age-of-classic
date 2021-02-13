@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_archer">
+  <Auras datatype="tokens">
+   units/maur_chariot_Incentive
+  </Auras>
   <Attack>
     <Ranged>
+       <Pierce>9</Pierce>
       <MaxRange>66.0</MaxRange>
+      <ProjectileSpeed>70.0</ProjectileSpeed>
     </Ranged>
   </Attack>
   <Armour>
@@ -10,13 +15,14 @@
     <Pierce>7</Pierce>
   </Armour>
   <Health>
-    <Max>400</Max>
+    <Max>500</Max>
   </Health>
   <Cost>
-    <Population>5</Population>
+    <Population>4</Population>
+    <BuildTime>30</BuildTime>
     <Resources>
       <food>400</food>
-      <wood>0</wood>
+      <wood>150</wood>
       <stone>0</stone>
       <metal>150</metal>
     </Resources>
@@ -34,9 +40,9 @@
     <Icon>units/maur_champion_chariot.png</Icon>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>15.0</WalkSpeed>
+    <WalkSpeed>18.0</WalkSpeed>
     <Run>
-      <Speed>25.5</Speed>
+      <Speed>27</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

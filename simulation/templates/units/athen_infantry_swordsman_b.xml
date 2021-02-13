@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Auras datatype="tokens">
+  units/athen_marines
+  </Auras>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/athen_gymnasion
+      structures/athen_theatron
+      structures/athen_prytaneion
+      structures/athen_royal_stoa
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>110</Max>
+  </Health>
+  <Attack>
+    <Melee>
+      <Hack>7.0</Hack>
+      <Pierce>0</Pierce>
+      <MaxRange>2.0</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>70</food>
+      <wood>0</wood>
+      <metal>10</metal>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>athen</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/athen_infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Athenian Marine</GenericName>
+    <SpecificName>Epibátēs Athēnaîos</SpecificName>
+    <Icon>units/athen_marine.png</Icon>
+    <RequiredTechnology>hellenes/special_iphicratean_reforms</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <food>5</food>
+    <wood>5</wood>
+    <metal>0</metal>
+  </Loot>
+  <Promotion>
+    <Entity>units/athen_infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

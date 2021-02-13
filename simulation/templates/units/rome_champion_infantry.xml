@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Cost>
     <Resources>
-      <food>100</food>
+      <food>150</food>
       <metal>50</metal>
     </Resources>
   </Cost>
@@ -18,14 +18,6 @@
     <food>6</food>
     <metal>6</metal>
   </Loot>
-  <Upgrade>
-    <Extraordinarius>
-      <Entity>units/rome_champion_infantry_javelinist</Entity>
-      <Tooltip>Upgrade to extraordinarius skirmisher.</Tooltip>
-      <RequiredTechnology>romans/unlock_rome_pilum</RequiredTechnology>
-      <Time>8</Time>
-    </Extraordinarius>
-  </Upgrade>
   <VisualActor>
     <Actor>units/romans/infantry_swordsman_c.xml</Actor>
   </VisualActor>

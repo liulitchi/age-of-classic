@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_archer">
+  <Auras datatype="tokens">
+   units/war_elephant_trample
+  </Auras>
   <Attack>
     <Capture disable=""/>
     <Ranged>
+      <MaxRange>70</MaxRange>
       <Pierce>8</Pierce>
+      <ProjectileSpeed>70.0</ProjectileSpeed>
       <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
@@ -26,7 +31,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>400</Max>
+    <Max>600</Max>
   </Health>
   <Identity>
     <Civ>maur</Civ>

@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
-      structures/athen_workshop
+      structures/athen_gymnasion
       structures/athen_theatron
-      structures/athen_library
+      structures/athen_prytaneion
       structures/athen_royal_stoa
     </Entities>
   </Builder>

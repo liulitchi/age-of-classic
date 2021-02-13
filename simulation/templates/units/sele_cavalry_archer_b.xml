@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_archer">
+  <Attack>
+    <Ranged>
+      <ProjectileSpeed>80.0</ProjectileSpeed>
+      <PrepareTime>250</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Ranged>
+  </Attack>
   <Identity>
     <Civ>sele</Civ>
     <Lang>greek</Lang>

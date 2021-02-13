@@ -4,21 +4,24 @@
        <Max>110</Max>
   </Health>
   <Cost>
+    <BuildTime>10</BuildTime>
     <Resources>
-      <food>90</food>
+      <food>100</food>
       <metal>20</metal>
       <wood>0</wood>
     </Resources>
   </Cost>
- <Attack>
-    <Ranged>
-      <Spread>2.5</Spread>
-    </Ranged>
-  </Attack>
   <Armour>
     <Pierce>3</Pierce>
     <Hack>3</Hack>
   </Armour>
+ <Attack>
+    <Ranged>
+      <ProjectileSpeed>80.0</ProjectileSpeed>
+      <PrepareTime>250</PrepareTime>
+      <RepeatTime>900</RepeatTime>
+    </Ranged>
+  </Attack>
   <Builder>
     <Entities datatype="tokens">
       structures/pers_apadana
@@ -32,7 +35,7 @@
     <Lang>persian</Lang>
     <SelectionGroupName>units/pers_infantry_archer_b</SelectionGroupName>
     <GenericName>Persia Archer</GenericName>
-    <SpecificName>Persia Vaçabara</SpecificName>
+    <SpecificName>Vaçabara</SpecificName>
     <Icon>units/pers_infantry_archer.png</Icon>
   </Identity>
   <Upgrade>

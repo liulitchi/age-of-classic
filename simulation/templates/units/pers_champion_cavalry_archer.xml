@@ -3,6 +3,9 @@
   <Attack>
     <Ranged>
       <Spread>2.5</Spread>
+      <ProjectileSpeed>80.0</ProjectileSpeed>
+      <PrepareTime>250</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
   <Identity>

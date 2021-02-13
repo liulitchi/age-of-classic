@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
+  <Auras datatype="tokens">
+   units/elephant_trample
+  </Auras>
   <Armour>
     <Hack>2</Hack>
     <Pierce>2</Pierce>

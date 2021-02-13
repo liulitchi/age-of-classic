@@ -26,7 +26,7 @@
     <GenericName>Nubian Mercenary Archer</GenericName>
     <SpecificName>Kousít Misthophóros Toxótēs</SpecificName>
     <Icon>units/ptol_infantry_archer.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
     <Loot>
     <food>0</food>
@@ -35,9 +35,9 @@
     <metal>5</metal>
   </Loot>
   <Promotion>
-    <Entity>units/kush_infantry_archer_a</Entity>
+    <Entity>ptol_infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_archer_b.xml</Actor>
+    <Actor>units/units/kushites/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

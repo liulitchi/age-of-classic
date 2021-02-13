@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_javelinist">
+  <Health>
+       <Max>110</Max>
+  </Health>
   <Builder>
     <Entities datatype="tokens">
       structures/ptol_military_colony
@@ -7,6 +10,17 @@
       structures/ptol_library
     </Entities>
   </Builder>
+  <Armour>
+    <Pierce>3</Pierce>
+    <Hack>3</Hack>
+  </Armour>
+ <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>100</food>
+      <metal>20</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>ptol</Civ>
     <SelectionGroupName>units/ptol_infantry_javelinist_b</SelectionGroupName>
@@ -15,9 +29,30 @@
     <Icon>units/ptol_infantry_javelinist_merc.png</Icon>
     <RequiredTechnology></RequiredTechnology>
   </Identity>
+  <Upgrade>
+    <Immortals>
+      <Entity>units/ptol_infantry_spearman_b</Entity>
+      <Tooltip>Upgrade to spearman.</Tooltip>
+      <Time>8</Time>
+    </Immortals>
+  </Upgrade>
   <Promotion>
     <Entity>units/ptol_infantry_javelinist_a</Entity>
   </Promotion>
+  <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Rates>
+      <food.fruit>0.8</food.fruit>
+      <food.grain>0.8</food.grain>
+      <food.meat>1</food.meat>
+      <wood.tree>0.7</wood.tree>
+      <wood.ruins>5</wood.ruins>
+      <stone.rock>0.6</stone.rock>
+      <stone.ruins>3</stone.ruins>
+      <metal.ore>0.6</metal.ore>
+    </Rates>
+  </ResourceGatherer>
   <VisualActor>
     <Actor>units/ptolemies/infantry_javelinist_b.xml</Actor>
   </VisualActor>

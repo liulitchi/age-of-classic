@@ -3,17 +3,24 @@
   <Attack>
     <Ranged>
       <Bonuses>
-      	<Bonus1>
+      <Bonus1>
 	  <Classes>Elephant</Classes>
 	  <Multiplier>2.5</Multiplier>
-        </Bonus1>
-        <Bonus2>
+       </Bonus1>
+      <Bonus2>
+       <Classes>Chariot</Classes>
+       <Multiplier>2.5</Multiplier>
+      </Bonus2>
+	  <Bonus3>
 	  <Classes>Structure</Classes>
 	  <Multiplier>10.0</Multiplier>
-        </Bonus2>
+	  </Bonus3>
       </Bonuses>
     </Ranged>
   </Attack>
+   <Health>
+    <Max>300</Max>
+  </Health>
   <Identity>
     <Civ>iber</Civ>
     <SpecificName>Leial Zalduneria</SpecificName>

@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_archer">
+  <Auras datatype="tokens">
+   units/persian_chariot_scythes
+   units/persian_chariot_collision
+  </Auras>
   <Attack>
     <Ranged>
       <MaxRange>66.0</MaxRange>
@@ -14,8 +18,10 @@
   </Health>
   <Cost>
     <Population>5</Population>
+    <BuildTime>30</BuildTime>
     <Resources>
-      <food>500</food>
+      <food>650</food>
+      <wood>150</wood>
       <metal>200</metal>
     </Resources>
   </Cost>
@@ -32,9 +38,9 @@
     <Icon>units/sele_champion_chariot.png</Icon>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>17.0</WalkSpeed>
+    <WalkSpeed>18.0</WalkSpeed>
     <Run>
-      <Speed>29.0</Speed>
+      <Speed>27.0</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

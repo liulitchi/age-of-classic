@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Attack>
     <Melee>
-      <Hack>10</Hack>
+      <Hack>12</Hack>
       <MaxRange>2.0</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1250</RepeatTime>
@@ -28,14 +28,13 @@
     <GenericName>Hyrcanian aex Cavalry</GenericName>
     <SpecificName>Varkaniya Asabara</SpecificName>
     <VisibleClasses datatype="tokens">Axe</VisibleClasses>
-    <Classes datatype="tokens">ApedemakGuard</Classes>
     <Icon>units/pers_cavalry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Upgrade>
     <Immortals>
       <Entity>units/pers_cavalry_archer_b</Entity>
-      <Tooltip>Upgrade to  Cavalry.</Tooltip>
+      <Tooltip>Upgrade to Archer Cavalry.</Tooltip>
       <Time>8</Time>
     </Immortals>
   </Upgrade>

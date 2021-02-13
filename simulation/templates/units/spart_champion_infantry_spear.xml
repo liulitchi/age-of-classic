@@ -11,6 +11,12 @@
       </Bonuses>
     </Melee>
   </Attack>
+  <Health>
+   <Max>220</Max>
+  </Health>
+  <Cost>
+    <BuildTime>10</BuildTime>
+  </Cost>
   <Identity>
     <Civ>spart</Civ>
     <Lang>greek</Lang>

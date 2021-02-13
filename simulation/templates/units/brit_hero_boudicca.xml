@@ -16,9 +16,9 @@
     <Icon>units/brit_hero_boudicca.png</Icon>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>15.0</WalkSpeed>
+    <WalkSpeed>18.0</WalkSpeed>
     <Run>
-      <Speed>25.5</Speed>
+      <Speed>27</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

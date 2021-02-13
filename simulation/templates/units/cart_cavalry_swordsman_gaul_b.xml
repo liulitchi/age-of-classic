@@ -19,7 +19,7 @@
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <metal>180</metal>
+      <metal>160</metal>
       <stone>0</stone>
     </Resources>
   </Cost>

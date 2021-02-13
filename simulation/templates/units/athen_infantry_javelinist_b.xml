@@ -10,9 +10,9 @@
   </Builder>
   <Cost>
     <Resources>
-      <food>0</food>
+      <food>70</food>
       <wood>0</wood>
-      <metal>60</metal>
+      <metal>10</metal>
     </Resources>
   </Cost>
   <Identity>
@@ -21,9 +21,8 @@
     <SelectionGroupName>units/athen_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Thracian Peltast</GenericName>
     <SpecificName>Peltastḗs Thrâx</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/hele_infantry_javelinist.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>hellenes/special_iphicratean_reforms</RequiredTechnology>
   </Identity>
   <Loot>
     <food>0</food>

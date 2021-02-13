@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged>
+      <Pierce>8</Pierce>
+      <MaxRange>66.0</MaxRange>
+      <ProjectileSpeed>70.0</ProjectileSpeed>
+    </Ranged>
+  </Attack>
+    <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>90</food>
+      <metal>20</metal>
+      <wood>0</wood>
+    </Resources>
+  </Cost>
+    <Health>
+       <Max>90</Max>
+  </Health>
   <Builder>
     <Entities datatype="tokens">
       structures/maur_elephant_stables

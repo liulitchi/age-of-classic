@@ -9,6 +9,17 @@
       -structures/kush_nuba_village
     </Entities>
   </Builder>
+  <Health>
+       <Max>90</Max>
+  </Health>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>90</food>
+      <metal>20</metal>
+      <wood>0</wood>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>kush</Civ>
     <SelectionGroupName>units/kush_infantry_archer_b</SelectionGroupName>
