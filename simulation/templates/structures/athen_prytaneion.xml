@@ -43,8 +43,7 @@
     </Entities>
     <Technologies datatype="tokens">
         health_heroes
-	armor_hero_01
-        hellenes/special_iphicratean_reforms
+        armor_hero_01
     </Technologies>
   </ProductionQueue>
   <Sound>

@@ -23,7 +23,7 @@
       units/{civ}_champion_infantry_barracks
     </Entities>
     <Technologies datatype="tokens">
-      romans/unlock_rome_pilum
+
     </Technologies>
   </ProductionQueue>
   <VisualActor>

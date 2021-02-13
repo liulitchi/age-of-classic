@@ -8,8 +8,8 @@
     <PopulationBonus>10</PopulationBonus>
     <Resources>
       <food>0</food>
-      <wood>0</wood>
-      <stone>500</stone>
+      <wood>600</wood>
+      <stone>600</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -46,7 +46,7 @@
       units/{civ}_hero_cyrus
       units/{civ}_hero_darius
       units/{civ}_hero_xerxes
-      units/{civ}_champion_infantry
+      units/{civ}_champion_infantry_archer
     </Entities>
     <Technologies datatype="tokens">
       persians/immortals
@@ -56,12 +56,12 @@
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>
-      <food>1.0</food>
-      <wood>1.0</wood>
+      <food>5.0</food>
+      <wood>5.0</wood>
       <stone>1.0</stone>
       <metal>1.0</metal>
     </Rates>
-    <Interval>2000</Interval>
+    <Interval>1000</Interval>
   </ResourceTrickle>
   <TerritoryInfluence>
     <Root>true</Root>

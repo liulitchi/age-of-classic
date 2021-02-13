@@ -8,7 +8,7 @@
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <stone>300</stone>
+      <stone>500</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -20,7 +20,7 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1500</Max>
+    <Max>2000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -46,9 +46,12 @@
       -units/{civ}_kardakes_skirmisher
       -units/{civ}_cavalry_swordsman_b
       units/{civ}_champion_elephant
+      units/{civ}_chariot_archer_b
       units/{civ}_champion_hoplite
     </Entities>
     <Technologies datatype="tokens">
+      upgrade_rank_advanced_chariot_pers
+      armor_hoplites_mercenary_01
       attack_tusk_spikes
       armor_elephant_01
     </Technologies>
@@ -62,7 +65,7 @@
   </Sound>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence>
-    <Root>false</Root>
+    <Root>true</Root>
     <Radius>38</Radius>
   </TerritoryInfluence>
   <VisualActor>

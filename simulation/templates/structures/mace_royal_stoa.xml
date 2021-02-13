@@ -8,9 +8,9 @@
     <Entities datatype="tokens">
       units/{civ}_black_cloak
       units/{civ}_thureophoros
-      -units/{civ}_infantry_merc_archer_b
+      units/{civ}_infantry_archer_b
       -units/{civ}_cavalry_javelinist_b
-      -units/{civ}_infantry_slinger_b
+      units/{civ}_infantry_slinger_b
       -units/{civ}thorakites
     </Entities>
   </ProductionQueue>

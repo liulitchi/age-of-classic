@@ -22,6 +22,7 @@
       -units/{civ}_mechanical_siege_ram
       -units/{civ}_mechanical_siege_tower
       -units/{civ}_cavalry_swordsman_b
+      -units/{civ}_infantry_swordsman_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

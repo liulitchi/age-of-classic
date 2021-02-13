@@ -52,9 +52,9 @@
     <PopulationBonus>5</PopulationBonus>
     <BuildTime>250</BuildTime>
     <Resources>
-      <wood>400</wood>
+      <wood>500</wood>
       <metal>0</metal>
-      <stone>400</stone>
+      <stone>500</stone>
     </Resources>
   </Cost>
   <Footprint>

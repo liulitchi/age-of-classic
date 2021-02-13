@@ -38,7 +38,6 @@
       units/{civ}_infantry_javelinist_merc_b
     </Entities>
     <Technologies datatype="tokens">
-      ranged_inf_skirmishers
     </Technologies>
   </ProductionQueue>
   <VisualActor>

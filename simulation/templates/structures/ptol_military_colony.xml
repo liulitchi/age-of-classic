@@ -20,7 +20,7 @@
     <Entities replace="" datatype="tokens">
       units/{civ}_support_female_citizen
       units/{civ}_infantry_swordsman_merc_b
-      units/{civ}_infantry_archer_merc_b
+      units/{civ}_infantry_archer_b
       units/{civ}_cavalry_spearman_merc_b
       units/{civ}_cavalry_javelinist_merc_b
     </Entities>
