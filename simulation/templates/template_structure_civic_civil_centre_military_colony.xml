@@ -59,8 +59,6 @@
       -phase_town_{civ}
       -phase_city_{civ}
       -phase_kingdom_{civ}
-      health_siege_rations_1
-      health_siege_rations_2
    </Technologies>
   </ProductionQueue>
   <Sound>

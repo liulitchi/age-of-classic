@@ -20,7 +20,7 @@
     </RangeOverlay>
   </Heal>
   <Health>
-    <Max>40</Max>
+    <Max>80</Max>
   </Health>
   <Identity>
     <GenericName>Healer</GenericName>

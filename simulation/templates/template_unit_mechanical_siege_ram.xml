@@ -7,7 +7,7 @@
     <Melee>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>80</Crush>
+      <Crush>100</Crush>
       <MaxRange>6.5</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1500</RepeatTime>

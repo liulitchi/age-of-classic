@@ -13,6 +13,16 @@
       <PrepareTime>3000</PrepareTime>
       <RepeatTime>4000</RepeatTime>
       <Delay>0</Delay>
+            <Bonuses>
+      <Bonus1>
+          <Classes>Elephant</Classes>
+          <Multiplier>2</Multiplier>
+      </Bonus1>
+      <Bonus2>
+          <Classes>Chariot</Classes>
+          <Multiplier>2</Multiplier>
+      </Bonus2>
+      </Bonuses>
       <Splash>
         <Shape>Linear</Shape>
         <Range>8.0</Range>
@@ -30,7 +40,7 @@
   <Cost>
     <BuildTime>25</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>250</wood>
       <metal>250</metal>
     </Resources>
   </Cost>

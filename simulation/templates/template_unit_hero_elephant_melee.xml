@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero">
+  <Auras datatype="tokens">
+   units/war_elephant_trample
+   units/war_elephant_collision
+  </Auras>
   <Armour>
     <Hack>16</Hack>
     <Pierce>16</Pierce>
@@ -7,18 +11,26 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>55.0</Hack>
+      <Hack>70.0</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>8.0</MaxRange>
+      <MaxRange>5.0</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1500</RepeatTime>
       <PreferredClasses datatype="tokens">Human Structure</PreferredClasses>
       <Bonuses>
       <Bonus1>
+        <Classes>Infantry</Classes>
+        <Multiplier>2.5</Multiplier>
+      </Bonus1> 
+       <Bonus2>
+        <Classes>Cavalry</Classes>
+        <Multiplier>2</Multiplier>
+      </Bonus2>  
+      <Bonus3>
         <Classes>Structure</Classes>
         <Multiplier>10</Multiplier>
-      </Bonus1>
+      </Bonus3>      
       </Bonuses>
     </Melee>
   </Attack>

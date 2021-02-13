@@ -26,7 +26,7 @@
     <Population>4</Population>
     <BuildTime>20</BuildTime>
     <Resources>
-      <wood>150</wood>
+      <wood>300</wood>
       <metal>100</metal>
     </Resources>
   </Cost>

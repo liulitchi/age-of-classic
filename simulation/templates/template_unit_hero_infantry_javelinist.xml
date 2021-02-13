@@ -23,6 +23,10 @@
       	  <Classes>Elephant</Classes>
           <Multiplier>2.5</Multiplier>
 	</Bonus1>
+	<Bonus2>
+      	  <Classes>Chariot</Classes>
+          <Multiplier>2.5</Multiplier>
+	</Bonus2>
       </Bonuses>
     </Ranged>
   </Attack>

@@ -27,6 +27,22 @@
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
     <GenericName>Swordsman</GenericName>
   </Identity>
+
+  <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Rates>
+      <food.fruit>0.8</food.fruit>
+      <food.grain>0.8</food.grain>
+      <food.meat>1</food.meat>
+      <wood.tree>0.7</wood.tree>
+      <wood.ruins>5</wood.ruins>
+      <stone.rock>0.6</stone.rock>
+      <stone.ruins>3</stone.ruins>
+      <metal.ore>0.6</metal.ore>
+    </Rates>
+  </ResourceGatherer>
+  
   <Loot>
     <food>5</food>
     <wood>3</wood>

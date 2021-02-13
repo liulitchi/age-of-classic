@@ -26,8 +26,8 @@
     <Population>5</Population>
     <BuildTime>25</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <metal>150</metal>
+      <wood>450</wood>
+      <metal>200</metal>
     </Resources>
   </Cost>
   <Footprint>

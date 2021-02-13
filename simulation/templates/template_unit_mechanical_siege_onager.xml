@@ -32,10 +32,10 @@
     <RegenRate>20</RegenRate>
   </Capturable>
   <Cost>
-    <BuildTime>25</BuildTime>
+    <BuildTime>40</BuildTime>
     <Resources>
-      <wood>300</wood>
-      <metal>300</metal>
+      <wood>350</wood>
+      <metal>350</metal>
     </Resources>
   </Cost>
   <Footprint replace="">

@@ -8,6 +8,7 @@
     <Max>800</Max>
   </Health>
   <Cost>
+    <Population>3</Population>
     <Resources>
       <food>700</food>
       <wood>0</wood>
@@ -43,9 +44,9 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>16.0</WalkSpeed>
+    <WalkSpeed>19.0</WalkSpeed>
     <Run>
-      <Speed>27.0</Speed>
+      <Speed>29.0</Speed>
     </Run>
   </UnitMotion>
   <Vision>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry">
+<Entity parent="template_unit_hero_cavalry">
+  <Auras datatype="tokens">
+   units/persian_chariot_scythes
+   units/persian_chariot_collision
+  </Auras>
   <Armour>
-    <Hack>6</Hack>
+    <Hack>10</Hack>
     <Pierce>10</Pierce>
   </Armour>
   <Attack>
@@ -9,12 +13,12 @@
       <Hack>0</Hack>
       <Pierce>10</Pierce>
       <Crush>0</Crush>
-      <MaxRange>68</MaxRange>
-      <MinRange>0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <MaxRange>66.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <ProjectileSpeed>80.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
       <PrepareTime>250</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
+      <RepeatTime>900</RepeatTime>
       <Spread>3.0</Spread>
       <Delay>0</Delay>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
@@ -23,8 +27,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <GenericName>Hero Archer</GenericName>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
+    <GenericName>Hero chariot Archer</GenericName>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>

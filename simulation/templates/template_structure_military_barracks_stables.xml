@@ -51,8 +51,7 @@
       units/{civ}_cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-      -attack_spear_pike
-      -speed_inf_melee
+     -military_training
     </Technologies>
   </ProductionQueue>
   <Sound>

@@ -2,23 +2,31 @@
 <Entity parent="template_unit_champion_elephant">
   <Attack replace="">
     <Melee>
-      <Hack>50</Hack>
+      <Hack>60</Hack>
       <Pierce>0</Pierce>
       <Crush>0</Crush>
-      <MaxRange>8.0</MaxRange>
+      <MaxRange>5.0</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1500</RepeatTime>
       <PreferredClasses datatype="tokens">Human Structure</PreferredClasses>
       <Bonuses>
       <Bonus1>
+        <Classes>Infantry</Classes>
+        <Multiplier>2.5</Multiplier>
+      </Bonus1> 
+       <Bonus2>
+        <Classes>Cavalry</Classes>
+        <Multiplier>2</Multiplier>
+      </Bonus2>  
+      <Bonus3>
         <Classes>Structure</Classes>
         <Multiplier>10</Multiplier>
-      </Bonus1>
+      </Bonus3>      
       </Bonuses>
     </Melee>
   </Attack>
   <Health>
-    <Max>600</Max>
+    <Max>800</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>7.0</WalkSpeed>

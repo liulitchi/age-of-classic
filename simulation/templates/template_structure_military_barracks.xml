@@ -54,10 +54,9 @@
       -units/{civ}_cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-      speed_inf_melee
       heal_barracks
+      military_training
       training_conscription
-      ranged_inf_skirmishers
     </Technologies>
   </ProductionQueue>
   <Sound>

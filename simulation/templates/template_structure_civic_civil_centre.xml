@@ -107,9 +107,6 @@
       phase_kingdom_{civ}
       unlock_spies
       spy_counter
-      health_siege_rations_1
-      health_siege_rations_2
-      health_siege_rations_3
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>
