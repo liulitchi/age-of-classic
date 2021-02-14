@@ -14,10 +14,6 @@
   <Health>
     <Max>110</Max>
   </Health>
-  <Armour>
-    <Hack>4</Hack>
-    <Pierce>5</Pierce>
-  </Armour>
   <Attack>
     <Melee>
       <Hack>7.0</Hack>
@@ -54,6 +50,6 @@
     <Entity>units/athen_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/infantry_swordsman_c.xml</Actor>
+    <Actor>units/athenians/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>
