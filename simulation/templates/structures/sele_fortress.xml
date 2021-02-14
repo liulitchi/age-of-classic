@@ -31,6 +31,7 @@
       -units/{civ}_mechanical_siege_polybolos_packed
       -units/{civ}_mechanical_siege_ram
       -units/{civ}_mechanical_siege_tower
+      units/{civ}_infantry_javelinist_persia_b
       units/{civ}_champion_infantry_pikeman
       units/{civ}_champion_chariot
       units/{civ}_champion_infantry_swordsman
