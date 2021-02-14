@@ -22,7 +22,7 @@
     <SelectionGroupName>units/pers_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Anatolian Auxiliary</GenericName>
     <SpecificName>Spardiya Takabara</SpecificName>
-    <Icon>units/pers_infantry_javelinist.png</Icon>
+    <Icon>units/pers_kardakes_skirmisher.png</Icon>
     <RequiredTechnology></RequiredTechnology>
   </Identity>
   <ResourceGatherer>

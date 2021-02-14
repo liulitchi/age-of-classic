@@ -19,7 +19,7 @@
     <Lang>greek</Lang>
     <GenericName>Greek Hoplite</GenericName>
     <SpecificName>Hoplites Mercenary</SpecificName>
-    <Icon>units/athen_champion_infantry.png</Icon>
+    <Icon>units/hele_infantry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
