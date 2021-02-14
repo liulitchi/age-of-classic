@@ -23,6 +23,10 @@
       <RepeatTime>1000</RepeatTime>
     </Melee>
   </Attack>
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>5</Pierce>
+  </Armour>
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
@@ -50,6 +54,6 @@
     <Entity>units/athen_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/infantry_swordsman_b.xml</Actor>
+    <Actor>units/athenians/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>
