@@ -22,7 +22,7 @@
     <Resources>
       <food>650</food>
       <wood>150</wood>
-      <metal>200</metal>
+      <metal>250</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
