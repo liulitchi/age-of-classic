@@ -13,7 +13,7 @@
 	"cost": {"food": 150, "wood": 0, "stone": 0, "metal":100},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "armor_corinthian.png",
+	"icon": "helmet_corinthian_bronze.png",
 	"researchTime": 40,
 	"tooltip": "-50% xp needed to promote infantry spearmen.",
 	"modifications": [{"value": "Promotion/RequiredXp", "multiply": 0.5}],
