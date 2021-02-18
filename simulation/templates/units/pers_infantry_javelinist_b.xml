@@ -3,7 +3,6 @@
   <Builder>
     <Entities datatype="tokens">
       structures/pers_apadana
-      structures/pers_ishtar_gate
       structures/pers_hall
       -structures/{civ}_elephant_stables
     </Entities>
