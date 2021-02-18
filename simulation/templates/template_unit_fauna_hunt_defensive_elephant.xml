@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_fauna_hunt_defensive">
+  <Auras datatype="tokens">
+   units/elephant_fear
+  </Auras>
   <Armour>
     <Hack>3</Hack>
     <Pierce>4</Pierce>
