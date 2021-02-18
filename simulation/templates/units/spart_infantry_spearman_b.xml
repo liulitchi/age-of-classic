@@ -9,6 +9,9 @@
       -structures/{civ}_range
     </Entities>
   </Builder>
+  <UnitMotion>
+    <WalkSpeed>10.0</WalkSpeed>
+  </UnitMotion>
   <Identity>
     <Civ>spart</Civ>
     <Lang>greek</Lang>

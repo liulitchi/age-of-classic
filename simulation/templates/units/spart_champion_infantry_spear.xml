@@ -17,6 +17,9 @@
   <Cost>
     <BuildTime>10</BuildTime>
   </Cost>
+  <UnitMotion>
+    <WalkSpeed>10.0</WalkSpeed>
+  </UnitMotion>
   <Identity>
     <Civ>spart</Civ>
     <Lang>greek</Lang>
