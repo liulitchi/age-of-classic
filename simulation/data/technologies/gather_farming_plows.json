@@ -1,7 +1,7 @@
 {
 	"genericName": "Iron Plow",
 	"description": "A horse drawn instrument to turn the sod.",
-	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 200},
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_village"},
 	"requirementsTooltip": "Unlocked in Village Phase.",
 	"icon": "plow.png",
