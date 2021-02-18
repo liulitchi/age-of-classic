@@ -15,6 +15,7 @@
     <GenericName>Greek Archer</GenericName>
     <SpecificName>Toxótēs</SpecificName>
     <Icon>units/athen_infantry_archer.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/athen_infantry_archer_a</Entity>

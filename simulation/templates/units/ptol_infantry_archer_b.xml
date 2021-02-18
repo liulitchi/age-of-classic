@@ -10,15 +10,26 @@
       structures/ptol_military_colony
       structures/ptol_lighthouse
       structures/ptol_library
+      -structures/{civ}_stable
     </Entities>
   </Builder>
   <Cost>
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <metal>70</metal>
+      <metal>80</metal>
     </Resources>
   </Cost>
+  <Health>
+    <Max>90</Max>
+  </Health>
+   <Attack>
+    <Ranged>
+      <ProjectileSpeed>80.0</ProjectileSpeed>
+      <PrepareTime>250</PrepareTime>
+      <RepeatTime>900</RepeatTime>
+    </Ranged>
+  </Attack>
   <Identity>
     <Civ>ptol</Civ>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
@@ -28,16 +39,16 @@
     <Icon>units/ptol_infantry_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-    <Loot>
+  <Loot>
     <food>0</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>5</metal>
   </Loot>
   <Promotion>
-    <Entity>ptol_infantry_archer_a</Entity>
+    <Entity>units/ptol_infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/units/kushites/infantry_archer_b.xml</Actor>
+    <Actor>units/kushites/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>
