@@ -1,7 +1,7 @@
 {
 	"genericName": "Advanced Chariot",
 	"description": "Rolling sickle chariots are powerful arms and require professional training to exert their power.",
-	"cost": {"food": 1200, "wood": 0, "stone": 0, "metal": 400 },
+	"cost": {"food": 1200, "wood": 0, "stone": 0, "metal": 500 },
 	"requirements": {"all": [{"tech": "phase_city"},{"any":[{"civ": "pers" }]}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
  	"icon": "chariots_heavy_01.png",
