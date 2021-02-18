@@ -33,7 +33,7 @@
     <GenericName>Stoa</GenericName>
     <SpecificName>Hellenic Royal Stoa</SpecificName>
     <Tooltip>Recruit special units.</Tooltip>
-    <Icon>gaia/special_stoa.png</Icon>
+    <Icon>structures/tholos.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
