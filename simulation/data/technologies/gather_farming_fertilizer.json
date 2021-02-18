@@ -7,8 +7,8 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "crop_rotation.png",
 	"researchTime": 30,
-	"tooltip": "+25% farming rate.",
-	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25}],
+	"tooltip": "+20% farming rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.20}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
