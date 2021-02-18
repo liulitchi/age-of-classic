@@ -25,7 +25,8 @@
       units/{civ}_hero_demetrius
       units/{civ}_champion_infantry_a
       units/{civ}_champion_cavalry
- 
+      -units/{civ}_infantry_slinger_b
+      -units/{civ}_infantry_archer_b
     </Entities>
     <Technologies datatype="tokens">
       successors/upgrade_mace_silvershields
