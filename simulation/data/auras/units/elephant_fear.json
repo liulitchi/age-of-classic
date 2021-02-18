@@ -2,7 +2,7 @@
 	"type": "range",
 	"radius": 15,
 	"affectedPlayers": ["Enemy"],
-	"affects": ["Soldier"],
+	"affects": ["Soldier","Support"],
 	"modifications": [
 	  {"value": "Attack/Melee/RepeatTime", "multiply": 1.25},
 	  {"value": "Attack/Ranged/RepeatTime", "multiply": 1.25},
