@@ -3,8 +3,8 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>5</Pierce>
-      <Crush>1</Crush>
+      <Pierce>6</Pierce>
+      <Crush>0</Crush>
       <MaxRange>50</MaxRange>
       <MinRange>6.0</MinRange>
       <ProjectileSpeed>62.5</ProjectileSpeed>
