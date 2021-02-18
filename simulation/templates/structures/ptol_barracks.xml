@@ -14,7 +14,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       -units/{civ}_infantry_archer_b  
-      units/{civ}_champion_infantry_pikeman_barracks
+      units/{civ}_cavalry_archer_b
      </Entities>
   </ProductionQueue>
   <Obstruction>

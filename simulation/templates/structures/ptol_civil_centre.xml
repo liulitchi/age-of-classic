@@ -16,6 +16,7 @@
       units/{civ}_hero_ptolemy_I
       units/{civ}_hero_ptolemy_IV
       units/{civ}_hero_cleopatra
+      -units/{civ}_infantry_archer_b
     </Entities>
     <Technologies datatype="tokens">
       health_heroes

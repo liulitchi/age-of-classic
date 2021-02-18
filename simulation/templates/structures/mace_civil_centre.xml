@@ -3,6 +3,12 @@
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
   </Health>
+    <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_infantry_slinger_b
+      -units/{civ}_infantry_archer_b
+    </Entities>
+  </ProductionQueue>
   <Identity>
     <Civ>mace</Civ>
     <SpecificName>Agorá</SpecificName>

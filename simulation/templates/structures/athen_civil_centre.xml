@@ -8,6 +8,9 @@
     <SpecificName>Agorá</SpecificName>
   </Identity>
   <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_infantry_swordsman_b
+    </Entities>
     <Technologies datatype="tokens">
       hellenes/special_long_walls
     </Technologies>

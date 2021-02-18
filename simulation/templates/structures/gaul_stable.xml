@@ -19,7 +19,6 @@
       -units/{civ}_infantry_javelinist_b
       -units/{civ}_infantry_slinger_b
       -units/{civ}_infantry_archer_b
-      units/{civ}_champion_cavalry_barracks
     </Entities>
     <Technologies datatype="tokens">
       upgrade_rank_advanced_cav_sword_gaul
