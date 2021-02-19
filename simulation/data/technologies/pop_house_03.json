@@ -4,7 +4,7 @@
 		"rome": "Insulae"
 	},
 	"description": "Homes tended to expand as the wealth and population of a settlement grew.",
-	"cost": {"food": 0, "wood": 1000, "stone": 600, "metal": 0},
+	"cost": {"food": 0, "wood": 1000, "stone": 500, "metal": 0},
 	"supersedes": "pop_house_02",
 	"requirements": {"tech": "phase_kingdom"},
 	"requirementsTooltip": "Unlocked in Kingdom Phase.",
