@@ -14,7 +14,7 @@
     </Ranged>
   </Attack>
   <Health>
-    <Max>70</Max>
+    <Max>80</Max>
   </Health>
   <Cost>
     <BuildTime>12</BuildTime>

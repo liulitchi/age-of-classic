@@ -4,7 +4,7 @@
     <Max>130</Max>
   </Health>
   <Armour>
-    <Hack>5</Hack>
+    <Hack>6</Hack>
     <Pierce>5</Pierce>
   </Armour>
   <Attack>
@@ -19,7 +19,7 @@
   <Cost>
     <BuildTime>12</BuildTime>
     <Resources>
-      <food>80</food>
+      <food>100</food>
       <metal>30</metal>
     </Resources>
   </Cost>
