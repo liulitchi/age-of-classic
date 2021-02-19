@@ -20,8 +20,6 @@
       units/{civ}_champion_chariot
     </Entities>
     <Technologies datatype="tokens">
-      attack_soldiers_will
-      unlock_champion_units
       health_heroes
       armor_hero_01     
     </Technologies>

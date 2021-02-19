@@ -27,7 +27,6 @@
       units/{civ}_hero_amanirenas
     </Entities>
     <Technologies datatype="tokens">
-      unlock_champion_units
       health_heroes
       armor_hero_01
     </Technologies>

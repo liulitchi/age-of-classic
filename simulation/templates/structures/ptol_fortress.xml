@@ -26,7 +26,6 @@
       -units/{civ}_infantry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-      unlock_champion_units
     </Technologies>
   </ProductionQueue>
   <VisualActor>
