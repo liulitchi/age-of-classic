@@ -5,7 +5,7 @@
       <Hack>0.0</Hack>
       <Pierce>0</Pierce>
       <Crush>100.0</Crush>
-      <MaxRange>72.0</MaxRange>
+      <MaxRange>70</MaxRange>
       <MinRange>10.0</MinRange>
       <ProjectileSpeed>37.5</ProjectileSpeed>
       <Gravity>9.81</Gravity>
