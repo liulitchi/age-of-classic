@@ -9,7 +9,7 @@
     <SpecificName>Dwara</SpecificName>
   </Identity>
     <Cost>
-    <BuildTime>36</BuildTime>
+    <BuildTime>12</BuildTime>
     <Resources>
       <wood>65</wood>
       <stone>0</stone>
