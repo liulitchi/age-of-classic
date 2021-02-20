@@ -9,6 +9,13 @@
   <Health>
     <Max op="mul">0.85</Max>
   </Health>
+    <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>60</stone>
+    </Resources>
+  </Cost>
   <Identity>
     <Classes datatype="tokens">Gates</Classes>
     <GenericName>City Gate</GenericName>
