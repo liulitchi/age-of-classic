@@ -43,7 +43,7 @@
     <SpecificName>Rhomphaiaphoros</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/thracian_rhomphaia.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>120</xp>

@@ -27,7 +27,7 @@
     <SpecificName>Toxótēs Skythikós</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/athen_champion_ranged.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <metal>7</metal>
