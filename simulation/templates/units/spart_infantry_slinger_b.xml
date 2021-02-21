@@ -20,7 +20,7 @@
     <Civ>spart</Civ>
 	<Lang>greek</Lang>
     <SelectionGroupName>units/spart_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Helot Slinger (Slave)</GenericName>
+    <GenericName>Helot(Slave) Slinger</GenericName>
     <SpecificName>Sphendonetes Heilotes</SpecificName>
     <VisibleClasses datatype="tokens">Slave -Citizen</VisibleClasses>
     <Icon>units/spart_infantry_slinger.png</Icon>

@@ -19,7 +19,7 @@
     <Civ>spart</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/spart_infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Helot Skirmisher (Slave)</GenericName>
+    <GenericName>Helot(Slave) Skirmisher</GenericName>
     <SpecificName>Akontistḗs Heílōs</SpecificName>
     <Icon>units/spart_infantry_javelinist.png</Icon>
     <VisibleClasses datatype="tokens">Slave -Citizen</VisibleClasses>
