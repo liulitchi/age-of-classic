@@ -13,7 +13,13 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_hero_arakamani
+      units/{civ}_hero_nastasen
+      units/{civ}_hero_amanirenas
+    </Entities>
     <Technologies datatype="tokens">
+      health_heroes
       kushites/monumental_architecture
     </Technologies>
   </ProductionQueue>

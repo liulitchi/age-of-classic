@@ -3,6 +3,16 @@
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_iber_cc</SpawnEntityOnDeath>
   </Health>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_hero_indibil
+      units/{civ}_hero_caros
+      units/{civ}_hero_viriato
+    </Entities>
+    <Technologies datatype="tokens">
+      health_heroes
+    </Technologies>
+  </ProductionQueue>  
   <Identity>
     <Civ>iber</Civ>
     <SpecificName>Oppidum</SpecificName>

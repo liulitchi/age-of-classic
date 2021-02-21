@@ -17,7 +17,13 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_support_elephant
+      units/{civ}_hero_maurya
+      units/{civ}_hero_ashoka
+      units/{civ}_hero_chanakya
     </Entities>
+    <Technologies datatype="tokens">
+      health_heroes  
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/mauryans/civil_centre.xml</Actor>

@@ -8,8 +8,14 @@
     <SpecificName>Merkāz</SpecificName>
   </Identity>
   <ProductionQueue>
+    <Entities datatype="tokens">    
+      units/{civ}_hero_hannibal
+      units/{civ}_hero_hamilcar
+      units/{civ}_hero_maharbal
+    </Entities>
     <Technologies datatype="tokens">
       carthaginians/special_colonisation
+      health_heroes
     </Technologies>
   </ProductionQueue>
   <Upgrade>

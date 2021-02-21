@@ -94,12 +94,12 @@
       units/{civ}_infantry_spearman_a
       units/{civ}_infantry_javelinist_a
       units/{civ}_cavalry_spearman_a
-      units/{civ}_mechanical_siege_ballista_packed
-      units/{civ}_mechanical_siege_scorpio_packed
-      units/{civ}_mechanical_siege_oxybeles_packed
-      units/{civ}_mechanical_siege_lithobolos_packed
-      units/{civ}_mechanical_siege_ram
-      units/{civ}_mechanical_siege_tower
+      -units/{civ}_mechanical_siege_ballista_packed
+      -units/{civ}_mechanical_siege_scorpio_packed
+      -units/{civ}_mechanical_siege_oxybeles_packed
+      -units/{civ}_mechanical_siege_lithobolos_packed
+      -units/{civ}_mechanical_siege_ram
+      -units/{civ}_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
       romans/heal_hospitals

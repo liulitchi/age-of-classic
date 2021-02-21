@@ -54,7 +54,6 @@
     <Technologies datatype="tokens">
       persians/immortals
       health_heroes
-      armor_hero_01
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

@@ -20,7 +20,6 @@
     </Entities>
     <Technologies datatype="tokens">
       health_heroes
-      armor_hero_01
     </Technologies>
   </ProductionQueue>
   <Obstruction>

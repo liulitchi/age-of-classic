@@ -39,6 +39,9 @@
       units/{civ}_champion_ranged_gastraphetes
       units/{civ}_champion_infantry
     </Entities>
+    <Technologies datatype="tokens">
+      attack_champions_elite      
+    </Technologies>    
   </ProductionQueue>
   <Sound>
     <SoundGroups>

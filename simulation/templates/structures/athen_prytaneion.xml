@@ -7,8 +7,8 @@
     <BuildTime>200</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>600</wood>
-      <stone>300</stone>
+      <wood>400</wood>
+      <stone>200</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -43,7 +43,6 @@
     </Entities>
     <Technologies datatype="tokens">
         health_heroes
-        armor_hero_01
     </Technologies>
   </ProductionQueue>
   <Sound>

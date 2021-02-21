@@ -22,13 +22,8 @@
       -units/{civ}_mechanical_siege_tower
       units/{civ}_champion_infantry
       units/{civ}_champion_cavalry
-      units/{civ}_hero_arakamani
-      units/{civ}_hero_nastasen
-      units/{civ}_hero_amanirenas
     </Entities>
     <Technologies datatype="tokens">
-      health_heroes
-      armor_hero_01
     </Technologies>
   </ProductionQueue>
   <VisualActor>

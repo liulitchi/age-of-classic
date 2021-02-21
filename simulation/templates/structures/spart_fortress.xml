@@ -23,6 +23,7 @@
       -units/{civ}_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
+      -attack_champions_elite         
     </Technologies>
   </ProductionQueue>
   <VisualActor>

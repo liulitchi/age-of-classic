@@ -26,6 +26,9 @@
       units/{civ}_champion_infantry
       units/{civ}_champion_cavalry
     </Entities>
+    <Technologies datatype="tokens">
+      attack_champions_elite      
+    </Technologies>    
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/carthaginians/temple_big.xml</Actor>

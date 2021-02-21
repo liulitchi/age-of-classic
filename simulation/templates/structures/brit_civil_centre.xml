@@ -18,6 +18,16 @@
     <Civ>brit</Civ>
     <SpecificName>Tigernotreba</SpecificName>
   </Identity>
+    <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_hero_boudicca
+      units/{civ}_hero_cunobelin
+      units/{civ}_hero_caratacos
+    </Entities>
+    <Technologies datatype="tokens">
+      health_heroes
+    </Technologies>
+  </ProductionQueue>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
