@@ -6,7 +6,7 @@
    </Armour>
   <Attack>
     <Melee>
-      <Hack>9</Hack>
+      <Hack>10</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>2.0</MaxRange>
