@@ -10,6 +10,7 @@
     <BuildTime>300</BuildTime>
     <Resources>
       <stone>500</stone>
+      <food>700</food>
     </Resources>
   </Cost>
   <Footprint>

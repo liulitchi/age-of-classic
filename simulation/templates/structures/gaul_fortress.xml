@@ -16,16 +16,9 @@
       -units/{civ}_mechanical_siege_polybolos_packed
       -units/{civ}_mechanical_siege_ram
       -units/{civ}_mechanical_siege_tower
-      units/{civ}_hero_vercingetorix
-      units/{civ}_hero_brennus
-      units/{civ}_hero_viridomarus
       units/{civ}_champion_cavalry
       units/{civ}_champion_infantry
     </Entities>
-    <Technologies datatype="tokens">
-      health_heroes
-      armor_hero_01
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

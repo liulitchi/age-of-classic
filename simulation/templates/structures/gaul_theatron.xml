@@ -4,8 +4,8 @@
   <Cost>
     <PopulationBonus>5</PopulationBonus>
     <Resources>
-      <stone>100</stone>
-      <wood>300</wood>
+      <stone>300</stone>
+      <wood>600</wood>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -23,8 +23,15 @@
   </Loot>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/{civ}_hero_vercingetorix
+      units/{civ}_hero_brennus
+      units/{civ}_hero_viridomarus
       units/{civ}_champion_infantry_carnyx
     </Entities>
+    <Technologies datatype="tokens">
+      health_heroes
+      armor_hero_01
+    </Technologies>    
   </ProductionQueue>
   <Footprint replace="">
     <Circle radius="17"/>

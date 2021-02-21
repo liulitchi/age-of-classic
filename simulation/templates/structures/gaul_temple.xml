@@ -17,6 +17,12 @@
     <Civ>gaul</Civ>
     <SpecificName>Nemeton</SpecificName>
   </Identity>
+    <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_champion_fanatic
+    </Entities>
+  </ProductionQueue>
   <Obstruction>
     <Static width="22.5" depth="22.5"/>
   </Obstruction>
