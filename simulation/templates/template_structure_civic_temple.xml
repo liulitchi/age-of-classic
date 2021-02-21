@@ -12,6 +12,7 @@
     <Resources>
       <wood>0</wood>
       <stone>300</stone>
+      <food>500</food>
     </Resources>
   </Cost>
   <Footprint>
