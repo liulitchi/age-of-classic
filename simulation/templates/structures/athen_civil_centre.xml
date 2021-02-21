@@ -10,6 +10,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       -units/{civ}_infantry_swordsman_b
+      units/{civ}_infantry_champion_merc_archer
     </Entities>
     <Technologies datatype="tokens">
       hellenes/special_long_walls

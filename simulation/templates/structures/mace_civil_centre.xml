@@ -10,6 +10,7 @@
       units/{civ}_hero_philip
       units/{civ}_hero_alexander
       units/{civ}_hero_demetrius
+      units/{civ}_black_cloak      
     </Entities>
     <Technologies datatype="tokens">
       health_heroes
