@@ -8,6 +8,13 @@
       structures/athen_royal_stoa
     </Entities>
   </Builder>
+    <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>70</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>athen</Civ>
 	<Lang>greek</Lang>

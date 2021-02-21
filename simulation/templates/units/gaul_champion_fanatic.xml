@@ -9,8 +9,8 @@
     </Melee>
   </Attack>
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>2</Pierce>
+    <Hack>4</Hack>
+    <Pierce>3</Pierce>
   </Armour>
   <Cost>
       <Resources>
