@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_swordsman">
  <Attack>
     <Melee>
-      <Hack>14</Hack>
+      <Hack>15</Hack>
     </Melee>
   </Attack>
   <Identity>
