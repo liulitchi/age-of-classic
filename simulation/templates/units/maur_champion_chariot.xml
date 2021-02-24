@@ -2,6 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_archer">
   <Auras datatype="tokens">
    units/maur_chariot_Incentive
+   units/persian_chariot_collision
   </Auras>
   <Attack>
     <Ranged>
@@ -18,13 +19,13 @@
     <Max>500</Max>
   </Health>
   <Cost>
-    <Population>4</Population>
+    <Population>5</Population>
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>400</food>
+      <food>500</food>
       <wood>150</wood>
       <stone>0</stone>
-      <metal>150</metal>
+      <metal>200</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
