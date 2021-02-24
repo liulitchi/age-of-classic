@@ -35,9 +35,9 @@
     <Icon>units/brit_champion_chariot.png</Icon>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>18.0</WalkSpeed>
+    <WalkSpeed>17.0</WalkSpeed>
     <Run>
-      <Speed>27</Speed>
+      <Speed>26</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

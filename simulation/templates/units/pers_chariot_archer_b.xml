@@ -43,9 +43,9 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>18.0</WalkSpeed>
+    <WalkSpeed>17.0</WalkSpeed>
     <Run>
-      <Speed>27.0</Speed>
+      <Speed>26.0</Speed>
     </Run>
   </UnitMotion>
   <Promotion>
