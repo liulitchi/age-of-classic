@@ -2,7 +2,6 @@
 	"genericName": "Military training",
 	"description": "Exercise the infantry's ability to move quickly.",
 	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
-	"supersedes": "superfine_forage",
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "walk.png",
