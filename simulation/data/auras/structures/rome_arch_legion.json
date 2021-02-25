@@ -1,9 +1,11 @@
 {
 	"type": "global",
-	"affects": ["Melee Infantry"],
-	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.10 }],
+	"affects": ["Sword","Spear","Javelin"],
+	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.10 },
+		              { "value": "Attack/Ranged/Pierce", "multiply": 1.10 }],
+
 	"auraName": "Roma Triumphant",
-	"auraDescription": "+10% attack for Melee Infantry.",
+	"auraDescription": "+10% attack for rome citizen.",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 
 }
