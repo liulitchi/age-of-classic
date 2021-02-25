@@ -1,12 +1,12 @@
 {
     "type": "range",
-    "radius": 9,
+    "radius": 8,
     "affectedPlayers": ["Enemy"],
     "affects": ["Infantry","Support"],
     "modifications": [
-    {"value": "Health/RegenRate", "add": -25}
+    {"value": "Health/RegenRate", "add": -30}
     ],
     "auraName": "Collision",
-    "auraDescription": "Nearby enemy Infantry units -25 health/second.",
+    "auraDescription": "Nearby enemy Infantry -30 health/second.",
     "overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }
