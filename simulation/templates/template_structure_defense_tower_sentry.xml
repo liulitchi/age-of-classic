@@ -45,7 +45,7 @@
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>
-    <Root>false</Root>
+    <Root>true</Root>
     <Radius>16</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>

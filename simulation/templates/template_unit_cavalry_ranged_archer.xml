@@ -21,7 +21,7 @@
     </Attack>
   <Cost>
     <Resources>
-      <food>200</food>
+      <food>210</food>
       <metal>40</metal>
     </Resources>
   </Cost>

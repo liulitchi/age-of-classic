@@ -67,7 +67,7 @@
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
-    <Root>false</Root>
+    <Root>true</Root>
     <Radius>50</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
