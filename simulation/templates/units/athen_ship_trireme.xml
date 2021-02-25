@@ -12,8 +12,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      -units/athen_infantry_marine_archer_b
-      -units/athen_champion_marine
+      units/athen_infantry_spearman_b
+      units/athen_infantry_swordsman_b
     </Entities>
     <TechCostMultiplier>
       <food>1.0</food>

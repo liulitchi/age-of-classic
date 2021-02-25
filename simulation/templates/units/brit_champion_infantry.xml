@@ -9,6 +9,20 @@
       <MaxRange>3.0</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1250</RepeatTime>
+       <Bonuses>
+        <Bonus1>
+          <Classes>Swordsman</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Bonus1>
+        <Bonus2>
+          <Classes>Champion</Classes>
+          <Multiplier>1.25</Multiplier>
+        </Bonus2>
+        <Bonus3>
+          <Classes>Hero</Classes>
+          <Multiplier>2.0</Multiplier>
+        </Bonus3>
+      </Bonuses>     
     </Melee>
   </Attack>  
   <Cost>

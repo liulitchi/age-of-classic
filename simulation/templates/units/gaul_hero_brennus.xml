@@ -4,6 +4,11 @@
     units/heroes/gaul_hero_brennus
     units/heroes/gaul_hero_brennus_2
   </Auras>
+  <Cost>
+    <Resources>
+      <metal>600</metal>
+    </Resources>
+  </Cost>  
   <Identity>
     <Civ>gaul</Civ>
     <SpecificName>Brennus</SpecificName>

@@ -2,10 +2,13 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Builder>
     <Entities datatype="tokens">
-      structures/iber_monument
-      structures/iber_workshop
+      structures/spart_syssiton
+      structures/spart_theatron
     </Entities>
   </Builder>
+  <Health>
+    <Max>100</Max>
+  </Health>
   <Attack>
     <Melee>
       <Hack>7.0</Hack>
@@ -17,11 +20,8 @@
   </Attack>
   <Armour>
     <Hack>4</Hack>
-    <Pierce>4</Pierce>
+    <Pierce>5</Pierce>
   </Armour>
-  <Health>
-       <Max>100</Max>
-  </Health>
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
@@ -32,16 +32,22 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>iber</Civ>
-    <SelectionGroupName>units/iber_infantry_swordsman_b</SelectionGroupName>
-    <SpecificName>Ezpatari</SpecificName>
-    <Icon>units/iber_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Civ>spart</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/spart_infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Skiritai Commando</GenericName>
+    <SpecificName>Ékdromos Skirítēs</SpecificName>
+    <Icon>units/spart_champion_infantry_sword.png</Icon>
   </Identity>
+  <Loot>
+    <food>5</food>
+    <wood>5</wood>
+    <metal>0</metal>
+  </Loot>
   <Promotion>
-    <Entity>units/iber_infantry_swordsman_a</Entity>
+    <Entity>units/spart_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/infantry_swordsman_b.xml</Actor>
+    <Actor>units/spartans/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Attack>
     <Ranged>
-      <Pierce>8</Pierce>
-      <MaxRange>66.0</MaxRange>
-      <ProjectileSpeed>70.0</ProjectileSpeed>
+      <ProjectileSpeed>80.0</ProjectileSpeed>
+      <PrepareTime>250</PrepareTime>
+      <RepeatTime>900</RepeatTime>
     </Ranged>
   </Attack>
     <Cost>

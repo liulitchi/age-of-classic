@@ -6,7 +6,7 @@
   </Auras>
   <Attack>
     <Ranged>
-       <Pierce>9</Pierce>
+       <Pierce>8</Pierce>
       <MaxRange>66.0</MaxRange>
       <ProjectileSpeed>70.0</ProjectileSpeed>
     </Ranged>

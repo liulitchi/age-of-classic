@@ -11,7 +11,7 @@
     </Entities>
   </Builder>
   <Health>
-    <Max>110</Max>
+    <Max>100</Max>
   </Health>
     <Armour>
     <Hack>4</Hack>
@@ -29,7 +29,7 @@
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
-      <food>80</food>
+      <food>90</food>
       <wood>0</wood>
       <metal>10</metal>
       <stone>0</stone>

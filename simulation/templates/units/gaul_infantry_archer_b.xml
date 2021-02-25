@@ -6,6 +6,13 @@
       structures/gaul_theatron
     </Entities>
   </Builder>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>100</food>
+      <metal>20</metal>
+    </Resources>
+  </Cost>  
   <Identity>
     <Civ>gaul</Civ>
     <SelectionGroupName>units/gaul_infantry_archer_b</SelectionGroupName>

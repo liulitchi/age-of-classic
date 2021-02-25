@@ -15,6 +15,10 @@
       <metal>10</metal>
     </Resources>
   </Cost>
+  <Armour>
+    <Pierce>3</Pierce>
+    <Hack>2</Hack>
+  </Armour>
   <Identity>
     <Civ>pers</Civ>
     <Lang>persian</Lang>

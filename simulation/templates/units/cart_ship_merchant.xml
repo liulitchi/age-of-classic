@@ -2,8 +2,8 @@
 <Entity parent="template_unit_mechanical_ship_merchant">
   <Cost>
     <Resources>
-      <metal>90</metal>
-      <wood>120</wood>
+      <metal>70</metal>
+      <wood>90</wood>
     </Resources>
   </Cost>
   <Footprint>
