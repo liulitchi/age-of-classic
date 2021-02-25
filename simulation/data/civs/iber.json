@@ -16,33 +16,18 @@
 			"Description": "",
 			"Technologies":
 			[
-{
-					"Name": "Clay Sling Bullets",
-					"History": "Large numbers of sling stones have been found in Celtic settlements. They were covered in hardened clay for better aerodynamics.",
-					"Description": "+8 range and +10% accuracy for slingers."
-				},
 
-				{
-					"Name": "Maisu Burdina Langileak",
-                           "History": "The Iberians were known to produce the finest iron and steel implements and weapons of the age.",
-                           "Description": "+10% attack and +1 armour for soldiers."
-				},
 
 				{
 					"Name": "Toledo Steel",
                            "History": "Secret steel working techniques give sword blades distinctive and beautiful markings. Not only that, but the steel's hardness is unparalleled.",
-                           "Description": "+10% attack for swordmen."
+                           "Description": "+20% attack for swordmen."
 				},
 
 			{
 					"Name": "Advanced Skirmisher",
                            "History": "These warriors fought vigorously against the Romans, especially under the Leadership of Viriathus the Lusitanian and his formidable guerrilla tactics that the Romans had never seen before. Being agile by nature, and wearing almost no armour at all, these warriors were extremely mobile and would use hit-and-run tactics to harass the enemy and break their formation.",
                            "Description": "Promote your citizen infantry skirmisher to advanced rank."
-				},
-                     {
-					"Name": "Elite Skirmisher",
-                           "History": "These warriors fought vigorously against the Romans, especially under the Leadership of Viriathus the Lusitanian and his formidable guerrilla tactics that the Romans had never seen before. Being agile by nature, and wearing almost no armour at all, these warriors were extremely mobile and would use hit-and-run tactics to harass the enemy and break their formation.",
-                           "Description": "Promote your citizen infantry skirmisher to elite rank."
 				}
 
 								
@@ -79,12 +64,6 @@
 			"Name": "Zaldi Saldoa",
 			"History": "Not unlike Numidia in North Africa, the Iberian Peninsula was known as 'horse country', capable of producing up to 100,000 new mounts each year.",
 			"Description": "-20% training time for cavalry."
-		},
-
-		{
-			"Name": "Stealthy Cavalry",
-			"History": "Historically, were used many times to great effect by the Carthaginians. The Iberians used them more as stealthy, mobile guerilla troops to harass and cut down a few unwary enemies before disappearing back into the hills.",
-			"Description": "Start with scout cavalry and can be trained in the village phase."
 		},
 
 		{

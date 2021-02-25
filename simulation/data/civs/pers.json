@@ -38,6 +38,16 @@
 					"Description": "-40% train time for champion immortals."
 				},
 				{
+					"Name": "Hiring veterans",
+					"History": "Hire experienced veterans from Greece.",
+					"Description": "+1 armour and +70 health for Hoplites Mercenary."
+				},		
+				{
+					"Name": "Advanced Chariot",
+					"History": "Rolling sickle chariots are powerful arms and require professional training to exert their power.",
+					"Description": "Promote your citizen Chariot to Advanced rank."
+				},							
+				{
 					"Name": "Nisean War Horses",
 					"History": "The beautiful and powerful breed of Nisean horses increases health for Persian cavalry.",
 					"Description": "+10% health for cavalry."
@@ -78,8 +88,8 @@
 	[
 			{
 			"Name": "Skilled Archers",
-			"History": "Persians were the most skilled archers in the world.",
-			"Description": "+20% accuracy for archers."
+			"History": "The Persians were skilled archers.",
+			"Description": "The Archer's Health +30, and the shooting interval is -10%."
 			},
 
 			{
@@ -108,15 +118,7 @@
 			"Phase": "",
 			"Special": ""
 		},
-		{
-			"Name": "Ishtar Gate",
-			"Class": "",
-			"Emblem": "",
-			"History": "Was the eighth gate to the inner city of Babylon. It was constructed in about 575 BCE by order of King Nebuchadnezzar II on the north side of the city. It was excavated in the early 20th century, and a reconstruction using original bricks, completed in 1930, is now shown in Berlin Pergamon Museum.",
-			"Requirements": "",
-			"Phase": "",
-			"Special": ""
-		},
+
 		{
 			"Name": "Persian Hall",
 			"Class": "",

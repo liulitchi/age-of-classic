@@ -68,6 +68,12 @@
 	],
 	"CivBonuses":
 	[
+				{
+			"Name": "Skilled Archers",
+			"History": "The Nubians were skilled archers.",
+			"Description": "The Archer's Health +10, and the shooting interval is -10%."
+			},
+	
 		{
 			"Name": "Economic Pillar",
 			"History": "Controlled several trade routes linking the interior of Africa to the Red Sea.",
@@ -77,7 +83,7 @@
 		{
 			"Name": "Commercial Wealth",
 			"History": "While the capital was Napata, the main economic activity of the cuxitas was cattle raising: they raised goats, goats, horses and donkeys (mainly used to transport products). A person's wealth was measured by the size of his flock.",
-			"Description": "-50% cost for corral, -20% train time for domestic animals and start with one goat."
+			"Description": "-50% cost for corral,and start with two goat."
 		}
 			],
 	"TeamBonuses":

@@ -23,7 +23,7 @@
 				},
 
 
-																{
+				{
 					"Name": "Nisean War Horses",
 					"History": "The beautiful and powerful breed of Nisean horses increases health for Seleucid cavalry.",
 					"Description": "+10% health for cavalry."
@@ -72,7 +72,7 @@
 {
 					"Name":"Expanding The Empire",
 					"History":"The classical historian Apian in his Roman History, when dealing with the Syrian Wars, claims that Seleucus was always in search of the neighboring nations and being strong in arms and persuasive in counsels, acquired Mesopotamia, Armenia, Cappadocia, Persia, Parthia, Bactria, Arabia , Tapuria, Sogdiana, Aracosia, Hircania and other neighboring nations that had been subjugated by Alexander to the distant Indus river, so that the limits of his empire were the most extensive in Asia, after that of Alexander.",
-					"Description":"Can build military colony in phase village and -30% cost for fortress."
+					"Description":" -30% stone cost for fortress."
 
 				}
 

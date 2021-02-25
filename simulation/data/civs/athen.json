@@ -40,16 +40,6 @@
 					"Description":"Can build stone walls in neutral territory."
 				},
 				{
-					"Name":"Advanced Hoplite",
-					"History":"Hoplite was, in the Classical Era of ancient Greece, a citizen-soldier. Its name comes from the great shield taken to the battles.",
-					"Description":"Promote your citizen infantry spearman to advanced rank."
-				},
-				{
-					"Name":"Elite Hoplite",
-					"History":"Hoplite was, in the Classical Era of ancient Greece, a citizen-soldier. Its name comes from the great shield taken to the battles.",
-					"Description":"Promote your citizen infantry spearman to elite rank."
-				},
-				{
 					"Name":"Rituals to Zeus",
 					"History":"The Olympic Games of Antiquity were a religious and athletic festival of Ancient Greece. The procession stops in front of the Great Altar of Zeus, where the sacrifice of 100 oxen offered by the people of Elide takes place.",
 					"Description":"+10% health for soldiers."
@@ -93,12 +83,6 @@
 			"Name":"Silver Owls",
 			"History":"The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
 			"Description":"Metal mining gathering rates increased by +10% for each passing age."
-		},
-{
-			"Name":"Slavery",
-			"History":"Slavery was a common practice and integral component of life in Ancient Greece, throughout its history, in the same way as in other ancient societies. It is estimated that in Athens most citizens had at least one slave. Most writers of the early period considered slavery not only as something natural, but as something necessary, but some isolated debates took place, especially in Socratic dialogues.",
-			"Description":"Can train slaves in the civic centre and each new house built, get a free slave."
-
 		}
 
 		
@@ -139,15 +123,6 @@
 			"Requirements":"",
 			"Phase":"City",
 			"Special":"Train heroes and research technology pertaining to heroes."
-		},
-		{
-			"Name":"Royal Stoa",
-			"Class":"",
-			"Emblem":"",
-			"History":"The Royal Stoa was the headquarters of the King Archon and of the Areopagos council (in charge of religious affairs and crime). A statue of Themis (representing Justice) stood in front of the building. Copies of some of the city laws were kept in the Stoa.",
-                "Requirements":"",
-			"Phase":"",
-			"Special":""
 		}
 
 

@@ -18,33 +18,13 @@
 			"Description": "The Celts of mainland Europe.",
 			"Technologies":
 			[
-				{
-					"Name": "Clay Sling Bullets",
-					"History": "Large numbers of sling stones have been found in Celtic settlements. They were covered in hardened clay for better aerodynamics.",
-					"Description": "+8 range and +10% accuracy for slingers."
-				},
-			    		     {
-			"Name": "Advanced Forging",
-			"History": "Gauls dominated the area of metallurgy. Thus, they practiced techniques of cast iron, tin and bronze, manufacturing weapons, jewelry and utensils.",
-			"Description": "-20% metal cost for soldiers."
-
-						},
 
 						{
 			"Name": "Advanced Cavalry",
 			"History": "Cavalry was the strongest weapon of the Gauls.",
 			"Description": "Promote your citizen cavalry to advanced rank."
 
-						},
-
-						{
-			"Name": "Elite Cavalry",
-			"History": "Cavalry was the strongest weapon of the Gauls.",
-			"Description": "Promote your citizen cavalry to elite rank."
-
 						}
-						
-
 			],
 			"Heroes":
 			[
@@ -74,17 +54,22 @@
 	],
 	"CivBonuses":
 	[
-                {
-			"Name": "Wattle and Post Construction",
-			"History": "Celtic structures were mostly made of wood with rubble foundations.",
-			"Description": "Celtic buildings have -20% health and capture points, but are also faster to build. Some buildings cost only wood instead stone."
-			},
 
 			{
 			"Name": "Metalworking",
-			"History": "Gauls featured a sophisticated culture of advanced metalworking.",
-			"Description": "-50% cost for blacksmith and can be built in the village phase."
-			}
+			"History": "Gauls dominated the area of metallurgy. Thus, they practiced techniques of cast iron, tin and bronze, manufacturing weapons, jewelry and utensils.",
+			"Description": "-50% metal cost for sword unit."
+			},
+		    {
+			"Name": "Deas Celtica",
+			"History": "Celtic religion and druidry inspired their warlike mindset. ",
+			"Description": "Druids increase attack rates of soldiers near them slightly."
+		    },			
+			{
+			"Name": "Wooden building",
+			"History": "Celtic structures were mostly made of wood with rubble foundations.",
+			"Description": "Celtic buildings have -20% health and capture points, but are also faster to build. Some buildings cost only wood instead stone."
+			}	
 						
 	],
 	"TeamBonuses":
@@ -114,18 +99,7 @@
 			"Requirements": "",
 			"Phase": "",
 			"Special": ""
-		},
-
-		{
-			"Name": "Tavern",
-			"Class": "",
-			"Emblem": "",
-			"History": "Place to eat, drink and celebrate.",
-			"Requirements": "",
-			"Phase": "",
-			"Special": ""
 		}
-
 	],
 	"WallSets":
 	[

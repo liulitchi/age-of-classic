@@ -17,16 +17,12 @@
 			"Description": "",
 			"Technologies":
 			[
-				{
-					"Name":"Bamboo Longbows",
-					"History":"Bamboo is a ubiquitous fast growing plant in the jungles of India. It's trunk can be used as building material for goods such as furniture, housing, and weapons, such as the Indian Longbow.",
-					"Description":"+8 range and +10% accucary for archers."
-				},
+
 
 				{
 					"Name":"Breeding Herd",
 					"History":"Ancient Indian kings certainly valued the elephant in war, some stating that an army without elephants is as despicable as a forest without a lion, a kingdom without a king, or as valor unaided by weapons. The use of elephants further increased with the rise of the Mahajanapadas. King Bimbisara, who began the expansion of the Magadha kingdom, relied heavily on his war elephants. The Mahajanapadas would be conquered by the Nanda Empire under the reign of Mahapadma Nanda. Pliny the Elder and Plutarch also estimated the Nanda Army strength in the east as 200,000 infantry, 80,000 cavalry, 8,000 chariots, and 6,000 war elephants.",
-					"Description":"-20% cost and training time for elephants."
+					"Description":"-20% training time for elephants."
 				},
 
 {
@@ -64,6 +60,12 @@
 	],
 	"CivBonuses":
 	[
+				{
+			"Name": "Skilled Archers",
+			"History": "The Indians were skilled archers.",
+			"Description": "The Archer's Health +10, and the shooting interval is -10%."
+			},
+	
 				{
 			"Name": "Emperor of Emperors",
 			"History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",

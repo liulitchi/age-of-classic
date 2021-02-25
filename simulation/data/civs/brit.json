@@ -18,17 +18,8 @@
 			"Description": "The Celts of the British Isles.",
 			"Technologies":
 			[
-				{
-					"Name": "Clay Sling Bullets",
-					"History": "Large numbers of sling stones have been found in Celtic settlements. They were covered in hardened clay for better aerodynamics.",
-					"Description": "+8 range and +10% accuracy for slingers."
-				},
-				{
-			"Name": "Woad Warriors",
-			"History": "The Britons, took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect could be very frightening for opponents.",
-			"Description": "+10% attack and movement speed for melee infantry."
 
-			}
+
 
 			],
 			"Heroes":
@@ -60,17 +51,21 @@
 	"CivBonuses":
 	[
 				{
-			"Name": "Wattle and Post Construction",
+			"Name": "Woad Warriors",
+			"History": "The Britons, took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect could be very frightening for opponents.",
+			"Description": "+15% attack for melee infantry."
+
+			},	
+		    {
+			"Name": "Deas Celtica",
+			"History": "Celtic religion and druidry inspired their warlike mindset. ",
+			"Description": "Druids increase attack rates of soldiers near them slightly."
+		    },					
+				{
+			"Name": "Wooden building",
 			"History": "Celtic structures were mostly made of wood with rubble foundations.",
 			"Description": "Celtic buildings have -20% health and capture points, but are also faster to build. Some buildings cost only wood instead stone."
-				},
-				{
-			"Name": "Turos Maros",
-			"History": "'Great Tower'; Celtic legends abound with stories of massive tall towers built by the most powerful kings, and the remains of some very large towers have been found.",
-			"Description": "+4 range and +20% health for towers and fortress, but +20% build time."
-				}
-
-				
+				}			
 	],
 	"TeamBonuses":
 	[

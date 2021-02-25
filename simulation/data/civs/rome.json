@@ -17,16 +17,11 @@
 			"Description": "",
 			"Technologies":
 			[
-				{
-					"Name": "Pilum",
-					"History": "The pilum was a javelin commonly used by the Roman army in ancient times. It was generally about 2 metres, consisting of an iron shank about 7 millimetres in diameter and 60 centimetres long with a pyramidal head.",
-					"Description": "Unlock the ability of the extraordinarius to change weapons."
-				},
 
 				{
 					"Name": "Marian Reforms",
 					"History": "The Marian reforms of 107 BC were a group of military reforms initiated by Gaius Marius, a statesman and general.",
-					"Description": "Unlock the ability to train marian legionaire from fortress."
+					"Description": "Unlock the ability to train centurion from fortress."
 				},
 
 				{
@@ -38,13 +33,9 @@
 					"Name": "Camp Hospitals",
 					"History": "As with much of the imperial army's organization, it was Augustus who, drawing on the evolved but ad hoc practices of the Republican army, established systematic medical services for the army, with a formal medical hierarchy and the construction of large, fully staffed and well-supplied military hospitals (valetudinaria) in legionary bases.",
 					"Description": "Units slowly heal when garrisoned in the army camp."
-				},
-
-				{
-					"Name": "Reorganization of Auxiliary Troops",
-					"History": "Augustus most important innovation was to reorganize auxiliary or auxiliary troops, which until then had been irregular forces formed by mere mercenaries recruited before a campaign, commanded by local and armed chiefs under the circumstances. With them he created a second army, whose numbers were equivalent to those of the legions, recruited among the non-citizen provincials, but who had the status of peregrini.",
-					"Description": "Mercenaries are promoted to advanced rank."
 				}
+
+
 
 			],
 			"Heroes":
@@ -91,12 +82,7 @@
 
 		},
 		
-		{	
-			"Name": "Auxiliary Troops",
-			"History": "The Auxilia were introduced as non-citizen troops attached to the citizen legions by Augustus after his reorganisation of the Imperial Roman army. By the 2nd century, the Auxilia contained the same number of infantry as the legions and, in addition, provided almost all of the Roman army's cavalry, especially light cavalry and archers and more specialised troops. The auxilia thus represented three-fifths of Rome's regular land forces at that time. Like their legionary counterparts, auxiliary recruits were mostly volunteers, not conscripts.",
-			"Description": "Can train archers and slingers mercenaries in the barrack."
 
-		},
 		{	
 			"Name": "Vigiles",
 			"History": "Vigiles (Vigiles Urbani or Militia Vigilum) were established in the 6 CE by Augustus. It was a paramilitary formation consisting of seven cohorts probably counting 1000 people each (I-VII). The task of the vigils was to perform the role of the police and on the other hand the fire brigade. Each cohort was assigned to two of the fourteen districts of Rome. Cohorts had a permanent base (castra) and guard points (excubitoria) in the city.",

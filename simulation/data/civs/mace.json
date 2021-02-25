@@ -18,6 +18,12 @@
 			"Technologies":
 			[
 				{
+					"Name":"Hellenistic Metropolis",
+					"History":"Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
+					"Description":"+100% health and capture points, double default arrows for civic centre."
+				},
+				
+				{
 					"Name":"Dionysus Celebration",
 					"History":"About 550 BC arose the celebrations held above all for the God Dionysus, divinity of feasts, fertility and wine",
 					"Description":"-20% training time and -5% cost for soldiers."
@@ -74,11 +80,7 @@
 			"History":"Alexander the Great, conquered a great territory and ordered the construction of several new cities during his conquests.",
 			"Description":"+10% territorial influence for civic centers."
 		},
-		{
-			"Name":"Powerful Cavalry Arm",
-			"History":"The Tessalians always had a strong presence with the Macedonians, especially in battles, using their strong cavalry.",
-			"Description":"Can train spearmen cavalry in the village phase."
-		},
+
 
 		{
 			"Name":"Military Reforms",
@@ -115,15 +117,6 @@
 			"Requirements":"",
 			"Phase":"City",
 			"Special":"All Special Technologies are researched here. Building one reduces the cost of all other remaining technologies by 10%. Build limit: 1."
-		},
-{
-			"Name":"Royal Stoa",
-			"Class":"",
-			"Emblem":"",
-			"History":"The Royal Stoa was the headquarters of the King Archon and of the Areopagos council (in charge of religious affairs and crime). A statue of Themis (representing Justice) stood in front of the building. Copies of some of the city laws were kept in the Stoa.",
-                "Requirements":"",
-			"Phase":"",
-			"Special":""
 		}
 
 			],

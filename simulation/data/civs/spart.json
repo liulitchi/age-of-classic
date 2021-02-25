@@ -23,16 +23,7 @@
 					"Description":"-20% training time and -5% cost for soldiers."
 			},
 
-			{
-					"Name":"Women Training",
-					"History":"In the Spartan world this position was quite different. Reinforcing their military character, the Spartans believed that the woman should be physically prepared so that she could give rise to individuals fit to compose the army of that city. It was therefore common for these women to engage in games and other sports.",
-					"Description":"+15% health and movement speed for women."
-			},
-{
-					"Name":"Tyrtean Paeans",
-					"History":"Paeans were battle hymns that were sung by the hoplites when they charged the enemy lines. One of the first known Paeans were composed by Tyrteus, a warrior poet of Sparta, during the First Messenian War.",
-					"Description":"+15% movement speed to melee infantry."
-			},
+
 			{
 					"Name":"Othismos",
 					"History":"The Spartan military force made their phalanges particularly unbreakable, with only one rape recorded at the Battle of Leuctra.",
@@ -102,7 +93,7 @@
 		{
 			"Name":"Slave Soldiers",
                 "History":"In addition to the elite troops of King Leonidas, there were 900 hilotas, Spartan slaves, who acted as archers, javelins or slingers.",
-			"Description":"Can train slave skirmishers and slingers on barracks. Less cost but are weaker."
+			"Description":"Can train slave skirmishers and slingers on barracks. The cost is only food."
 
 		}
 
@@ -134,15 +125,6 @@
 			"Requirements":"",
 			"Phase":"City",
 			"Special":"Train heroes and Spartiates and research technologies related to them."
-		},
-		{
-			"Name":"Royal Stoa",
-			"Class":"",
-			"Emblem":"",
-			"History":"The Royal Stoa was the headquarters of the King Archon and of the Areopagos council (in charge of religious affairs and crime). A statue of Themis (representing Justice) stood in front of the building. Copies of some of the city laws were kept in the Stoa.",
-                "Requirements":"",
-			"Phase":"",
-			"Special":""
 		}
 
 	],
