@@ -20,7 +20,7 @@
       -units/{civ}_mechanical_siege_polybolos_packed
       -units/{civ}_mechanical_siege_ram
       -units/{civ}_mechanical_siege_tower
-      units/{civ}_champion_ranged_gastraphetes
+      -units/{civ}_champion_ranged_gastraphetes
       units/{civ}_champion_infantry_a
       units/{civ}_champion_cavalry
       -units/{civ}_infantry_slinger_b

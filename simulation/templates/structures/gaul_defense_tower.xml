@@ -8,6 +8,12 @@
     <Civ>gaul</Civ>
     <SpecificName>Uxelon</SpecificName>
   </Identity>
+    <Cost>
+    <Resources>
+      <wood>250</wood>
+      <stone>50</stone>
+    </Resources>
+  </Cost>
   <Upgrade>
     <Tower>
       <Entity>structures/gaul_defense_tower_fire</Entity>

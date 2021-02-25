@@ -2,9 +2,9 @@
 <Entity parent="template_structure_military_workshop">
   <Cost>
     <PopulationBonus>5</PopulationBonus>
-    <Resources>
-      <wood>200</wood>
-      <stone>100</stone>
+     <Resources>
+      <wood>250</wood>
+      <stone>50</stone>
     </Resources>
   </Cost>
   <Footprint>

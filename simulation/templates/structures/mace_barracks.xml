@@ -16,7 +16,7 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
-  	 <Entities datatype="tokens">
+  	 <Entities datatype="tokens"> 
     </Entities>
     <Technologies datatype="tokens">
     </Technologies>

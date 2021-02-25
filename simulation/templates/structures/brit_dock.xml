@@ -2,6 +2,10 @@
 <Entity parent="template_structure_military_dock">
   <Cost>
     <PopulationBonus>2</PopulationBonus>
+     <Resources>
+      <wood>350</wood>
+      <stone>50</stone>
+    </Resources>    
   </Cost>
   <Footprint>
     <Square width="12.0" depth="24.0"/>

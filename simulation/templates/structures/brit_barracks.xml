@@ -23,7 +23,6 @@
       units/{civ}_infantry_slinger_b
     </Entities>
     <Technologies datatype="tokens">
-      celts/attack_brit
     </Technologies>
   </ProductionQueue>
   <VisualActor>

@@ -8,7 +8,7 @@
     <BuildTime>120</BuildTime>
     <Resources>
       <wood>200</wood>
-      <stone>100</stone>
+      <stone>150</stone>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -19,7 +19,7 @@
     <Max>8</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1200</Max>
+    <Max>1500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>

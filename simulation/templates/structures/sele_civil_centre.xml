@@ -9,7 +9,8 @@
       units/{civ}_infantry_javelinist_persia_b
       units/{civ}_hero_seleucus_victor
       units/{civ}_hero_antiochus_great
-      units/{civ}_hero_antiochus_righteous    
+      units/{civ}_hero_antiochus_righteous
+      units/{civ}_black_cloak          
     </Entities>
     <Technologies datatype="tokens">
       health_heroes

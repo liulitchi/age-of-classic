@@ -2,6 +2,10 @@
 <Entity parent="template_structure_military_fortress">
   <Cost>
     <PopulationBonus>12</PopulationBonus>
+    <Resources>
+      <wood>200</wood>
+      <stone>800</stone>
+    </Resources>
   </Cost>
   <Identity>
     <Civ>gaul</Civ>
