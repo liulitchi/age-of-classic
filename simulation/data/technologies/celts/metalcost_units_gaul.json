@@ -1,10 +1,10 @@
 {
 	"genericName": "Gaul Forging",
-	"autoResearch": true,
 	"description": "Gauls dominated the area of metallurgy. Thus, they practiced techniques of cast iron, tin and bronze, manufacturing weapons, jewelry and utensils.",
 	"requirements": {"any": [{"civ": "gaul"}]},
-	"tooltip": "-20% metal cost for soldiers.",
-	"modifications": [{ "value": "Cost/Resources/metal", "multiply": 0.80 },],
-	"affects": ["Soldier"]
+	"tooltip": "-50% metal cost for soldiers.",
+	"autoResearch": true,
+	"modifications": [{ "value": "Cost/Resources/metal", "multiply": 0.5 }],
+	"affects": ["Sword"]
 }
 
